@@ -1,4 +1,6 @@
-pwcberry.github.io
-==================
+Travels in Code
+===============
 
-Peter's website and blog.
+An exploration of software and how it is connected to life.
+
+
