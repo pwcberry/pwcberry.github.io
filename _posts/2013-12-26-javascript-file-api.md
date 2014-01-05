@@ -38,10 +38,10 @@ After obtaining a `File` reference, instantiate a `FileReader` object to read it
 
 `FileReader` has these asynchronous methods for reading a file:
 
-* `FileReader.readAsBinaryString(Blob|File)`
-* `FileReader.readAsText(Blog|File, opt_encoding)`
-* `FileReader.readAsDataURL(Blob|File)
-* `FileReader.readAsArrayBuffer(Blob|File)
+* `FileReader.readAsBinaryString( Blob | File)`
+* `FileReader.readAsText(Blog | File, opt_encoding)`
+* `FileReader.readAsDataURL(Blob | File)`
+* `FileReader.readAsArrayBuffer(Blob | File)`
 
 `FileReader` also has these events:
 
