@@ -1,5 +1,10 @@
-Rails: Up And Running
-=====================
+---
+layout: default
+title: Ruby on Rails; Up and Running
+permalink: /ruby/rails-up-and-running/
+---
+
+# Rails: Up And Running
 
 I'm learning Ruby at the same time as learning the fabulous _Ruby on Rails_.
 
@@ -16,7 +21,7 @@ This command creates a new directory, `chapter-1`, and fills it with scaffolding
 
 ```sh
 rails generate controller greeting index
-````
+```
 
 This command creates a new controller and an ERb view file called index. The generator also creates a method in the `GreetingController` class.
 
@@ -26,3 +31,4 @@ rails d generate controller greeting
 
 This command removes the scaffolding produced by the generator.
 
+Published: {{ site.time | date: "%-d %B %Y, %R" }}
