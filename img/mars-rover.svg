@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 640 480" enable-background="new 0 0 640 480" xml:space="preserve">
+<g id="Ears">
+		<polyline fill="none" stroke="#754C24" stroke-width="20" stroke-miterlimit="10" points="267.562,106.709 326.333,29.333 
+			373,141.333 		"/>
+		<polyline fill="none" stroke="#754C24" stroke-width="20" stroke-miterlimit="10" points="153.381,211.327 163.667,74.667 253.064,146.018"/>
+</g>
+<g id="Face">
+	<polyline fill="none" stroke="#CAA77C" stroke-width="20" stroke-miterlimit="10" points="264.063,135.019 427.68,174.892 503.989,275.262 470.303,313.76 545.924,378.382 553.487,403.13 533.55,425.129 500.552,463.627 332.81,452.628 330.747,416.88 
+		187.667,419.333 137.569,383.194 165.756,220.952 	"/>
+	<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" d="M-123.492,56.827"/>
+</g>
+<g id="Nose">
+	<polygon points="537.5,384.167 512.23,397.204 528.5,415.833 542.355,400.552 	"/>
+</g>
+<g id="Eyes">
+	<ellipse transform="matrix(-0.9213 -0.3888 0.3888 -0.9213 697.5179 717.235)" cx="421.323" cy="288.048" rx="15.93" ry="29.167"/>
+</g>
+</svg>

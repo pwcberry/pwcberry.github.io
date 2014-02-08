@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 640 240" enable-background="new 0 0 640 240" xml:space="preserve">
+	<style type="text/css">
+	text {
+		font-family: Century, Baskerville, 'Times New Roman', Times, serif;
+	}
+	</style>
+<g id="Shape">
+	<path fill="#DC291E" d="M19.667,58h21.481l0.37-27.481l27.222-0.407L69,15.417c0,0,79.65-8.633,79.65,63.614
+		c0,69.634-51.502,67.82-79.65,67.45l0.296-13.807l-28.332-0.188l0.184-27.595l-21.199,0.161L19.667,58z"/>
+</g>
+<g id="RMIT">
+	<text transform="matrix(0.9 0 0 1 174.4814 135.8047)" font-size="156">RMIT</text>
+</g>
+<g id="UNIVERSITY">
+	<text transform="matrix(0.9 0 0 1 177.8149 199.7568)" font-size="64">UNIVERSITY</text>
+</g>
+</svg>
