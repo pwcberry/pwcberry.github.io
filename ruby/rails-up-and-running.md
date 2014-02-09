@@ -32,3 +32,18 @@ rails d generate controller greeting
 This command removes the scaffolding produced by the generator.
 
 Published: {{ site.time | date: "%-d %B %Y, %R" }}
+
+Deployment
+----------
+
+1. For the `<VirtualHost>`, set `DocumentRoot` to the path of the `public` folder in the Rails app
+2. Ensure the user has authorization to access the directory
+3. Precompile the assets: `rake assets:precompile`
+4. To restart the file, in the root of the application directory, type `touch tmp/restart.txt`
+5. Further info on assets: [Rails Guides](guides.rubyonrails.org/asset_pipeline.html)
+6. Further tips on deployment: 
+	* [How to deploy a Rails 3 application with Phusion Passenger](http://kb.site5.com/ruby-on-rails/how-to-deploy-a-rails-3-application-with-phusion-passenger/)
+	* [How to: Ruby on Rails + Ubuntu + Apache with Passenger](http://nathanhoad.net/how-to-ruby-on-rails-ubuntu-apache-with-passenger)
+
+There is probably a way to remove the "revved" portion of the asset URL.
+
