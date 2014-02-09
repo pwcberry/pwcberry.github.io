@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 640 480" enable-background="new 0 0 640 480" xml:space="preserve">
+	 <style type="text/css">
+		text {
+			font-family: 'Segoe UI', Helvetica, 'Droid Sans', sans;
+			font-size:21px;
+		}
+		.model-locator {
+			font-style: italic;
+		}
+	 </style>
+<g>
+	<!-- Sourced from http://www.svgeneration.com/generate/Happy-Launch-Day -->
+	<radialGradient id='g' cx='50%' cy='50%' r='50%'>
+		<stop offset='0%' style='stop-color:#ffffff;' />
+		<stop offset='50%' style='stop-color:#52c5ff;' />
+		<stop offset='100%' style='stop-color:#0791b3;' />
+	</radialGradient>
+	<rect width='100%' height='100%' fill='url(#g)'/>
+	<svg x='50%' y='50%' overflow='visible'>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(20)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(40)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(60)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(80)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(100)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(120)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(140)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(160)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(180)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(200)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(220)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(240)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(260)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(280)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(300)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(320)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(340)'/>
+		<rect width='2000%' height='2000%' fill-opacity='0.1' fill='#ffffff' transform='rotate(360)'/>
+	</svg>
+</g>
+<g>
+	<circle fill="#0083CA" stroke="#00AEEF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="309.026" cy="303.986" r="80.266"/>
+	<text transform="translate(241.01 303)" fill="#FFFFFF" font-weight="bold" style="font-size:18px"><tspan x="0" y="0">Implementation</tspan><tspan x="40.9" y="21.6">Model</tspan></text>
+	<text transform="translate(274.1628 413.1667)" class="model-locator">System</text>
+</g>
+<g>
+	<circle fill="#FFFF00" stroke="#FFC60B" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="148.811" cy="129.486" r="80.266"/>
+	<text transform="translate(86.7 128)" font-weight="bold"><tspan x="0" y="0">Represented</tspan><tspan x="30.192" y="25.2">Model</tspan></text>
+	<text transform="translate(105.3392 34.5179)" class="model-locator">Designer</text>
+</g>
+<g>
+	<circle fill="#ED1C24" stroke="#AB4A9C" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="471.757" cy="129.709" r="80.266"/>
+	<text transform="translate(438.7 126.2)" font-weight="bold"><tspan x="0" y="0">Mental</tspan><tspan x="2.716" y="21.6">Model</tspan></text>
+	<text transform="translate(449.5483 35.3286)" class="model-locator">User</text>
+</g>
+</svg>
