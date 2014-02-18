@@ -4,7 +4,7 @@ title: Wabi-Sabi for Artists, Designers, Poets & Philosophers
 category: inspiration
 tags: inspiration, leadership, creativity
 date: 2014-02-09
-permalink: /inspiration/wabi-sabi
+permalink: /inspiration/wabi-sabi/
 ---
 
 Wabi-Sabi for Artists, Designers, Poets & Philosophers
