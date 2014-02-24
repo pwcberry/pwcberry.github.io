@@ -1,3 +1,9 @@
+---
+layout: rmit
+title: Semester 1, 2014 | RMIT
+permalink: /rmit/
+---
+
 Semester 1, 2014
 ================
 
