@@ -10,6 +10,152 @@ permalink: /inspiration/wabi-sabi/
 Wabi-Sabi for Artists, Designers, Poets & Philosophers
 ======================================================
 
+A Provisional Definition
+------------------------
+
+Wabi-sabi is the most conspicuous and characteristic feature of what we think of as traditional Japanese beauty. Wabi-sabi can in its fullest expression be a way of life.
+
+The closest English word to wabi-sabi is probably "rustic".  Wabi-sabi does share some characteristics with what is commonly called "primitive art": objects that are earthy, simple, unpretentious, and fashioned out of natural materials. Unlike primitive art, wabi-sabi almost never is used representationally or symbolically.
+
+Originally "sabi" meant "chill", "lean", or "withered". Originally "wabi" mean the misery of living alone in nature, away from society, and suggested a discouraged, dispirited, cheerless emotional state. After the 13th-century, the meanings of both words evolved in the direction of more positive aesthetic values. The self-imposed isolation and voluntary poverty of the hermit and ascetic came to be considered opportunities for spiritual richness. From this kind of life one appreciates the minor details of everyday life and insights into the beauty of the inconspicuous and overlooked aspects of nature.
+
+These days, the meanings of wabi and sabi have crossed over many times and no longer have distinctive definitions. When Japanese today say "wabi" they also mean "sabi" and vice-versa. However, despite the blurry meanings of the two words, their differences can be separated:
+
+<table>
+	<tr>
+		<th>wabi refers to</th>
+		<th>sabi refers to</th>
+	</tr>
+	<tr>
+		<td>a way of life, a spiritual path</td>
+		<td>material objects, art and literature</td>
+	</tr>
+	<tr>
+		<td>the inward, the subjective</td>
+		<td>the outward, the objective</td>
+	</tr>
+	<tr>
+		<td>a philosophical construct</td>
+		<td>an aesthetic ideal</td>
+	</tr>
+	<tr>
+		<td>spatial events</td>
+		<td>temporal events</td>
+	</tr>
+</table>
+
+A Comparison with Modernism
+---------------------------
+
+### Similarities
+
+* Both apply to all manner of man-made objects, spaces and designs.
+* Both are strong reactions against the dominant, established sensibilities of their time. Modernism was a radical departure from 19th-centure classicism and eclecticism. Wabi-sabi was a radical departure from the Chinese perfection and gorgeousness of the 16th-centure and earlier.
+* Both eschew any decoration that is not integral to structure.
+* Both are abstract, nonrepresentational ideals of beauty.
+* Both have readily identifiable surface characteristics. Modernism is seamless, polished and smooth. Wabi-sabi is earthy, imperfect, variegated.
+
+### Differences
+
+<table>
+	<tr>
+		<th><em>modernism</em></th>
+		<th><em>wabi-sabi</em></th>
+	</tr>
+	<tr>
+		<td>Primarily expressed in the public domain</td>
+		<td>Primarily expressed in the private domain</td>
+	</tr>
+	<tr>
+		<td>Implies a logical, rational worldview</td>
+		<td>Implies an intuitive worldview</td>
+	</tr>
+	<tr>
+		<td>Absolute</td>
+		<td>Relative</td>
+	</tr>
+	<tr>
+		<td>Looks for universal, prototypical solutions</td>
+		<td>Looks for personal, idiosyncratic solutions</td>
+	</tr>
+	<tr>
+		<td>Mass-produced / modular</td>
+		<td>One-of-a-kind / variable</td>
+	</tr>
+	<tr>
+		<td>Expresses faith in progress</td>
+		<td>There is no progress</td>
+	</tr>
+	<tr>
+		<td>Future-oriented</td>
+		<td>Present-oriented</td>
+	</tr>
+	<tr>
+		<td>Believes in the control of nature</td>
+		<td>Believes in the fundamental uncontrollability of nature</td>
+	</tr>
+	<tr>
+		<td>Romanticizes technology</td>
+		<td>Romanticizes nature</td>
+	</tr>
+	<tr>
+		<td>People adapting to machines</td>
+		<td>People adapting to nature</td>
+	</tr>
+	<tr>
+		<td>Geometric organization of form (sharp, precise, definite shapes and edges)</td>
+		<td>Organic organization of form (soft, vague shapes and edges)</td>
+	</tr>
+	<tr>
+		<td>The box as metaphor (rectilinear, precise, contained)</td>
+		<td>The bowl as metaphor (free shape, open at top)</td>
+	</tr>
+	<tr>
+		<td>Manmade materials</td>
+		<td>Natural materials</td>
+	</tr>
+	<tr>
+		<td>Ostensibly slick</td>
+		<td>Ostensibly crude</td>
+	</tr>
+	<tr>
+		<td>Needs to be well-maintained</td>
+		<td>Accommodates to degradation and attrition</td>
+	</tr>
+	<tr>
+		<td>Purity makes its expression richer</td>
+		<td>Corrosion and contamination make its expression richer</td>
+	</tr>
+	<tr>
+		<td>Solicits the reduction of sensory information</td>
+		<td>Solicits the expansion of sensory information</td>
+	</tr>
+	<tr>
+		<td>Is intolerant of ambiguity and contradiction</td>
+		<td>Is comfortable with ambiguity and contradiction</td>
+	</tr>
+	<tr>
+		<td>Cool</td>
+		<td>Warm</td>
+	</tr>
+	<tr>
+		<td>Generally light and bright</td>
+		<td>Generally dark and dim</td>
+	</tr>
+	<tr>
+		<td>Function and utility are primary values</td>
+		<td>Function and utility are not so important</td>
+	</tr>
+	<tr>
+		<td>Perfect materiality is an ideal</td>
+		<td>Perfect immateriality is an ideal</td>
+	</tr>
+	<tr>
+		<td>Everlasting</td>
+		<td>To every thing there is a season</td>
+	</tr>
+</table>
+
 The Wabi-Sabi Universe
 ----------------------
 
