@@ -1,6 +1,6 @@
 ---
 layout: rmit
-title: Semester 1, 2014 | RMIT
+title: Software Architecture in Practice
 permalink: /rmit/books/software-architecture-in-practice/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: rmit
-title: Semester 1, 2014 | RMIT
+title: Software Systems Architecture
 permalink: /rmit/books/software-systems-architecture/
 ---
 
