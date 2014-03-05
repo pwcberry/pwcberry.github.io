@@ -11,6 +11,8 @@ __Authors:__ Nick Rozanski, Eoin Woods
 
 __Publisher:__ Pearson Education, an imprint of Addison-Wesley, Upper Saddle River, New Jersey, 2012
 
+- - - - -
+
 Software Architecture Concepts
 ------------------------------
 

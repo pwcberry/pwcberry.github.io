@@ -7,5 +7,7 @@ permalink: /rmit/object-oriented-design/notes/
 Object-Oriented Design (ISYS 1083)
 ==================================
 
-[RMIT Home](/rmit/)
+Further Reading
+---------------
 
+[Design Patterns](http://sourcemaking.com/design_patterns)

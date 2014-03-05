@@ -14,5 +14,3 @@ The following links are to notes taken by a guest presenter during the lecture.
 
 [Dr. Wayne Jenkins, Chief Architect at Transurban](architecture-anecdotes-antidotes/)
 
-
-[RMIT Home](/rmit/)

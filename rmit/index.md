@@ -74,8 +74,8 @@ Systems Architecture (ISYS 1088)
 	</tbody>
 </table>
 
-Resources
----------
+Books
+-----
 
 [Software Systems Architecture](books/software-systems-architecture/)
 
