@@ -1,4 +1,4 @@
 highlight: pygments
 relative_permalinks: false
 timezone: Australia/Melbourne
-exclude: [Rakefile.rb, README.md, CNAME, assets, styleguide.html]
+exclude: [Rakefile.rb, README.md, CNAME, assets, styleguide.html, demo.html, rmit_demo.html, css/demo.css]

@@ -1,4 +1,11 @@
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #8c1620;
-  background: #d99152; }
+	background: #4D4948;
+	font-family: Garamond, Georgia, "Times New Roman", serif;
+	line-height: 161.8%;
+}
+
+.page-header,
+.page-content,
+.page-footer {
+	margin: 0 auto;
+}

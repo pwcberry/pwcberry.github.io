@@ -105,7 +105,6 @@ body {
 
 .row {
 	width: 100%;
-	margin: 0 -20px;
 }
 .row:after {
 	content: "";
