@@ -1,14 +1,14 @@
 ---
-layout: rmit
+layout: book
 title: Applying UML and Patterns
-permalink: /rmit/object-oriented-design/books/applying-uml-patterns/
+permalink: /rmit/books/applying-uml-patterns/
+book_title: Applying UML and Patterns, 3rd Edition
+book_authors: Craig Larman
+book_publisher: Prentice Hall, Pearson Education, 2005
 ---
 
-Applying UML and Patterns, 3rd Edition
-======================================
-
-_Author_: Craig Larman
-
-_Publisher_: Prentice Hall, Pearson Education, 2005
+## Selected Chapters
 
 [Chapter 1: What is Object-Oriented Analysis and Design?](./chapter-01/)
+
+[Chapter 9: Domain Models](./chapter-09/)

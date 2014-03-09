@@ -1,20 +1,10 @@
-body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1em;
-	line-height: 133%;
-	margin: 0;
-	padding: 0;
-}
+@import 'shared/_base.scss';
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: Century, Baskerville, 'Times New Roman', Times, serif;
-	line-height: 100%;
-}
+//-------------------------------
+// Structure
+//-------------------------------
 
-.site-header {
-	width:992px;
-	margin: 0 auto;
-	height: 80px;
+.page-header {
 
 	.rmit-logo {
 		float:left;
@@ -41,13 +31,26 @@ h1, h2, h3, h4, h5, h6 {
 			border:0;
 		}
 	}
-
-	/* Need a clear fix */
 }
 
-.page-content {
-	width: 992px;
-	margin: 0 auto;
+//-------------------------------
+// Typography
+//-------------------------------
 
-	/* Need a clear fix */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Century, Baskerville, 'Times New Roman', Times, serif;
+	line-height: 100%;
+	color: $extra-light-gray;
 }
+
+h1, h2 {
+	text-transform: capitalize;
+}
+
+p {
+	color: $extra-light-gray;
+}
+
+//-------------------------------
+// UI Elements
+//-------------------------------

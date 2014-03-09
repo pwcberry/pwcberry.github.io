@@ -1,0 +1,122 @@
+@import '_variables.scss';
+
+html {
+	font-size: 1.25em;
+}
+
+body {
+	background: $reddish-gray;
+	line-height: 161.8%;
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.page-header,
+.page-content,
+.page-footer {
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.page-header {
+	background: $dark-medium-gray;
+}
+
+.page-content,
+.page-footer {
+	background: $light-medium-gray;
+	color: $extra-light-gray;
+}
+
+.page-footer {
+	margin-top: 15px;
+}
+
+// Typography
+
+h1 {
+	font-size: 2.75rem;
+	margin-top: 0;
+}
+
+h2 {
+	font-size: 2.25rem;
+}
+
+h3 {
+	font-size: 1.875rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+}
+
+h5, h6 {
+	font-size: 1.125rem;
+}
+
+p {
+	margin: 0 0 0.5em;
+}
+
+a {
+	color: $cream-highlight;
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	> img {
+		text-decoration: none;
+	}
+}
+
+img {
+	border: 0;
+}
+
+// Utilities
+.clearfix:after {
+	content: "";
+    display: table;
+	clear:both;
+}
+
+.hidden {
+	display: none;
+}
+
+// Responsive widths
+
+@media (max-width: 768px) {
+	.page-header,
+	.page-content,
+	.page-footer {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media (min-width: 768px) {
+.page-header,
+.page-content,
+.page-footer {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+.page-header,
+.page-content,
+.page-footer {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+.page-header,
+.page-content,
+.page-footer {
+    width: 1170px;
+  }
+}

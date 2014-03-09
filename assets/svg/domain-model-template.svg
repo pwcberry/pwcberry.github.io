@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 800 600" xml:space="preserve">
+<defs>
+<rect id="Container" width="120" height="240" stroke="black" stroke-width="4" fill="white"/>
+</defs>
+<g>
+	<rect xmlns="http://www.w3.org/2000/svg" x="40" y="40" stroke-width="4" stroke="black" width="200"	 height="100" fill="#FF0000"/>
+	<use xlink:href="#Container" translate="transform(10,10)"/>
+</g>
+</svg>

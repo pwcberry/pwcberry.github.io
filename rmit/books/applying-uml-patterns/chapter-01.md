@@ -1,18 +1,13 @@
 ---
-layout: rmit
-title: Applying UML and Patterns
-permalink: /rmit/object-oriented-design/books/applying-uml-patterns/chapter-01/
+layout: book
+title: Applying UML and Patterns | Chapter 1
+permalink: /rmit/books/applying-uml-patterns/chapter-01/
+book_title: Applying UML and Patterns, 3rd Edition
+book_authors: Craig Larman
+book_publisher: Prentice Hall, Pearson Education, 2005
 ---
 
-Applying UML and Patterns, 3rd Edition
-======================================
-
-_Author_: Craig Larman
-
-_Publisher_: Prentice Hall, Pearson Education, 2005
-
-Chapter 1: What is Object-Oriented Analysis and Design?
-=======================================================
+# Chapter 1: What is Object-Oriented Analysis and Design?
 
 Most Important Learning Goal
 ----------------------------

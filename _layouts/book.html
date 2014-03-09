@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>{{ page.title }}</title>
   <script src="/script/modernizr.js"></script>
-  <link href="/css/rmit.css" type="text/css" rel="stylesheet"/>
+  <link href="/css/book.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 	<div class="page-header-wrapper">
@@ -19,7 +19,15 @@
 		</header>
 	</div>
 	<main class="page-content clearfix">
+		<section class="book-details">
+			<h1>{{ page.book_title }}</h1>
+			<p><strong>Author(s):</strong> {{ page.book_authors}}</p>
+			<p><strong>Publisher:</strong> {{ page.book_publisher}}</p>
+			<p><a href="../">Index</a></p>
+		</section>
+		<article class="book-notes">
 	{{ content }}
+</article>
 	</main>
 <div class="page-footer-wrapper">
 <footer class="page-footer clearfix">

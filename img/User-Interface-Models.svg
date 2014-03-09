@@ -3,7 +3,7 @@
 	 viewBox="0 0 640 480" enable-background="new 0 0 640 480" xml:space="preserve">
 	 <style type="text/css">
 		text {
-			font-family: 'Segoe UI', Helvetica, 'Droid Sans', sans;
+			font-family: 'Segoe UI', Helvetica, 'Droid Sans', sans-serif;
 			font-size:21px;
 		}
 		.model-locator {
