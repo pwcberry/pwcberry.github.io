@@ -141,3 +141,25 @@ p {
     color: #cccccc; }
   .book-details > p {
     color: #cccccc; }
+
+.grid {
+  border-collapse: separate;
+  border-spacing: 1px; }
+  .grid thead {
+    background-color: #4d4948; }
+    .grid thead th {
+      text-align: left;
+      vertical-align: bottom;
+      color: #e5e5e5; }
+      .grid thead th.col-1 {
+        width: 25%; }
+  .grid tbody {
+    background-color: #7f7f7f; }
+    .grid tbody tr:nth-child(odd) {
+      background-color: #939393; }
+    .grid tbody td {
+      text-align: top;
+      vertical-align: top; }
+  .grid th, .grid td {
+    padding: 7px 10px;
+    line-spacing: 1em; }

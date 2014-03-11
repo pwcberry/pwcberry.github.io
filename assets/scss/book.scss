@@ -40,3 +40,40 @@
 		color: $medium-gray;
 	}
 }
+
+.grid {
+	border-collapse: separate;
+	border-spacing: 1px;
+
+	thead {
+		background-color: $reddish-gray;
+
+		th {
+			text-align: left;
+			vertical-align: bottom;
+			color: $light-gray;
+
+			&.col-1 {
+				width: 25%;
+			}
+		}
+	}
+
+	tbody {
+		background-color: $dark-medium-gray;
+
+		tr:nth-child(odd) {
+			background-color: lighten($dark-medium-gray, 8%);
+		}
+
+		td {
+			text-align: top;
+			vertical-align: top;
+		}
+	}
+
+	th, td {
+		padding: 7px 10px;
+		line-spacing: 1em;
+	}
+}

@@ -6,10 +6,6 @@ task :scss do
 end
 
 desc 'compile SASS and build HTML'
-task :build do
-	# how can we use another rake task...
-	sh 'scss ./assets/scss/post.scss ./css/post.css'
-	sh 'scss ./assets/scss/rmit.scss ./css/rmit.css'
-	sh 'scss ./assets/scss/book.scss ./css/book.css'
+task :build => [:scss] do
 	sh 'jekyll build'
 end
