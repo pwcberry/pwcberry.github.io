@@ -13,4 +13,8 @@ book_publisher: Pearson Education, an imprint of Addison-Wesley, Upper Saddle Ri
 
 [Chapter 3: Viewpoints and Views](./chapter-03/)
 
+[Chapter 4: Architectural Perspectives](./chapter-04/)
+
+[Chapter 5: The Role of The Software Architect](./chapter-05/)
+
 [Chapter 10: Identifying and Using Scenarios](./chapter-10/)
