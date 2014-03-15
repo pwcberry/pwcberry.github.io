@@ -5,7 +5,11 @@ task :scss do
 	sh 'scss ./assets/scss/book.scss ./css/book.css'
 end
 
+task :compass do
+	sh 'compass compile'
+end
+
 desc 'compile SASS and build HTML'
-task :build => [:scss] do
+task :build => [:compass] do
 	sh 'jekyll build'
 end

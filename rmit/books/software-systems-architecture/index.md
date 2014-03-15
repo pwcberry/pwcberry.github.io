@@ -11,4 +11,6 @@ book_publisher: Pearson Education, an imprint of Addison-Wesley, Upper Saddle Ri
 
 [Chapter 2: Software Architecture Concepts](./chapter-02/)
 
+[Chapter 3: Viewpoints and Views](./chapter-03/)
+
 [Chapter 10: Identifying and Using Scenarios](./chapter-10/)

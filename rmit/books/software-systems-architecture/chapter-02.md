@@ -95,3 +95,9 @@ A "product" in this context can include _scope definition_, _architectural model
 	<h4>Principle</h4>
 <p>A good architectural description is one that effectively and consistenly communicates the key aspects of the architecture to the appropriate stakeholders.</p>
 </div>
+
+<nav class="nav-chapters">
+	<ul>
+		<li class="next-chapter"><a href="../chapter-03/">Next chapter</a></li>
+	</ul>
+</nav>
