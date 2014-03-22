@@ -107,7 +107,7 @@ The __Layers pattern__ :
 			<td>
 				<ul>
 					<li>very general low-level business services used in many business domains</li>
-					<li>e.g., `CurrencyConverter`</li>
+					<li>e.g., <code>CurrencyConverter</code></li>
 				</ul>
 			</td>
 		</tr>
@@ -117,7 +117,7 @@ The __Layers pattern__ :
 			<td>
 				<ul>
 					<li>(relatively) high-level technical services and frameworks</li>
-					<li>`Persistence`, `Security`</li>
+					<li><code>Persistence</code>, <code>Security</code></li>
 				</ul>
 			</td>
 		</tr>
