@@ -68,3 +68,8 @@ These diagrams show software classess.
 * __Software class__: represents a specification or implementation perspective of a software component, without reference to technology
 * __Implementation class__: a class described in an object-oriented language
 
+<nav class="nav-chapters">
+	<ul>
+		<li class="prev-chapter"><a href="../chapter-09/">Next chapter</a></li>
+	</ul>
+</nav>

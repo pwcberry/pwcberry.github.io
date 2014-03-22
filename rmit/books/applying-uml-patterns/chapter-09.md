@@ -425,3 +425,9 @@ A derived attribute can be depicted using the UML notation of a <code>/</code> s
 
 Avoid attributes that represent __foreign keys__.
 
+<nav class="nav-chapters">
+	<ul>
+		<li class="prev-chapter"><a href="../chapter-01/">Previous chapter</a></li>
+		<li class="next-chapter"><a href="../chapter-13/">Next chapter</a></li>
+	</ul>
+</nav>

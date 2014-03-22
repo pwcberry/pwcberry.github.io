@@ -176,4 +176,9 @@ The motivation for Model-View separation includes:
 * To allow execution of the model layer independent of the user interface layer
 * To allow easy porting of the model layer to another user interface framework
 
-
+<nav class="nav-chapters">
+	<ul>
+		<li class="prev-chapter"><a href="../chapter-09/">Previous chapter</a></li>
+		<li class="next-chapter"><a href="../chapter-14/">Next chapter</a></li>
+	</ul>
+</nav>

@@ -13,4 +13,6 @@ book_publisher: Prentice Hall, Pearson Education, 2005
 
 [Chapter 9: Domain Models](./chapter-09/)
 
-[Chapter 13: Logical Architecture and UML Package Diagrams](./chapter-10/)
+[Chapter 13: Logical Architecture and UML Package Diagrams](./chapter-13/)
+
+[Chapter 14: On To Object Design](./chapter-14/)
