@@ -13,7 +13,7 @@ book_publisher: Prentice Hall, Pearson Education, 2005
 
 <div class="definition">
 	<h4>Definition</h4>
-	<p>The <strong>logical architecture</strong> is the large-scale organization of the software classes into packages (or namespaces), subsystems, and layers. There is no indication of _how_ these elements are deployed.</p>
+	<p>The <strong>logical architecture</strong> is the large-scale organization of the software classes into packages (or namespaces), subsystems, and layers. There is no indication of <em>how</em> these elements are deployed.</p>
 </div>
 
 <div class="definition">
