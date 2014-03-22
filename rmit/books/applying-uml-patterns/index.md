@@ -12,3 +12,5 @@ book_publisher: Prentice Hall, Pearson Education, 2005
 [Chapter 1: What is Object-Oriented Analysis and Design?](./chapter-01/)
 
 [Chapter 9: Domain Models](./chapter-09/)
+
+[Chapter 13: Logical Architecture and UML Package Diagrams](./chapter-10/)
