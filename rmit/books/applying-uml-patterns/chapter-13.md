@@ -13,12 +13,12 @@ book_publisher: Prentice Hall, Pearson Education, 2005
 
 <div class="definition">
 	<h4>Definition</h4>
-	<p>The __logical architecture__ is the large-scale organization of the software classes into packages (or namespaces), subsystems, and layers. There is no indication of _how_ these elements are deployed.</p>
+	<p>The <strong>logical architecture</strong> is the large-scale organization of the software classes into packages (or namespaces), subsystems, and layers. There is no indication of _how_ these elements are deployed.</p>
 </div>
 
 <div class="definition">
 	<h4>Definition</h4>
-	<p>A __layer__ is a very coarse-grained group of classes, packages or subsystems that has cohesive responsibility for a major aspect of the system. Layers are organized such that "higher" layers utilise the services of the "lower" layers, but the reverse direction is uncommon if not disallowed.</p>
+	<p>A <strong>layer</strong> is a very coarse-grained group of classes, packages or subsystems that has cohesive responsibility for a major aspect of the system. Layers are organized such that "higher" layers utilise the services of the "lower" layers, but the reverse direction is uncommon if not disallowed.</p>
 </div>
 
 In a __strict layered architecture__, a layer only calls into the layer directly below it. This is the design of network stacks. However, in informations systems, it is more common to have a __relaxed layer architecture__, where the higher layer can call down into any of the lower layers.
