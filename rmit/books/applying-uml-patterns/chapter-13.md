@@ -135,7 +135,7 @@ The __Layers pattern__ :
 </table>
 
 <figure>
-<img src="Logical_Architecture_Layers" width="600" height="600" />
+<img src="Logical_Architecture_Layers.svg" width="600" height="600" />
 <figcaption>Layers and their dependencies and applicability</figcaption>
 </figure>
 
@@ -148,7 +148,7 @@ Designing objects this way also gives the application layer the name of __domain
 The __layers__ of an architecture represent vertical slices, while __partitions__ represent a horizontal division of relatively parallel subsystems of a layer.
 
 <figure>
-<img src="Logical_Architecture_Layers" width="600" height="450" />
+<img src="Layers_and_Partitions.svg" width="600" height="450" />
 <figcaption>Layers and partitions</figcaption>
 </figure>
 
