@@ -156,7 +156,7 @@ The __layers__ of an architecture represent vertical slices, while __partitions_
 
 <div class="principle">
 	<h4>Principle</h4>
-	<p>__The Model-View Separation Principle__ comprises:</p>
+	<p><strong>The Model-View Separation Principle</strong> comprises:</p>
 	<ol>
 		<li>UI objects and non-UI object should not be directly connected or coupled. UI objects are specific to the application, where as non-UI (domain) objects are reusable.</li>
 		<li>UI objects must not contain application logic. UI objects should only initialize UI elements, handle UI events and delegate requests for application logic to the non-UI objects.</li>
