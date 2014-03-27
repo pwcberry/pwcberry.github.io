@@ -14,3 +14,7 @@ The following links are to notes taken by a guest presenter during the lecture.
 
 [Dr. Wayne Jenkins, Chief Architect at Transurban](architecture-anecdotes-antidotes/)
 
+Resources
+---------
+
+[Software Systems Architecture - Resources](http://www.viewpoints-and-perspectives.info/home/resources/)
