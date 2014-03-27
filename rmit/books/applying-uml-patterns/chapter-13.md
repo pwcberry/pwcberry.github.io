@@ -54,14 +54,9 @@ The __Layers pattern__ :
 ### Common layers in an information system logical architecture
 
 <table class="grid">
-	<cols>
-		<col style="width: 15%">
-		<col style="width: 25%">
-		<col/>
-	</cols>
 	<thead>
-		<th>Layer</th>
-		<th>Other names</th>
+		<th style="width: 15%">Layer</th>
+		<th style="width: 25%">Other names</th>
 		<th>Responsibility</th>
 	</thead>
 	<tbody>
