@@ -11,7 +11,7 @@ book_publisher: Prentice Hall, Pearson Education, 2005
 
 <div class="guideline">
 	<h4>Guideline</h4>
-	<p>Spend significant time drawing _interaction_ diagrams (sequence or communication diagrams), not just class diagrams.</p>
+	<p>Spend significant time drawing <em>interaction</em> diagrams (sequence or communication diagrams), not just class diagrams.</p>
 	<p>Ignoring this guideline is a very common worst-practice with UML.</p>
 </div>
 
