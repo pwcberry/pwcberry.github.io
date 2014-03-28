@@ -39,7 +39,7 @@ Software architecture is:
 2. _A reference model is a division of functionality together with data flow between the pieces._ A reference model is a standard decomposition of a known problem into cooperative parts that form the solution.
 3. _A reference architecture is a reference model mapped onto software elements (that cooperatively implement the functionality defined in the reference model) and the data flows between them._ A reference architecture maps functionality onto a system decomposition.
 
-<img src="reference_architecture.svg" width="320" height="160" />
+<img src="../reference_architecture.svg" width="480" height="240" />
 
 ## Why Is Software Architecture Important?
 
