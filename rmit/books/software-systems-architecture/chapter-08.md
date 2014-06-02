@@ -14,6 +14,7 @@ book_publisher: Pearson Education, an imprint of Addison-Wesley, Upper Saddle Ri
 <nav class="nav-chapters">
 	<ul>
 		<li class="prev-chapter"><a href="../chapter-07/">Previous chapter</a></li>
-		<!-- <li class="next-chapter"><a href="../chapter-08/">Next chapter</a></li> -->
+		<li class="index"><a href="../index.html">Index</a></li>
+		<!-- <li class="next-chapter"><a href="../chapter-11/">Next chapter</a></li> -->
 	</ul>
 </nav>

@@ -33,6 +33,10 @@ body {
 	margin-top: 15px;
 }
 
+.page-footer-wrapper {
+	margin-bottom: 20px;
+}
+
 //-------------------------------
 // Typography
 //-------------------------------
@@ -86,6 +90,16 @@ img {
 ul {
 	list-style-type: disc;
 	margin-left: 1em;
+
+	> li > ul {
+		list-style-type: square;
+	}
+
+	+ h1,
+	+ h2,
+	+ h3 {
+		margin-top: 1em;
+	}
 }
 
 ol {

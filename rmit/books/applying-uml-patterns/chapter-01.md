@@ -70,6 +70,7 @@ These diagrams show software classess.
 
 <nav class="nav-chapters">
 	<ul>
-		<li class="prev-chapter"><a href="../chapter-09/">Next chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>
+		<li class="next-chapter"><a href="../chapter-09/">Next chapter</a></li>
 	</ul>
 </nav>

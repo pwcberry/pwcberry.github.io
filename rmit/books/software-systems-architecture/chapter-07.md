@@ -99,6 +99,7 @@ Different projects will require different amounts of architecture work, dependin
 <nav class="nav-chapters">
 	<ul>
 		<li class="prev-chapter"><a href="../chapter-05/">Previous chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>
 		<li class="next-chapter"><a href="../chapter-08/">Next chapter</a></li>
 	</ul>
 </nav>

@@ -98,6 +98,7 @@ A "product" in this context can include _scope definition_, _architectural model
 
 <nav class="nav-chapters">
 	<ul>
+		<li class="index"><a href="../index.html">Index</a></li>
 		<li class="next-chapter"><a href="../chapter-03/">Next chapter</a></li>
 	</ul>
 </nav>

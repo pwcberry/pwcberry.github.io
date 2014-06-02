@@ -217,6 +217,7 @@ Viewpoints provide structure and consistency to an activity that was in the past
 <nav class="nav-chapters">
 	<ul>
 		<li class="prev-chapter"><a href="../chapter-02/">Previous chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>
 		<li class="next-chapter"><a href="../chapter-04/">Next chapter</a></li>
 	</ul>
 </nav>

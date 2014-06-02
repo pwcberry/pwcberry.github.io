@@ -17,21 +17,22 @@
 				<img src="/img/mars-rover.svg" alt="travelsincode.com" />
 			</a>
 		</header>
+		<header class="page-header book-header">
+			<h1>{{ page.book_title }}</h1>
+		</header>
 	</div>
 	<main class="page-content clearfix">
-		<section class="book-details">
-			<h1>{{ page.book_title }}</h1>
-			<p><strong>Author(s):</strong> {{ page.book_authors}}</p>
-			<p><strong>Publisher:</strong> {{ page.book_publisher}}</p>
-			<p><a href="../">Index</a></p>
-		</section>
 		<article class="book-notes">
-	{{ content }}
-</article>
+			{{ content }}
+		</article>
 	</main>
 <div class="page-footer-wrapper">
 <footer class="page-footer clearfix">
-	
+	<section class="book-details">
+		<p class="title">{{ page.book_title }}</p>
+		<p><strong>Author(s):</strong> {{ page.book_authors}}</p>
+		<p><strong>Publisher:</strong> {{ page.book_publisher}}</p>
+	</section>
 </footer>
 </div>
 </body>

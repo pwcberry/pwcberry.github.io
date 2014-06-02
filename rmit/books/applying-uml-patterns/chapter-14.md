@@ -32,6 +32,7 @@ __Static models__ illustrate organizational concepts, such as class or package d
 <nav class="nav-chapters">
 	<ul>
 		<li class="prev-chapter"><a href="../chapter-13/">Previous chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>		
 <!-- 		<li class="next-chapter"><a href="../chapter-15/">Next chapter</a></li> -->
 	</ul>
 </nav>

@@ -428,6 +428,7 @@ Avoid attributes that represent __foreign keys__.
 <nav class="nav-chapters">
 	<ul>
 		<li class="prev-chapter"><a href="../chapter-01/">Previous chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>
 		<li class="next-chapter"><a href="../chapter-13/">Next chapter</a></li>
 	</ul>
 </nav>

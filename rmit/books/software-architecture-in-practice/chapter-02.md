@@ -62,3 +62,11 @@ Software architecture is:
 ## Architectural Structures and Views
 
 A view is a representation of a coherent set of architectural elements suited to the particular stakeholder(s). A structure is the set of elements themselves, either as software or hardware.
+
+
+<nav class="nav-chapters">
+	<ul>
+		<li class="index"><a href="../index.html">Index</a></li>
+		<li class="next-chapter"><a href="../chapter-04/">Next chapter</a></li>
+	</ul>
+</nav>

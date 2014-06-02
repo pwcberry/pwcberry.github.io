@@ -190,4 +190,8 @@ Involving stakeholders can complicate matters, but they should not be excluded f
 
 
 
-
+<nav class="nav-chapters">
+	<ul>
+		<li class="index"><a href="../index.html">Index</a></li>
+	</ul>
+</nav>

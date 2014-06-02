@@ -174,6 +174,7 @@ The motivation for Model-View separation includes:
 <nav class="nav-chapters">
 	<ul>
 		<li class="prev-chapter"><a href="../chapter-09/">Previous chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>
 		<li class="next-chapter"><a href="../chapter-14/">Next chapter</a></li>
 	</ul>
 </nav>
