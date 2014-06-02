@@ -15,4 +15,6 @@ book_publisher: Pearson Education, an imprint of Addison-Wesley, Boston MA, 2003
 
 [Chapter 5: Achieving Qualities](./chapter-05/)
 
+[Chapter 13: Architectural Patterns](./chapter-13/)
+
 <p><a href="../">Index</a></p>

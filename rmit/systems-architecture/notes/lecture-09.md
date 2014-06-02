@@ -58,8 +58,6 @@ permalink: /rmit/systems-architecture/notes/lecture-09/
 
 ## Book references
 
-
-
 [Software Architectrue in Practice - Chapter 13 - Architectural Patterns](/rmit/books/software-architecture-in-practice/chapter-13/)
 
 

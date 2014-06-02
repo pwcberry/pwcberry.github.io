@@ -1,3 +1,5 @@
+require 'listen'
+
 desc 'compile SASS files'
 task :scss do
 	sh 'scss ./assets/scss/post.scss ./css/post.css'
@@ -12,4 +14,18 @@ end
 desc 'compile SASS and build HTML'
 task :build => [:compass] do
 	sh 'jekyll build'
+end
+
+desc 'watch for changes to SASS files and recompile'
+task :watch do
+	puts "Compiling and watching for changes..."
+	system 'rake build'
+	 
+	listener = Listen.to('./assets/scss', './rmit') do
+		puts 'File changed, recompiling...'
+		system 'rake build'
+	end
+
+	listener.start
+	sleep
 end

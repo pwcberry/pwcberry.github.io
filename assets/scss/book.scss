@@ -107,6 +107,39 @@ ul, ol, p {
 	}
 }
 
+.software-pattern {
+	border-collapse: separate;
+	border-spacing: 1px;
+	width: 100%;
+	table-layout: fixed;
+	margin: 1em 0 1.5em;
+
+	tr:nth-child(odd) {
+		background-color: lighten($dark-medium-gray, 8%);
+	}
+
+	th {
+		width: 20%;
+	}
+
+	th, td {
+		padding: 7px 10px;
+		line-spacing: 1em;
+		text-align: left;
+		vertical-align: top;
+	}
+}
+
+// Strangely the reset css overrides the browser defaults
+td {
+	em {
+		font-style: italic;
+	}
+	strong {
+		font-weight: bold;
+	}
+}
+
 .nav-chapters {
 	width: 100%;
 	@include box-sizing(border-box);
