@@ -13,7 +13,7 @@ book_publisher: Addison-Wesley, 1995
 * make system independent of how its objects are created, composed and represented
 * class creational patterns use inheritance to vary the class that's instantiated
 * object creational patterns use delegate instantiation to another object
-* encapsulate knowledge in the system about which concreate classes are used, and how they are instantiated
+* encapsulate knowledge in the system about which concrete classes are used, and how they are instantiated
 * the system at large knows only about the abstract types (abstract classes and interfaces)
 
 ### Abstract Factory
@@ -63,24 +63,38 @@ book_publisher: Addison-Wesley, 1995
 
 <table class="software-pattern">
 	<tr>
-		<th>Summary</th>
+		<th>Intent</th>
 		<td>Separate the construction of a complex object from its representation so that the same construction process can create different representations</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
+		<th>Applicability</th>
+		<td>
+			<ul>
+				<li>algorithm for creating a complex object should be independent of the parts that make up the object and how they're assembled</li>
+				<li>construction process must allow different representations for the object that's constructed</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
+		<th>Participants</th>
+		<td>
+			<ul>
+				<li><code>Builder</code>: specifies abstract interface for creating parts of <code>Product</code></li>
+				<li><code>ConcreteBuilder</code>: instantiates and assembles <code>Product</code>, implementing <code>Builder</code>; defines and keeps track of representation it creates; provides interface for retrieving <code>Product</code></li>
+				<li><code>Director</code>: constructs an object using <code>Builder</code> interface</li>
+				<li><code>Product</code>: the complex object under construction; includes classes that define constituent parts, as well as interfaces for assembling the final product</li>
+			</ul>	
+		</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
-	</tr>
-	<tr>
-		<th></th>
-		<td></td>
+		<th>Consequences</th>
+		<td>
+			<ol>
+				<li>Allows a product's internal representation to vary</li>
+				<li>Isolates code for construction and representation</li>
+				<li>Allows finer control over construction process</li>
+			</ol>
+		</td>
 	</tr>
 </table>
 

@@ -128,6 +128,11 @@ ul, ol, p {
 		text-align: left;
 		vertical-align: top;
 	}
+
+	code {
+		font-family: 'Courier New', Courier, monospace;
+		color: #eAe8cc;
+	}
 }
 
 // Strangely the reset css overrides the browser defaults
