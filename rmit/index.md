@@ -30,4 +30,6 @@ Books
 
 [Software Architecture in Practice](books/software-architecture-in-practice/)
 
+[Design Patterns - Elements of Reusable Object-Oriented Software](books/design-patterns/)
+
 [Applying UML and Patterns](books/applying-uml-patterns/)

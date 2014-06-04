@@ -218,6 +218,131 @@ An architectural pattern establishes a relationship between:
 	</tr>
 </table>
 
+## Publish-Subscribe Pattern
+
+<table class="software-pattern">
+	<tr>
+		<th>Group</th>
+		<td>Component and Connector</td>
+	</tr>
+	<tr>
+		<th>Problem</th>
+		<td>How to support integration mechanisms where the messages between producers and consumers are transmitted without them being aware of the others' existence?</td>
+	</tr>
+	<tr>
+		<th>Overview</th>
+		<td>Components publish and subscribe to events. When an event is announced by a component, the connector infrastructure dispatches the event to all registered subscribers.</td>
+	</tr>
+	<tr>
+		<th>Elements</th>
+		<td><em>Any component</em> with at least one publish or subscribe port. Concerns include which events are published and subscribed to, and the granularity of events.<br>
+			<em>The publish-subscribe connector</em> has <em>announce</em> and <em>listen</em> roles for components.</td>
+	</tr>
+	<tr>
+		<th>Relations</th>
+		<td><em>Attachment</em> relation associates components by prescribing which components announce events (publishers) and which components are listening to events (subscribers)</td>
+	</tr>
+	<tr>
+		<th>Constraints</th>
+		<td>
+			<ul>
+				<li>All components are connected to an event distributor that may be viewed as a bus &mdash; connector &mdash; or a component. Constraints may restrict subscribers to what they can listen to.</li>
+				<li>A component may be both a publisher and subscriber, having both types of ports.</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th>Weaknesses</th>
+		<td>
+			<ul>
+				<li>Typically increases latency, has a negative effect on scalability and predictability of message delivery time</li>
+				<li>Less control over ordering of messages; delivery of messages not guaranteed</li>
+			</ul>
+		</td>
+	</tr>
+</table>
+
+## Map-Reduce Pattern
+
+<table class="software-pattern">
+	<tr>
+		<th>Problem</th>
+		<td>How to perform efficiently a distributed and parallel sort of a large data set and provide a simple means for the developer to specify the analysis to be done</td>
+	</tr>
+	<tr>
+		<th>Overview</th>
+		<td>Provides a framework for analysing a large distributed set of data that will execute in parallel on a set of processors. This allows for low latency and high availability.</td>
+	</tr>
+	<tr>
+		<th>Elements</th>
+		<td><em>Map</em> is a function with multiple instances that performs the extract and transformation portions of the analysis<br>
+			<em>Reduce</em> is a function that may be single or multiple instances to peform the load portion of the extract-transform-load<br>
+			<em>Infrastructure</em> is required for deploying map and reduce instances, shepherding data between them, and detecting and recovering from failure</td>
+	</tr>
+	<tr>
+		<th>Relations</th>
+		<td>
+			<em>Deploy on</em> is the relation between an instance of a map or reduce function and the processor onto which it is installed<br>
+			<em>Instantiate, monitor, and control</em> is the relation between infrastructure and the instances of map and reduce
+		</td>
+	</tr>
+	<tr>
+		<th>Constraints</th>
+		<td>
+			<ul>
+				<li>The data to be analyzed must exist as a set of files</li>
+				<li>The map functions are stateless and do not communicate with each other</li>
+				<li>The only commmunication between the map instances and the reduce instances is the data emitted from the map instances as &lt;key, value&gt; pairs</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th>Weaknesses</th>
+		<td>
+			<ul>
+				<li>For small data sets, the overhead of map-reduce is not justified</li>
+				<li>Data sets incapable of decomposition into smaller sets loses the advantage of parallelism</li>
+				<li>Operations that require multiple reduces are complex to orchestrate</li>
+			</ul>
+		</td>
+	</tr>
+</table>
+
+## Multi-tier Pattern
+
+<table class="software-pattern">
+	<tr>
+		<th>Group</th>
+		<td>Component and Connector; Allocation</td>
+	</tr>
+	<tr>
+		<th>Problem</th>
+		<td>How can the system be split into independent computational structures and be distributed across differing server environments?</td>
+	</tr>
+	<tr>
+		<th>Overview</th>
+		<td>The execution structures of many systems are organized as a set of logical groupings of components (tier). A tier may be defined by the type of component, execution environment, or runtime purpose</td>
+	</tr>
+	<tr>
+		<th>Elements</th>
+		<td><em>Tier</em> is a logical grouping of components. Tiers may be formed on the basis of common computing platforms, in which case those platforms are also elements of the pattern.</td>
+	</tr>
+	<tr>
+		<th>Relations</th>
+		<td><em>Is part of</em>, to group components into tiers<br>
+			<em>Communicates with</em>, shows how tiers and their components interact<br>
+			<em>Allocated to</em>, in the case that tiers map to computing platforms</td>
+	</tr>
+	<tr>
+		<th>Constraints</th>
+		<td>A software component belongs exactly to one tier</td>
+	</tr>
+	<tr>
+		<th>Weaknesses</th>
+		<td>Substantial up-front cost and complexity</td>
+	</tr>
+</table>
+
 <nav class="nav-chapters">
 	<ul>
 		<li class="prev-chapter"><a href="../chapter-05/">Previous chapter</a></li>
