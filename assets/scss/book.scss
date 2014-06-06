@@ -133,6 +133,8 @@ ul, ol, p {
 		font-family: 'Courier New', Courier, monospace;
 		color: #eAe8cc;
 	}
+
+	border-bottom: 2px solid $reddish-gray;
 }
 
 // Strangely the reset css overrides the browser defaults
