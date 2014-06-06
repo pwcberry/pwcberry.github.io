@@ -102,24 +102,39 @@ book_publisher: Addison-Wesley, 1995
 
 <table class="software-pattern">
 	<tr>
-		<th>Summary</th>
+		<th>Intent</th>
 		<td>Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
+		<th>Applicability</th>
+		<td>
+			<ul>
+				<li>A class is unable to anticipate the class of objects to create</li>
+				<li>A class wants its subclasses to specify the objects it creates</li>
+				<li>Classes delegate responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper subclass is the delegate</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
+		<th>Participants</th>
+		<td>
+			<ul>
+				<li><code>Product</code>: defines interface of objects the factory method creates</li>
+				<li><code>ConcreteProduct</code>: implements <code>Product</code> interface</li>
+				<li><code>Creator</code>: declares factory method which returns object of type <code>Product</code>. Creator may also define default implementation. May call the factory method to create a <code>Product</code> object</li>
+				<li><code>ConcreteCreator</code>: overrides factory method to return instance of <code>ConcreteProduct</code></li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
-	</tr>
-	<tr>
-		<th></th>
-		<td></td>
+		<th>Consequences</th>
+		<td>
+			<ol>
+				<li>Provides hooks for subclasses</li>
+				<li>Connects parallel class hierarchies</li>
+				<li>Clients may have to subclass the <code>Creator</code> class to create a <code>ConcreteProduct</code>; this may cause another point of evolution to appear</li>
+			</ol>
+		</td>
 	</tr>
 </table>
 
@@ -127,24 +142,43 @@ book_publisher: Addison-Wesley, 1995
 
 <table class="software-pattern">
 	<tr>
-		<th>Summary</th>
+		<th>Intent</th>
 		<td>Specify the kinds of objects to create using a prototypical instance, and create new objects copying this prototype</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
+		<th>Applicability</th>
+		<td>
+			A system should be independent of how its products are created, composed and represented, <em>and</em>:
+			<ul>
+				<li>when the classes to instantiate are specified at run-time, for example, by dynamic loading; <em>or</em></li>
+				<li>to avoid building a class hierarchy of factories that parallels the clas hierarchy of products; <em>or</em></li>
+				<li>when instances of a class can have one of only a few different combinations of state; the convenience of cloning a prototype with appropriate state may be more valuable than instantiating the same number of classes manually</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
+		<th>Participants</th>
+		<td>
+			<ul>
+				<li><code>Prototype</code>: declares an interface for cloning itself</li>
+				<li><code>ConcretePrototype</code>: implements an operation for cloning itself</li>
+				<li><code>Client</code>: creates a new object by asking a prototype to clone itself</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
-	</tr>
-	<tr>
-		<th></th>
-		<td></td>
+		<th>Consequences</th>
+		<td>
+			<ol>
+				<li>Hides concrete classes from client, reducing number of known types</li>
+				<li>Allows flexibility in adding and removing products at run-time</li>
+				<li>New objects are specified by varying values such as object attributes</li>
+				<li>New objects are specified by varying structure such as composition from sub-parts</li>
+				<li>Number subclasses is reduced</li>
+				<li>Configure an application by loading classes dynamically</li>
+				<li><code>Clone</code> method must be present for each subclass</li>
+			</ol>
+		</td>
 	</tr>
 </table>
 
@@ -152,24 +186,37 @@ book_publisher: Addison-Wesley, 1995
 
 <table class="software-pattern">
 	<tr>
-		<th>Summary</th>
+		<th>Intent</th>
 		<td>Ensure a class only has one instance, and provide a global point of access to it</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
+		<th>Applicability</th>
+		<td>
+			<ul>
+				<li>There must be exactly one instance of the a class, and is accessbile to clients from a well-known access point</li>
+				<li>When the sole instance should be extensible by subclassing, and clients should be able to use an extended instance without modifying their code</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
+		<th>Participants</th>
+		<td>
+			<ul>
+				<li><code>Singleton</code>: defines an <em>Instance</em> operation that lets clients access its unique instance, usually as a static or class operation; the class is responsible for creating its own instance</li>
+			</ul>
+		</td>
 	</tr>
 	<tr>
-		<th></th>
-		<td></td>
-	</tr>
-	<tr>
-		<th></th>
-		<td></td>
+		<th>Consequences</th>
+		<td>
+			<ol>
+				<li>Controlled access to sole instance</li>
+				<li>Reduced name space</li>
+				<li>Permits refinement of operations and representation</li>
+				<li>Permits a variable number of instances</li>
+				<li>More flexible than class operations</li>
+			</ol>
+		</td>
 	</tr>
 </table>
 
