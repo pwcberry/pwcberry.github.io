@@ -301,7 +301,6 @@ book_publisher: Addison-Wesley, 1995
 				<li><code>Proxy</code>: maintains reference to real subject; provides an interface identical to <code>Subject</code>'s; controls access and possibly the lifespan of the real subject</li>
 				<li><code>Subject</code>: defines common interface for <code>RealSubject</code> and <code>Proxy</code> so that a <code>Proxy</code> can be used anywhere a <code>RealSubject</code> is expected</li>
 				<li><code>RealSubject</code>: defines the real object the proxy represents</li>
-				<li><code></code></li>
 			</ul>
 		</td>
 	</tr>
