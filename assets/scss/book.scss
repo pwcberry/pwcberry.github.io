@@ -144,3 +144,17 @@ td {
 		right: 20px;
 	}
 }
+
+
+//-------------------------------
+// Pygments code blocks
+//-------------------------------
+.highlight {
+	 font-family: Consolas, 'Courier New', Courier, monospace; 
+	 padding: 10px; 
+	@include box-sizing(border-box);
+
+	+ h3 {
+		margin-top: 1.5em;
+	}
+}

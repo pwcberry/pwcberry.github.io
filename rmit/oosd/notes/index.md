@@ -30,12 +30,6 @@ These are the summaries of notes taken for the lectures.
 
 [Lecture 9 - Architectural Styles](./lecture-09/)
 
-
-Watch
------
-
-[Collaborative Software Development](http://www.youtube.com/watch?v=izO8DD758KE)
-
 Further Reading
 ---------------
 

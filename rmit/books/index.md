@@ -14,6 +14,8 @@ permalink: /rmit/books/
 
 [Applying UML and Patterns](./applying-uml-patterns/)
 
+[Refactoring](./refactoring/)
+
 <h2 id="BooksToRead">Books to read</h2>
 <!--
 	When a book has been read, move that to the bottom of the table, and enter "Yes" into the "Read?" column.

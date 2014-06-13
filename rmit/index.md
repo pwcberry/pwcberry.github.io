@@ -34,4 +34,6 @@ Books
 
 [Applying UML and Patterns](books/applying-uml-patterns/)
 
+[Refactoring](books/refactoring/)
+
 [Books To Read](books/#BooksToRead)
