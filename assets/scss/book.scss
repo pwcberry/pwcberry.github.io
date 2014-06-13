@@ -153,6 +153,7 @@ td {
 	 font-family: Consolas, 'Courier New', Courier, monospace; 
 	 padding: 10px; 
 	@include box-sizing(border-box);
+	font-size: 0.8em;
 
 	+ h3 {
 		margin-top: 1.5em;

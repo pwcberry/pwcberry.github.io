@@ -59,13 +59,13 @@ book_publisher: Addison-Wesley, 1995
 <table class="software-pattern">
 	<tr>
 		<th>Intent</th>
-		<td>Encapsulate a reqeust as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations</td>
+		<td>Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations</td>
 	</tr>
 	<tr>
 		<th>Applicability</th>
 		<td>
 			<ul>
-				<li>objects are parameterised by the action to perform</li>
+				<li>objects are parameterized by the action to perform</li>
 				<li>to specify, queue or execute requests at different times</li>
 				<li>to support undo</li>
 				<li>to log changes in order to reapply them after a crash</li>
@@ -163,7 +163,7 @@ book_publisher: Addison-Wesley, 1995
 				<li><code>Iterator</code>: defines an interface for accessing and traversing elements</li>
 				<li><code>ConcreteIterator</code>: implements <code>Iterator</code>; keeps track of current position in traversal of collection</li>
 				<li><code>Aggregate</code>: defines an interface for creating an <code>Iterator</code> object (also a collection)</li>
-				<li><code>ConcreteAggregate</code>: implments interface for creating <code>Iterator</code> and returns appropriate <code>ConcreteIterator</code></li>
+				<li><code>ConcreteAggregate</code>: implements interface for creating <code>Iterator</code> and returns appropriate <code>ConcreteIterator</code></li>
 			</ul>
 		</td>
 	</tr>
@@ -312,7 +312,7 @@ book_publisher: Addison-Wesley, 1995
 		<td>
 			<ul>
 				<li>When an object's behaviour depends on its state, and must change its behaviour at run-time depending on that state; <em>or</em></li>
-				<li>Operations have large, multipart conditional statements that depend on the object's state - each branch of the conditional is separated into its own class</li>
+				<li>Operations have large, multi-part conditional statements that depend on the object's state - each branch of the conditional is separated into its own class</li>
 			</ul>
 		</td>
 	</tr>
@@ -330,7 +330,7 @@ book_publisher: Addison-Wesley, 1995
 		<th>Consequences</th>
 		<td>
 			<ol>
-				<li>Localises state-specific behaviour and partitions behaviour for different states</li>
+				<li>Localizes state-specific behaviour and partitions behaviour for different states</li>
 				<li>Makes state transitions explicit</li>
 				<li>State objects can be shared</li>
 			</ol>
@@ -413,7 +413,7 @@ book_publisher: Addison-Wesley, 1995
 		<td>
 			<ul>
 				<li>"The Hollywood Principle": "Don't call us, we'll call you". The parent class calls the operations of a subclass (an inverted control structure)</li>
-				<li>A subclass can extend a parent class operation's behaviour by overriding the operation and calling the parent operation explicity</li>
+				<li>A subclass can extend a parent class operation's behaviour by overriding the operation and calling the parent operation explicitly</li>
 				<li>Sometimes the invocation of the parent operation is forgotten</li>
 			</ul>
 		</td>
@@ -458,7 +458,7 @@ book_publisher: Addison-Wesley, 1995
 				<li>Adding new <code>ConcreteElement</code> classes is hard; each subclass of <code>ConcreteElement</code> gives rise to a new abstract operation on <code>Visitor</code> and a corresponding implementation in every <code>ConcreteVisitor</code> class</li>
 				<li>Visiting across class hierarchies. Unlike an <code>Iterator</code>, which is restricted by the type of objects it can traverse, <code>Visitor</code> can traverse objects that don't have a common parent class</li>
 				<li>Accumulating state - visitors gather state as they visit each element</li>
-				<li>Breaking encapsulation - public operations on the <code>ConcreteElement</code> may expose an element's internal state to statisfy the requirements of the <code>Visitor</code></li>
+				<li>Breaking encapsulation - public operations on the <code>ConcreteElement</code> may expose an element's internal state to satisfy the requirements of the <code>Visitor</code></li>
 			</ol>
 		</td>
 	</tr>

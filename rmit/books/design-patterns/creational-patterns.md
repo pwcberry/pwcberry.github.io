@@ -29,7 +29,7 @@ book_publisher: Addison-Wesley, 1995
 			<ul>
 				<li>a system should be independent of how its products are created, composed and represented</li>
 				<li>a system should be configured with one of multiple families of products</li>
-				<li>a family of related product objects is designed to be used together, and you need to endforce this constraint</li>
+				<li>a family of related product objects is designed to be used together, and you need to enforce this constraint</li>
 				<li>you want to provide a class library of products, and you want to reveal just their interfaces, not their implementations</li>
 			</ul>
 		</td>
@@ -193,7 +193,7 @@ book_publisher: Addison-Wesley, 1995
 		<th>Applicability</th>
 		<td>
 			<ul>
-				<li>There must be exactly one instance of the a class, and is accessbile to clients from a well-known access point</li>
+				<li>There must be exactly one instance of the a class, and is accessible to clients from a well-known access point</li>
 				<li>When the sole instance should be extensible by subclassing, and clients should be able to use an extended instance without modifying their code</li>
 			</ul>
 		</td>

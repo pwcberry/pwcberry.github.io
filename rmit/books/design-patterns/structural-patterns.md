@@ -10,14 +10,14 @@ book_publisher: Addison-Wesley, 1995
 ## Structural Patterns
 
 * concerned with how classes and objects are composed to form larger structures
-* structural _object_ patterns describe ways to compose objects to realize new functionality, particulary at run-time
+* structural _object_ patterns describe ways to compose objects to realize new functionality, particularly at run-time
 
 ### Adapter
 
 <table class="software-pattern">
 	<tr>
 		<th>Intent</th>
-		<td>Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise becasue of incompatible interfaces</td>
+		<td>Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces</td>
 	</tr>
 	<tr>
 		<th>Applicability</th>
@@ -36,7 +36,7 @@ book_publisher: Addison-Wesley, 1995
 				<li><code>Target</code>: defines the domain-specific interface the <em>Client</em> uses</li>
 				<li><code>Client</code>: collaborates with objects conforming to the <code>Target</code> interface</li>
 				<li><code>Adaptee</code>: defines an existing interface that needs adapting</li>
-				<li><code>Adapter</code>: adpats the interface of <code>Adaptee</code> to the <code>Target</code> interface</li>
+				<li><code>Adapter</code>: adapts the interface of <code>Adaptee</code> to the <code>Target</code> interface</li>
 			</ul>
 		</td>
 	</tr>
@@ -47,7 +47,7 @@ book_publisher: Addison-Wesley, 1995
 			<ul>
 				<li>adapts <code>Adaptee</code> to <code>Target</code> by committing to a concrete <code>Adaptee</code> class. As a consequence, a class adapter won't work when we want to adapt a class <em>and</em> its subclasses</li>
 				<li>lets <code>Adapter</code> override some of <code>Adaptee</code>'s behaviour, since <code>Adapter</code> is a subclass of <code>Adaptee</code></li>
-				<li>introduces only one object, and no additional pointer indirection is needed to get to the adaptee</li>
+				<li>introduces only one object, and no additional pointer indirection is needed to get to the Adaptee</li>
 			</ul>
 			<strong>An object adapter</strong><br>
 			<ul>
@@ -109,7 +109,7 @@ book_publisher: Addison-Wesley, 1995
 <table class="software-pattern">
 	<tr>
 		<th>Intent</th>
-		<td>Compose objects into tree structures to represent part-whole hierarchies. Composite lets clietns treat individual objects and compositions of objects uniformly</td>
+		<td>Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly</td>
 	</tr>
 	<tr>
 		<th>Applicability</th>
@@ -151,7 +151,7 @@ book_publisher: Addison-Wesley, 1995
 <table class="software-pattern">
 	<tr>
 		<th>Intent</th>
-		<td>Attach additional responsiblities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality</td>
+		<td>Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality</td>
 	</tr>
 	<tr>
 		<th>Applicability</th>
@@ -192,7 +192,7 @@ book_publisher: Addison-Wesley, 1995
 <table class="software-pattern">
 	<tr>
 		<th>Intent</th>
-		<td>Provide a unified interface to a set of interfaces in a subsystemmm. Facade defines a higher-level interface that makes the subsystem easier to use</td>
+		<td>Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use</td>
 	</tr>
 	<tr>
 		<th>Applicability</th>
@@ -239,7 +239,7 @@ book_publisher: Addison-Wesley, 1995
 			<li>An application uses a large number of objects</li>
 			<li>Storage costs are high due to sheer number of objects</li>
 			<li>Most object state can be extrinsic</li>
-			<li>Many groups of objects can be replaced by relatively frew shared objects once extrinsic state is removed</li>
+			<li>Many groups of objects can be replaced by relatively few shared objects once extrinsic state is removed</li>
 			<li>Application doesn't depend on identity</li>
 		</ul>
 		</td>
@@ -260,7 +260,7 @@ book_publisher: Addison-Wesley, 1995
 		<th>Consequences</th>
 		<td>
 			<ul>
-				<li>Run-time costs associated with transferring, finding and/or computing extrinsic state, especially if it was originally intrinsic state</li>
+				<li>Run-time costs associated with transferring, finding and / or computing extrinsic state, especially if it was originally intrinsic state</li>
 				<li>Run-time costs are offset by storage space savings, due to the smaller number of objects instantiated that comes from sharing, the amount of intrinsic state each object needs,  and whether extrinsic state is computed or stored</li>
 				<li>Computed extrinsic state increases storage space savings</li>
 				<li>Combined with Composite pattern, the hierarchical structure as a graph of leaf nodes, where each leaf node can be passed a reference to the parent as part of extrinsic state</li>
@@ -309,7 +309,7 @@ book_publisher: Addison-Wesley, 1995
 		<td>
 			Introduces a level of indirection that is useful according to the type of proxy:<br>
 			<ol>
-				<li>Remote proxy can hide the fact that an object resied in a different address space</li>
+				<li>Remote proxy can hide the fact that an object resides in a different address space</li>
 				<li>Virtual proxy can perform optimizations such as creating an object on demand</li>
 				<li>Both protection proxies and smart references allow additional housekeeping tasks when an object is accessed</li>
 				<li>Hides <strong>copy-on-write</strong> from client, allowing large, complex objects to be created on demand</li>
