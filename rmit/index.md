@@ -4,24 +4,22 @@ title: Semester 1, 2014 | RMIT
 permalink: /rmit/
 ---
 
-Semester 1, 2014
+Semester 2, 2014
 ================
 
 [Important Dates](http://www.rmit.edu.au/students/he2014dates)
 
-Object-Oriented Software Design (ISYS 1083)
--------------------------------------------
-
-[Course Details, Semester 1 2013](http://www.rmit.edu.au/courses/isys10831310)
-
-[Notes](oosd/notes/)
-
-Systems Architecture (ISYS 1088)
+Programming Using C++ (COSC1252)
 --------------------------------
 
-[Course Details, Semester 1 2013](http://www.rmit.edu.au/courses/isys10881310)
+[Notes](cpp/notes/)
 
-[Notes](systems-architecture/notes/)
+Previously
+----------
+
+[Object-Oriented Software Design](oosd/notes/)
+
+[Systems Architecture](systems-architecture/notes/)
 
 Books
 -----
