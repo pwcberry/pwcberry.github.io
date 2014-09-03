@@ -1,0 +1,108 @@
+@import "../shared/_theme";
+@import "../zurb/normalize";
+@import "compass/css3";
+
+// -----------------------
+// LAYOUT
+// -----------------------
+html {
+    font-size: $font-size;
+}
+
+body {
+    font-family: $copy-text-font-stack;
+    font-size: 1rem;
+    line-height: 1.61;
+    padding: 0;
+    background: $color-coffee-white;
+    border-top: 8px solid $color-coffee-black;
+    border-bottom: 2px solid $color-coffee-black;
+}
+
+.site-header-wrapper {
+    border-top: 5px solid $color-coffee-dark;
+    min-height: 80px;
+}
+
+.page-content-wrapper {
+    min-height: 400px;
+    margin: 12px 0;
+}
+
+.site-footer-wrapper {
+    border-bottom: 1px solid $color-coffee-dark;
+    min-height: 20px;
+}
+
+.page-content {
+    @include box-shadow(0 0 10px rgba(13,13,13,0.1));
+    @include border-radius(10px);
+    margin: 0 auto;
+    padding: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+// -----------------------
+// TYPOGRAPHY
+// -----------------------
+
+h1, h2, h3, h4 {
+    font-family: $heading-text-font-stack;
+    line-height: 1;
+    color: $color-coffee-medium;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5, h6 {
+    font-size: 1rem;
+    line-height: 1;
+    color: $color-coffee-medium;
+}
+
+p {
+    color: $color-coffee-dark;
+}
+
+// -----------------------
+// LINKS
+// -----------------------
+
+a {
+    color: $color-coffee-green;
+    
+    &:hover {
+        color: lighten($color-coffee-green, 20);
+    }
+}
+
+
+
+// -----------------------
+// RESPONSIVENESS
+// -----------------------
+@media only screen and (min-width: 768px) {
+    .site-header,
+    .page-content,
+    .site-footer {
+        width: 980px;
+    }
+}

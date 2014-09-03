@@ -1,3 +1,11 @@
+---
+layout: post
+title: Cookies and JavaScript
+category: javascript
+tags: javascript cookies
+published: false
+---
+
 Cookies and JavaScript
 ======================
 

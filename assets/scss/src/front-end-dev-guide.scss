@@ -1,0 +1,44 @@
+@import "main.scss";
+
+.guideline {
+	h2 {
+		border-width: 1px;
+		border-style: solid;
+		@include border-radius(2px);
+		padding: 0.5em 14px 0.5em 44px;
+		min-height: 24px;
+		position: relative;
+		font-weight: normal;
+		font-size: 20px;
+
+		> i {
+			position: absolute;
+			top: 8px;
+			left: 12px;
+			width: 24px;
+			height: 24px;
+			overflow: hidden;
+			background: transparent url(/img/fed-guide-sprite.svg) no-repeat;
+			background-size: 240px 48px;
+		}
+
+		&.observe {
+			color: $color-success;
+		}
+
+		&.consider {
+			color: $color-warning;
+			> i {
+				background-position: -24px 0;
+			}
+		}
+
+		&.avoid {
+			color: $color-alert;
+			> i {
+				background-position: -48px 0;
+			}
+		}
+	}
+}
+

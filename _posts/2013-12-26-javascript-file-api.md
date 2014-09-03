@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: post
 title: Reading files in JavaScript using the File API
-permalink: /learning/javascript-file-api/
+category: javascript
+tags: javascript file_api
+excerpt: I discovered this article about File API on html5rocks.com.
+published: false
 ---
 
 Reading files in JavaScript using the File API
@@ -13,16 +16,11 @@ Reading files in JavaScript using the File API
 * `FileList`: an array-like sequence of `File` objects.
 * `Blob`: allows for slicing a file into byte ranges.
 
-
-```
-#! HTML
-
+{% highlight html %}
 <input type="file" id="Files" name="files[]" multiple="multiple"/>
+{% endhighlight %}
 
-```
-
-```
-#! JavaScript
+{% highlight javascript %}
 function handleFileSelect(ev) {
 	 var files = ev.target.files; // FileList object
 	 var list = Array.prototype.forEach.call(files, function(file) {
@@ -31,8 +29,7 @@ function handleFileSelect(ev) {
 }
 
 document.getElementById("Files").addEventListener("change", handleFileSelect, false);
-
-```
+{% endhighlight %}
 
 After obtaining a `File` reference, instantiate a `FileReader` object to read its contents into memory. The reader's `onload` event is fired when complete, and the reader's `result` attribute can be used to access the file data.
 

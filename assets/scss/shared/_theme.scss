@@ -1,0 +1,30 @@
+// -------------------------------
+// BASIC COLOURS
+// -------------------------------
+
+// Based on:
+// https://kuler.adobe.com/coffee-color-theme-579765/
+
+$color-coffee-white: #F2F2F2;
+$color-coffee-light: #BF925A;
+$color-coffee-medium: #73482F;
+$color-coffee-dark: #593123;
+$color-coffee-black: #0D0D0D;
+$color-coffee-green: #82AB32;
+
+$color-coffee-lighter: lighten($color-coffee-light, 20%);
+
+
+// Borrowed from Zurb Foundation
+$color-alert: #f04124;
+$color-success: #43AC6A;
+$color-warning: #f08a24;
+
+// -------------------------------
+// TYPOGRAPHY
+// -------------------------------
+
+$font-size: 16px;
+$copy-text-font-stack: Georgia, "Times New Roman", serif;
+$heading-text-font-stack: "Helvetica Neue", Arial, Helvetica, "Open Sans", sans-serif;
+

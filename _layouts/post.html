@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>{{ page.title }}</title>
   <script src="/scripts/modernizr.js"></script>
-  <link href="/css/main.css" type="text/css" rel="stylesheet"/>
+  <link href="/css/post.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-{% include site-header.html %}
-<div class="page-content-wrapper">
-<main class="page-content">
+	{% include site-header.html %}
+  <div class="page-content-wrapper">
+	<main class="page-content">
+    <article class="blog-post">
 {{ content }}
+  </article>
 </main>
 </div>
 {% include site-footer.html %}

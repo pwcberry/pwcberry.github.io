@@ -3,15 +3,24 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>{{ page.title }}</title>
+  <title>front-end development guide | travels in code</title>
   <script src="/scripts/modernizr.js"></script>
-  <link href="/css/main.css" type="text/css" rel="stylesheet"/>
+  <link href="/css/front-end-dev-guide.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-{% include site-header.html %}
-<div class="page-content-wrapper">
-<main class="page-content">
+	<div class="site-header-wrapper">
+    <header class="site-header">
+      <nav class="site-nav">
+        <a href="/about/">About</a>
+        <a href="/front-end-dev-guide/">Front-End Developer Guide</a>
+      </nav>
+    </header>
+	</div>
+  <div class="page-content-wrapper">
+	<main class="page-content">
+    <article class="front-end-dev-guide">
 {{ content }}
+    </article>
 </main>
 </div>
 {% include site-footer.html %}

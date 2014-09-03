@@ -12,6 +12,8 @@ Semester 2, 2014
 Programming Using C++ (COSC1252)
 --------------------------------
 
+[Course Guide](http://www.rmit.edu.au/courses/cosc12521350)
+
 [Notes](cpp/notes/)
 
 Previously
