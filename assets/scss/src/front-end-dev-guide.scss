@@ -1,6 +1,6 @@
 @import "main.scss";
 
-.guideline {
+.guidelines {
 	h2 {
 		border-width: 1px;
 		border-style: solid;
@@ -9,7 +9,7 @@
 		min-height: 24px;
 		position: relative;
 		font-weight: normal;
-		font-size: 20px;
+		font-size: 1.25rem;
 
 		> i {
 			position: absolute;
@@ -38,6 +38,10 @@
 			> i {
 				background-position: -48px 0;
 			}
+		}
+
+		~ h2 {
+			margin-top: 3em;
 		}
 	}
 }

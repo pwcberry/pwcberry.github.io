@@ -15,23 +15,25 @@ body {
     line-height: 1.61;
     padding: 0;
     background: $color-coffee-white;
-    border-top: 8px solid $color-coffee-black;
-    border-bottom: 2px solid $color-coffee-black;
+    border-top: 9px solid $color-coffee-black;
 }
 
 .site-header-wrapper {
     border-top: 5px solid $color-coffee-dark;
-    min-height: 80px;
+    padding-top: 7px;
 }
 
 .page-content-wrapper {
-    min-height: 400px;
-    margin: 12px 0;
+    margin: 12px 0 24px;
 }
 
 .site-footer-wrapper {
-    border-bottom: 1px solid $color-coffee-dark;
-    min-height: 20px;
+    margin-bottom :12px;
+}
+
+.site-header {
+    margin: 0 auto;
+    min-height: 80px;
 }
 
 .page-content {
@@ -39,6 +41,14 @@ body {
     @include border-radius(10px);
     margin: 0 auto;
     padding: 24px;
+    min-height: 320px;
+    background: $color-coffee-white;
+}
+
+.site-footer {
+    margin: 0 auto;
+    border-bottom: 1px solid $color-coffee-lighter;
+    min-height: 24px;
 }
 
 * {
