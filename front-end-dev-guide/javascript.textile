@@ -1,0 +1,24 @@
+---
+layout: front-end-dev-guide
+permalink: /front-end-dev-guide/javascript/
+---
+
+h1. JavaScript
+
+{% guideline observe %}
+
+h2(#use-functions). Use functions everywhere
+
+{% endguideline %}
+
+{% guideline consider %}
+
+h2(#use-modules). Consider using modules.
+
+{% endguideline %}
+
+{% guideline avoid %}
+
+h2(#use-functions). Avoid using global variables.
+
+{% endguideline %}

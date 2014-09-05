@@ -1,6 +1,10 @@
 @import "main.scss";
+@import "../zurb/foundation/components/_global";
 
-.guidelines {
+.guideline {
+	width: 100%;
+	@include clearfix;
+
 	h2 {
 		border-width: 1px;
 		border-style: solid;
@@ -11,38 +15,46 @@
 		font-weight: normal;
 		font-size: 1.25rem;
 
-		> i {
-			position: absolute;
-			top: 8px;
-			left: 12px;
-			width: 24px;
+		&::before {
+	        background: transparent url(/img/fed-guide-sprite.svg) no-repeat;
+	        position: absolute;
+	        top: 8px;
+	        left: 12px;
+	        width: 24px;
 			height: 24px;
 			overflow: hidden;
-			background: transparent url(/img/fed-guide-sprite.svg) no-repeat;
-			background-size: 240px 48px;
-		}
+	        z-index: 1;
+	        background-size: 240px 48px;
+	        content: '\20';
+	    }
+    }
 
-		&.observe {
+	&.observe {
+		h2 {
 			color: $color-success;
 		}
+	}
 
-		&.consider {
+	&.consider {
+		h2 {
 			color: $color-warning;
-			> i {
+			&::before {
 				background-position: -24px 0;
 			}
 		}
+	}
 
-		&.avoid {
+	&.avoid {
+		h2 {
 			color: $color-alert;
-			> i {
+			&::before {
 				background-position: -48px 0;
 			}
 		}
+	}
 
-		~ h2 {
-			margin-top: 3em;
-		}
+	~ .guideline {
+		margin-top: 3em;
 	}
 }
 

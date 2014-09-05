@@ -8,7 +8,7 @@ module Jekyll
 	    end
 
 	    def render(context)
-	      "<article class=\"guideline #{@text}\">"
+	      "<article class=\"guideline #{@text.strip}\">"
 	    end
 
 	end
@@ -23,4 +23,4 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('guideline', Jekyll::GuidelineStartTag)
-Liquid::Template.register_tag('guideline_end', Jekyll::GuidelineEndTag)
+Liquid::Template.register_tag('endguideline', Jekyll::GuidelineEndTag)
