@@ -1,0 +1,43 @@
+---
+layout: book
+title: Chapter 1 | Usability Engineering
+permalink: /rmit/books/usability-engineering/chapter-01/
+book_title: Usability Engineering - Scenario-Based Development of Human Computer Interaction
+book_authors: Mary Beth Rosson, John M. Carrol
+book_publisher: Morgan Kaufman Publishers, Academic Press, San Francisco 2002
+---
+
+h2. Scenario-Based Usability Engineering
+
+h3. The emergence of usability
+
+As interactive systems became more complex and involved a more diverse range of users, *usability* became a concern with regard to how a system was easy to understand and promoted user satisfaction.  
+
+Three distinct perspectives contribute to the understanding of usability:
+
+* human performance
+* learning and cognition
+* collaborative activity
+
+h3. Non-functional requirements that may influence usability concerns
+
+|_.Issue|_.Potential Impacts on Usability|
+|Team membership| Failure to include usability experts on a team will limit attention to and resolution of usability concerns|
+|Project size| Large complex projects are more difficult to coordinate and may lead to a focus on a few high-level, most critical usability issues; time limits will correspondingly limit teh amount of iteration possible|
+|Legacy systems| Prior commitment to existing hardware or software platforms may ocverconstrain the design space, eliminating some options that would significantly improve usability|
+|Portability| The need to build multiple compatible versions of a system may encourage development of a "lowest common denominator"|
+|Reliability| A need for highly reliable systems may require a distributed or otherwise complex architecture that later is reflected in the user interface|
+|Maintainability| A system intended for a long lifetime may be designed in a modular fashion that separates tasks and activities seen as highly interrelated by users|
+|Software economics| The technology cost of a useful function or user interface technique may be too prohibitive to warrant its inclusion in the design|
+
+h3. Characteristic elements of a user interaction scenario
+
+|_.Scenario Element|_.Definition|_.Examples|
+|Setting|Situational details that motivate or explain goals, actions, and reactions of the actors(s)|Office within an accounting organization; state of work area|
+|Actors|Human(s) interacting with the computer or other setting elements; personal characteristics relevant to scenario (personas)|Accountant using a spreadsheet website for the first time|
+|Task goals|Effects on the situation that motivate actions carried out by actor(s)|Need to compare budget data with values questioned in email|
+|Plans|Mental activity directed at converting a goal into a behaviour|Opening the email to resize the window to align with spreadsheet program|
+|Evaluation|Mental activity directed at interpreting features of the situation|A window that is too large can be hiding the window underneath; dark borders indicate a window is active|
+|Actions|Observable behaviour|Opening an application; reorganizing tabs within application|
+|Events|External actions or reactions produced by the computer or other features of the setting; some of these may be hidden to the actor(s) but important to scenario|Window movement; haptic feedback from keyboard or mouse|
+
