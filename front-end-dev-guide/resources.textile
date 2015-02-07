@@ -5,26 +5,15 @@ permalink: /front-end-dev-guide/resources/
 
 h1. Resources
 
-{% guideline observe %}
-
-h2. Do use classes as the primary nomenclature for presentation.
+h2(guideline observe). Do use classes as the primary nomenclature for presentation.
 
 It's important to understand that when it comes to presentation for web pages and applications, a CSS class will denote an element, or widget, or container, that is used across pages.
 
-{% endguideline %}
-
-{% guideline consider %}
-
-h2. Do use IDs, but sparingly.
+h2(guideline consider). Do use IDs, but sparingly.
 
 IDs within HTML documents denote a unique element within the context of that document.
 
-{% endguideline %}
-
-{% guideline avoid %}
-
-h2. Avoid long CSS rules.
+h2(guideline avoid). Avoid long CSS rules.
 
 This is primarily intended to avoid the situation where the CSS has five levels of nesting to define the presentation attributes of an element.
 
-{% endguideline %}

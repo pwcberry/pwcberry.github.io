@@ -5,20 +5,8 @@ permalink: /front-end-dev-guide/javascript/
 
 h1. JavaScript
 
-{% guideline observe %}
+h2(guideline observe#use-functions). Use functions everywhere
 
-h2(#use-functions). Use functions everywhere
+h2(guideline consider#use-modules). Consider using modules.
 
-{% endguideline %}
-
-{% guideline consider %}
-
-h2(#use-modules). Consider using modules.
-
-{% endguideline %}
-
-{% guideline avoid %}
-
-h2(#use-functions). Avoid using global variables.
-
-{% endguideline %}
+h2(guideline avoid#use-functions). Avoid using global variables.

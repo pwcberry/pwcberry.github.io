@@ -1,0 +1,28 @@
+---
+layout: rmit
+title: Textbooks summarized
+permalink: /rmit/books/
+---
+
+h2. Book summaries
+
+["Software Systems Architecture":./software-systems-architecture/]
+
+["Software Architecture in Practice":./software-architecture-in-practice/]
+
+["Design Patterns - Elements of Reusable Object-Oriented Software":./design-patterns/]
+
+["Applying UML and Patterns":./applying-uml-patterns/]
+
+["Refactoring":./refactoring/]
+
+["Extreme Programming Explained":./extreme-programming-explained/]
+
+["Usability Engineering":./usability-engineering/]
+
+h2. Books to read
+
+table(grid).
+|_\2.Book|_.RMIT Library Code|_.Amazon Location|_.Read?|
+|(book).!http://ecx.images-amazon.com/images/I/51n%2B3GEQvYL._SL500_PIsitb-sticker-arrow-big,TopRight,35,-73_OU01_SS160_.jpg(Introduction to Algorithms)!|_Introduction to Algorithms, 2[^nd^] Edition_
+Thomas H Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein|(code).005.1 I61|(book-link).["Hardcover":http://www.amazon.com/dp/0262032937/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=KTRKORNBOS30&coliid=IG9ZAXDQIP51X]||

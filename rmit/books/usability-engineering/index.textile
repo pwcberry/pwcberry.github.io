@@ -1,0 +1,12 @@
+---
+layout: book
+title: Usability Engineering
+permalink: /rmit/books/usability-engineering/
+book_title: Usability Engineering - Scenario-Based Development of Human Computer Interaction
+book_authors: Mary Beth Rosson, John M. Carrol
+book_publisher: Morgan Kaufman Publishers, Academic Press, San Francisco 2002
+---
+
+h2. Selected Chapters
+
+

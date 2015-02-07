@@ -13,3 +13,4 @@ These pages are full of inspiration. They represent leadership, creativity, comm
 [Wabi Sabi](./wabi-sabi)
 
 [The Leader Who Had No Title](./leader-who-had-no-title)
+
