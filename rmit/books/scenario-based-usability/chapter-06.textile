@@ -1,10 +1,38 @@
 ---
 layout: book
 title: Chapter 6 | Usability Engineering
-permalink: /rmit/books/usability-engineering/chapter-06/
+permalink: /rmit/books/scenario-based-usability-engineering/chapter-06/
 book_title: Usability Engineering - Scenario-Based Development of Human Computer Interaction
 book_authors: Mary Beth Rosson, John M. Carrol
 book_publisher: Morgan Kaufman Publishers, Academic Press, San Francisco 2002
 ---
 
-h2. Prototyping
+h2. Chapter 6 - Prototyping
+
+A *prototype* is a concrete but partial implementation of a system design.
+
+A *user interface prototype* is a prototype built to explore usability issues.
+
+h3. Common approaches to prototyping in usability engineering
+
+|_. Type of prototype |_. Description |
+| Storyboard | Sketches or screenshots illustrating key points in a usage narrative |
+| Paper or cardboard mock-up | Fabricated devices with simulated controls or display elements |
+| Wizard of Oz | Workstation connected to invisible human assistant who simulates input, output, or processing functionality not yet available |
+| Video prototype | Video recording of persons enacting one or more envisioned tasks |
+| Computer animation | Screen transitions that illustrate a series of input and output events |
+| Scenario machine | Interactive system implementing a specific scenario's event system |
+| Rapid prototype | Interactive system created with special-purpose prototyping tools | 
+| Working partial system | Executable version of a system with a subset of intended functionality |
+
+p(tradeoff).
+Detailed special-purpose prototypes help to answer specific questions about a design, BUT building a meaningful prototype for each issue is expensive.
+
+p(tradeoff).
+Realistic prototypes increase the validity of user test data, BUT may postpone testing, or require construction of customized (throw-away) prototypes.
+
+p(tradeoff).
+Iterative refinement of an implementation enables continual testing and feedback, BUT may discourage consideration of radical transformations.
+
+p(tradeoff).
+Dynamic environments encourage experimentation and change, BUT many small design changes may lead to complex software that is difficult to maintain.

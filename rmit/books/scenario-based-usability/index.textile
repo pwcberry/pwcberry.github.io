@@ -1,7 +1,7 @@
 ---
 layout: book
 title: Usability Engineering
-permalink: /rmit/books/scenario-based-usability-engineering/
+permalink: /rmit/books/usability-engineering-scenario-based/
 book_title: Usability Engineering - Scenario-Based Development of Human Computer Interaction
 book_authors: Mary Beth Rosson, John M. Carrol
 book_publisher: Morgan Kaufman Publishers, Academic Press, San Francisco 2002
@@ -9,16 +9,9 @@ book_publisher: Morgan Kaufman Publishers, Academic Press, San Francisco 2002
 
 h2. Selected Chapters
 
-"Chapter 1: Scenario-Based Usability Engineering":./chapter-01/
-This chapter describes the principles of usability engineering and scenario-based development.
+["Chapter 5 - Interaction Design":./chapter-05/]
 
-"Chapter 5: Interaction Design":./chapter-05/
-This chapter describes the techniques and methodologies involved in optimizing paths for task completion.
+["Chapter 6 - Prototyping":./chapter-06/]
 
-"Chapter 6: Prototyping":./chapter-06/
-This chapter describes prototyping methods intended to identify or highlight usability problems.
-
-"Chapter 7: Usability Evaluation":./chapter-07/
-This chapter covers heuristics and analysis of data gathered from experiments.
-
+["Chapter 7 - Usability Evaluation":./chapter-07/]
 

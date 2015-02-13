@@ -1,10 +1,75 @@
 ---
 layout: book
 title: Chapter 7 | Usability Engineering
-permalink: /rmit/books/usability-engineering/chapter-07/
+permalink: /rmit/books/scenario-based-usability-engineering/chapter-07/
 book_title: Usability Engineering - Scenario-Based Development of Human Computer Interaction
 book_authors: Mary Beth Rosson, John M. Carrol
 book_publisher: Morgan Kaufman Publishers, Academic Press, San Francisco 2002
 ---
 
-h2. Usability Evaluation
+h2. Chapter 7 - Usability Testing
+
+A *usability evaluation* is any analysis of empirical study of the usasbility of a prototype of system. The goal of the evaluation is to provide feedback in software development, supporting an iterative development process.
+
+*Formative evaluation* takes place _during_ the design process.
+
+*Summative evalution* is done to assess a design result for the purpose of quality measurement. This may occur at the end of the design process, or at the end of each iterative cycle.
+
+*Analytic method* of evaluation assesses the design of a tool. For a system, it involves modelling and analysis of the system's features and their implications for use.
+
+*Empirical method* of evaluation assess the usage of a tool within a given context. For a system, it involves observation of and other data collected from system users.
+
+*Mediated evaluation* is a combination of the analytic and empirical methods: analytic evaluation occurs early and throughout the design process, but the resulting analyses are also used to motivate and develop materials for empirical evaluations.
+
+h3. Analytic Methods
+
+*Usability inspection* is based on a set of guidelines that usability experts use to assist in their examination of a system to detect usability problems.
+
+Nielsen's *heurisitc evalution*:
+
+1. Use simple and natural dialog
+2. Speak the users' language
+3. Minimize memory load
+4. Be consistent
+5. Provide feedback
+6. Provide clearly marked exits
+7. Provide shortcuts
+8. Provide good error messages
+9. Prevent errors
+10. Include good help and documentation
+
+*Pluralistic walk-through* is a collaborative analysis that involves developers, users and usability engineers.
+
+*Cognitive walk-through* is a detailed analysis of a user's goals, expectations and reactions during individual tasks.
+
+Inspection does not reveal *validity*. 
+
+p(tradeoff).
+Usability checklists and inspections can produce rapid feedback, BUT may call attention to problems that are infrequent or atypical in real-world use.
+
+*Model-based analysis* utilizes predictive models to ascertain how a user interacts with the system. *GOMS analysis* (goals, operators, methods and selection rules) is one such method.
+
+p(tradeoff).
+Models of performance can yield precise predictions of user behaviour, BUT the time spent building such models can take attention away from higher-level human behaviour such as learning, problem solving and social relationships.
+
+h3. Empirical Methods
+
+A *field study* is an investigation taking place in the normal work environment to evaluate work activities.
+
+p(tradeoff).
+Field studies ensure validity of the usability problems discovered, BUT field study results are extensive, qualitative, and difficult to summarize and interpret.
+
+*Laboratory studies* allow more control with regard to scope and scale. Rapid cycles of user feedback and prototyping is possible. It is possible to set up *benchmark tests*.
+
+p(tradeoff).
+Laboratory studies enable focussed attention on specific usage concerns, BUT the settings observed may be unrepresentative and thus misleading.
+
+*Controlled experiments* involve variables. A hypothesis predicts the causal effects independent variables have on dependent variables; how system characteristics are manipulated to produce outcomes.
+
+An experiment that is organized following a *within-subjects design* involves the same participants who are exposed to all independent variables.
+
+An experiment that is organized following a *between-subjects design* involves different groups for each test condition.
+
+Usually these groups are assigned randomly.
+
+

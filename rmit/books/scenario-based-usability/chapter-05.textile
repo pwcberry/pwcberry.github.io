@@ -1,10 +1,90 @@
 ---
 layout: book
 title: Chapter 5 | Usability Engineering
-permalink: /rmit/books/usability-engineering/chapter-05/
+permalink: /rmit/books/scenario-based-usability-engineering/chapter-05/
 book_title: Usability Engineering - Scenario-Based Development of Human Computer Interaction
 book_authors: Mary Beth Rosson, John M. Carrol
 book_publisher: Morgan Kaufman Publishers, Academic Press, San Francisco 2002
 ---
 
-h2. Interaction design
+h2. Chapter 5 - Interaction Design
+
+The goal of interaction design is to specify the mechanisms for accessing and manipulating task information; people can _do the right things at the right time_.
+
+Interaction design focusses on the "Gulf of Execution" - the distance between a person recognizing a task and completing the task using software. The steps involved are:
+
+1. Task goal
+2. System goal
+3. Action plan
+4. Execution
+
+For the user, once the Gulf of Execution has been traversed, there follows the "Gulf of Evaluation" - the distance between execution of the task using software and comprehension of the effect. The steps involved are:
+
+1. Perception
+2. Interpretation
+3. Making sense
+
+These concepts were expostulated by Don Norman.
+
+h3. Selecting a System Goal
+
+The user must convert their real-world goal into a software-oriented goal: the *system goal*.
+
+*Semantic directness* is demonstrated by how closely the user's task goal is mapped onto an appropriate system feature.
+
+Interaction style determines how the user's task goal is translated into system goals. Potential styles are:
+
+* Direct manipulation
+* Command language
+
+p(tradeoff).
+Visible user interface controls that are analogs to real-world objects simplify the mapping from task to system goals, BUT not all task goals have visual analogs.
+
+p(tradeoff).
+Expressing system goals indirectly with names or symbols is flexible and economical, BUT learning a command vocabulary can be difficult or tedious.
+
+*Opportunistic behaviour* is evoked by perceptually sailent or engaging elements in the user interface; this may cause the user to pursue a new goal.
+
+h3. Planning an Action Sequence
+
+An *action plan* comprises the steps required to achieve a system goal. With experience, such plans will be learned and automated by the user.
+
+p(tradeoff).
+Action plans that correspond to real-world tasks and manipulations are intuitive and easy to learn, BUT many computer functions extend real-world tasks.
+
+All user tasks cannot be supported using direct manipulation. 
+
+Action plans can be organized into *chunks*. Several interrelated bits of information are organized into a single unit.
+
+p(tradeoff).
+Decomposing complex plans into chunks aids learning and application of action plans, BUT the sequence may create arbitrary or unnatural step boundaries.
+
+A *mistake* is an inappropriate intention established and pursued; these are common for novices users with unformed mental models.
+
+A *slip* occurs when the right thing is intended bu a problem comes up along the way; these are common among experts who have overlearned action sequences who execute plans with little or no attention.
+
+h3. Executing an Action Sequence
+
+Pragmatics: physical behaviours required by the user interface. These can be "phrases" that correspond to the conceptual task they implement.
+
+*Feedback* is crucial. It allows users to adjust their behaviour to improve efficiency, or how much time is remaining to complete a task.
+
+p(tradeoff).
+Immediate and continuing feedback during execution helps to track progress and adjust behaviour, BUT frequent and elaborate updates can introduce irritating delays.
+
+*Fitts's Law*: time and accuracy of pointing depend on target size and distance.
+
+Undo is necessary for reversal of unintended changes to data.
+
+p(tradeoff).
+Easy reversibility of actions aids confidence and encourages speed, BUT users will come to rely on undo and be frustrated when it "undoes" the wrong thing.
+
+User efficiency can be increased by:
+
+* keyboard shortcuts
+* provision of good defaults
+* macros
+
+p(tradeoff).
+Optimized action paths and good defaults for frequent tasks improve task efficiency, BUT may introduce inconsistencies or intrusion errors into less frequent tasks.
+
