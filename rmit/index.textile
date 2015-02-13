@@ -12,7 +12,7 @@ h3. Usability Engineering (COSC 1182)
 
 ["Course Guide":http://www1.rmit.edu.au/courses/cosc11821450]
 
-"Notes":./usability-engineering/notes/
+"Notes":./usability-engineering/
 
 h2. Books
 

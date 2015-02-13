@@ -18,7 +18,7 @@ h2. Book summaries
 
 ["Extreme Programming Explained":./extreme-programming-explained/]
 
-["Usability Engineering":./usability-engineering/]
+["Usability Engineering":./scenario-based-usability-engineering/]
 
 h2. Books to read
 
