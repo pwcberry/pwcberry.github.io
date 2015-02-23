@@ -1,7 +1,6 @@
 ---
 layout: rmit
 title: Textbooks summarized
-permalink: /rmit/books/
 ---
 
 h2. Book summaries
