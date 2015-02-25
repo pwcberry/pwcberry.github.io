@@ -1,9 +1,0 @@
----
-layout: book
-title: The Practice of Programming
-permalink: /rmit/books/practice-of-programming/
-book_title: The Practice of Programming
-book_authors: Brian W. Kernighan, Rob Pike
-book_publisher: Addison-Wesley, 1999
----
-
