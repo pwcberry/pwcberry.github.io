@@ -1,0 +1,69 @@
+---
+layout: book
+title: Usability Engineering | Chapter 4
+permalink: /rmit/books/usability-engineering/chapter-04/
+book_title: Usability Engineering
+book_authors: Jakob Nielsen
+book_publisher: Academic Press, San Diego, 1993
+---
+
+h1. Chapter 4 - The Usability Engineering Lifecycle
+
+Usability engineering is a set of activities that ideally take place throughout the lifecycle of the product, with significant activities happening at the early stages before the user interface has even been designed.
+
+Usability applies to entire product families and extended projects where products are relased in several versions over time.
+
+One-shot projects are fairly rare; usability must be considered in the broad context of product development. How the software interacts with people "may ultimately have its greatest impact on future product releases."
+
+Follow up studies of the product of its actual use are necessary for planning future versions of the product.
+
+h3. The stages of the usability engineering lifecycle model
+
+# Know the user
+## Individual user characteristics
+## THe user's current and desired tasks
+## Functional analysis
+## The evolution of the user and the job
+# Competitive analysis
+# Setting usability goals
+## Financial impact analysis
+# Parallel design
+# Paticipatory design
+# Coordinated design of the total interface
+# Apply guidelines and heuristic analysis
+# Prototyping
+# Empirical testing
+# Iterative design
+## Capture design rationale
+# Collect feedback from field use
+
+This model emphasizes research over rushing straight into design. Usability work before design will help avoid the development of unnecessary features.
+
+The lifecycle can be successful even if it does not include every possible refinement at all stages.
+
+h2. Know the user
+
+The concept of "user" should be defined to include everybody whose work is affected by the product in some way, including the users of the system's end product or output even if they never see a single screen.
+
+It is also important to keep in mind that a user of the system may also be an installer, maintainer, system administrator or other support staff in addition to the people who the system has been primarily designed for.
+
+h3. Individual User Characteristics
+
+* Work experience
+* Age
+* Educational level
+* Previous computer experience
+* Amount time available to use system
+* Work environment
+* Social context
+
+h3. Task Analysis
+
+
+
+<nav class="nav-chapters">
+	<ul>
+		<li class="prev-chapter"><a href="../chapter-02/">Previous chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>
+	</ul>
+</nav>

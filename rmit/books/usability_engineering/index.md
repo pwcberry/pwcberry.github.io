@@ -11,6 +11,6 @@ book_publisher: Academic Press, San Diego, 1993
 
 [Chapter 2: What Is Usability](./chapter-02/)
 
-
+[Chapter 4: The Usability Engineering Lifecycle](./chapter-04/)
 
 <p><a href="../">Index</a></p>

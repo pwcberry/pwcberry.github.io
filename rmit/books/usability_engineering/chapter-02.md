@@ -152,5 +152,6 @@ Given the differences between groups of users and between individual users, it i
 <nav class="nav-chapters">
 	<ul>
 		<li class="index"><a href="../index.html">Index</a></li>
+		<li class="next-chapter"><a href="../chapter-04/">Next chapter</a></li>
 	</ul>
 </nav>
