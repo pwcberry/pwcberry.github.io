@@ -59,6 +59,132 @@ h3. Individual User Characteristics
 
 h3. Task Analysis
 
+* An early design input
+* User's overall goals have to be considered
+* User's current approach to the task
+* How they deal with exceptional circumstances
+* Interviewing or observation of users can provide insights
+* User modelling - Source of metaphors
+* Workarounds in use - "lead users"
+* Identify weaknesses - where users fail to achieve goals, spend excessive time or feel uncomfortable
+
+Task analysis outcomes:
+
+* Goals: all the things users wish to accomplish
+* Preconditions: the information users need
+* Steps and interdependencies of the steps to achieve goals
+* Reports to produce
+* Criteria to determine acceptability and quality
+* Communication needs of users for effective collaboration
+* Exceptions from normal workflows
+
+h3. Functional analysis
+
+A new computer system should not be designed simply to propagate suboptimal ways of doing things that may have been instituted because of limitations in previous technologies.
+
+The fundamental reason for the task must be identified: what is it that really needs to be done, and what are merely surface procedures which can, and perhaps should, be changed.
+
+An example:
+
+Initial observations of people reading printed manuals could show them frequently turning pages to mvoe through the document. A naive design of online documentation might take this observation to imply really good and fast paging or scrolling mechanisms. A functional analysis would show that manual users really turn pages this much to find specific information, but they have a hard time locating the correct page. Based on this analysis, one could design an online documentation interface that first allowed users to specify their search needs, then used an outline of the document to show locations with high search scores, and finally allowed users to jump directly to these locations, highlighting their search terms to make it easier to judge the relevance of the information.
+
+The functional analysis should be coordinated with task analysis to limit the amount of change to the way users currently approach their task.
+
+h3. Evolution of the User
+
+Users will not stay the same; using the system changes the users; and as they change, they will use the system in new ways. The "coevolution of tasks and artifacts".
+
+Users will discover new ways to use an application and a flexible design will more likely support these new uses. An educated guess can be made about these evolutionary points in the applicaiton based on the history of change promoted by users.
+
+Typically, users who become proficient in the system will require short cuts or other accelerators to become more efficient.
+
+h2. Competitive Analysis
+
+It is desirable to analyze existing products heuristically according to established usability guidelines and to perform empirical user tests with these products.  Existing products will be in a state of development that will provide more realism than a prototype can. Users can perform real tasks on the competing system, making it possible to learn how well its functionality and interaction techniques support the kinds of tasks the planned new product is expected to support based on the initial analysis of the intended users.
+
+h2. Goal Setting
+
+For each usability attribute of interest, several different levels of performance can be specified as part of a goal-setting process. A minimum level can be set that is acceptable for the release of the product.
+
+Usability goals are reasonable easy to set for new versions of existing software or for software that has clearly defined market competitors. THe minimum acceptable usability would normally be equal to the current usability level, and the target usability could be derived as an improvement that was sufficiently large to induce users to change systems.
+
+For new software without competitors, goal setting is more difficult as obtaining a baseline for each attribute of interest is based on experience rather than market data for a specific task.
+
+h2. Parallel Design
+
+Several different designers each work out a preliminary design that explore alternatives that merge into a single approach that can be developed further in detail. This synthesized design can be subjected to thorough usability activities. 
+
+When the designers have completed their draft designs, it is likely that different user interface models have appeared. The basis for these models provides the foundation of prototypes that can be subjected to usability evaluation before the final design approach is chosen.
+
+For novel software where little guidance is available for what design approach is best, parallel design is highly advantageous.
+
+Parallel design allows for ideas to be explored and shelved, rather than a full iterative process that might encounter the same ideas later in the lifecyle.
+
+Parallel design may bring forward the development schedule because the range of approaches in design shortens the time to a desirable outcome.
+
+h2. Participatory Design
+
+Users often raise questions that the development team has not even dreamed of asking. A pool of user representatives facilitates the conversations needed between designers, developers and those who will use the system. Otherwise the disparity between the users' actual tasks and the developers' model of the task will be too great to cheaply repair.
+
+Users who participate in the design process may known as _subject matter experts_. To gain the best advantage of user involvement, they should be exposed to prototypes or other lightweight design artefacts so that the evolution of the software is comprehensible. Importantly, this process should not focus on what they want, since they may not know what they need, or what the possibilities are. 
+
+h2. Coordinating the Total Interface
+
+Consistency is one of the most important usability characteristics. Consistency should apply to all media involved with the user interface, including the documentation, online help, and any video tutorials.
+
+Consistency should also apply to successive versions of the product, or even across product families where corporate user interface standards are enforced.
+
+To achieve consistency of the total interface it is necessary to have some centralized authority for each development project to coordinate the various aspects of the interface. A shared culture in the development teams with a common understanding of what is expected in the user interface will strengthen into the design standards.
+
+Consistency can be increased through technological means such as code sharing. (Contempraneously this would be style guides.)
+
+h2. Prototyping
+
+* _Vertical prototyping_: a reduced set of features that includes in-depth functionality for a few selected features
+* _Horizontal prototyping_: a surface layer that includes the entire user interface but no underlying functionality
+* _Scenario_: functionality in the user interface exists only for the strict path to be taken by the user
+
+Prototypes can be created cheaply by:
+
+* Less emphasis on efficiency
+* Less reliable code
+* Simplified algorithms
+* A human expert operating behind the scense (a la _Wizard of Oz_)
+* Different computer system than eventual target platform
+* Low-fidelity media
+* Fake data and fake content
+* Paper mock-ups
+
+h3. Scenarios
+
+Describe a single interaction sesssion without any flexibility for the user. It as an encapsulated description of:
+
+* An individual _user_
+* using a specific set of computer _facilities_
+* to achieve a specific _outcome_
+* under specified _circumstances_
+* over a certain _time interval_
+
+Scenarios can be used as a way to understand how users will eventually use the software; and as a tool for the early evaluation of the interaction design.
+
+h2. Iterative Design
+
+A new version of the interface can be produced according to the results of the empirical testing that demonstrated usability problems and opportunities.
+
+In some cases, solving a problem may make the interface worse for those users who do not experience the problem. Then a trade-off analysis is necessary as to whether to keep or change the interface based on a frequency analysis of how many users will have the problem compared to how many will suffer because of the proposed solution.
+
+There is no need to test initial designs comprehensively since they will be changed anyway. The user interface should be changed and retested as soon as a usability problem has been detected and understood, so that those remaining problems that have been masked by the initial glaring problems can be found.
+
+The interations can be considered a good way to evaluate design ideas simply by trying them out in a concrete design. This can save the expense of employing user testing.
+
+If at all possible, capture the design rationale for future reference.
+
+h2. Follow-Up Studies of Installed Systems
+
+Follow-up information from the field can be collected as part of standard marketing, or as specific study. Analysis of user complaints, modification requests, calls to help lines and other more "passive" analysis techniques can be gathered and fed back into product evolution.
+
+Economic data on the impact of the system on the quality and cost of the users' work product and work life are very important and can be gathered through surveys, supervisors' opinions, and other statistics.
+
 
 
 <nav class="nav-chapters">
