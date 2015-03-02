@@ -1,0 +1,22 @@
+---
+layout: rmit
+title: Notes | Usability Engineering | Semester 1, 2015 | RMIT
+permalink: /rmit/usability-engineering/notes/
+---
+
+Lecture 1 - What is Usability
+=============================
+
+Set up a contextual enquiry to investigate shopper's behaviours.
+
+Focus in this course is on empirical investigation of user behaviours and to improve user interfaces based on this data.
+
+
+
+Lecture 2 - User Research and Task Analysis
+===========================================
+
+Qualitative research - observing behaviours
+
+Quantitative research - analysis of existing data
+
