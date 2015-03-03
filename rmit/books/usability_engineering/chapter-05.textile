@@ -1,0 +1,134 @@
+---
+layout: book
+title: Usability Engineering | Chapter 5
+permalink: /rmit/books/usability-engineering/chapter-05/
+book_title: Usability Engineering
+book_authors: Jakob Nielsen
+book_publisher: Academic Press, San Diego, 1993
+---
+
+h1. Chapter 5 - Usability Heuristics
+
+These heuristics can be applied to any user interface.
+
+h2. Simple and Natural Dialogue
+
+* Simple as possible: On a user interface, each additional feature or item of information on the screen is one more thing to learn, one more thing to possibly misunderstand, one more thing to search through when looking for the thing to close in on completing the task
+* Mapping between computer concepts and user concepts must be as close as possible
+* Present exactly the information the user needs - and no more - at exactly the time and place where it is needed
+* Information objects and operations should be accessed in a sequence that mathces the way users will most effectively and productively do things
+* Sometimes a sequence of operations is enforced by the user interface
+* Allow the user to control the dialogue as much as possible such that the sequence of operations can be adjusted by the individual user to suit the user's task and preferences
+* The system may suggest a preferred sequence to ease the user's understanding of the dialogue
+* Employ the gestalt principles of graphic design
+	- Proximity
+	- Similarity
+	- Closure
+	- Continuity
+	- Symmetry
+	- Figure/Ground
+* Less is more
+* Provide training wheels for novice users where advanced features are not needed by them, paritcularly where users spend too much time recovering from errors
+
+h2. Speak the Users' Language
+
+* Terminology should be based on the users' language, not on system-oriented terms
+* Take care not to use words in non-standard meanings
+* The system should display words that form a vocabulary recognizable by the user for the given context, in particular specialized terms
+* System should not enforce restrictions on language used by the user, for example when entering data
+* User interface metaphors are a possible way to achieve a mapping between the computer system and some reference system known to users in the outside world
+* Do not inadvertently imply more than what is intended
+* Metaphors may present problems for internationalization
+
+h2. Minimize User Memory Load
+
+* Computers should carry the burden of memory for users
+* People have an easier time recognizing something that is shown to them rather than having to recall the same information without help
+* Displaying too many objects in a user interface will result in loss of importance for those that are of interest to the user
+* A small set of pervasive rules should apply throughout the user interface; a large number of rules increases the burden on the user to remember how the system behaves
+* Generic commands make similar things happen in different circumstances in order to work on different types of data; they support transfer of learning from one application to another
+
+h2. Consistency
+
+If users know that the same command or the same action will always have the same effect, they will feel more confident in using the system, and they will be encouraged to try out exploratory learning strategies because they will already have part of the knowledge needed to operate new parts of the system.
+
+The same information should be presented in the same location on all screens and dialog boxes and it should be formatted in the same way to facilitate recognition.
+
+Standards allow for consistency in design, although compliance to these standards isn't sufficient to ensure consistency, as they offer leeway for interpretation by designers.
+
+Consistency is not just a question of screen design, but includes considerations of the task and functionality structure of the system.
+
+h2. Feedback
+
+The system should continuously inform the user about what it is doing and how it is interpreting the user's input. Feedback should not wait until an error situation has occured: The system should also provide positive feedback, and it should provide partial feedback as information becomes available.
+
+System feedback should not be expressed in abstract and general terms but should restate and rephrase the user's input to indicate what is being done with it.
+
+Some feedback is only relevant for the duration of a certain phenomenon, and can thus have low persistence, going away when it is no longer needed.
+
+Some feedback needs to have medium persistence adn stay on the screen until the user explicitly acknowledges it.
+
+Some feedback maybe so important that they require high persistence, remaining a permanent part of the interface.
+
+h3. Response Time
+
+* *0.1 second* is about the limit for having the user feel that the system is reacting instantaneously, meaning that no special feedback is necessary except to display the result
+* *1.0 second* is about the limit for the user's flow of thought to stay uninterrupted, even though the user will notice the delay. Normally, no special feedback is necessary during delays of more than 0.1 but less than 1.0 second, but the user does lose the feeling of operating directly on the data.
+* *10 secocnds* is about the limit for keeping the user's attention focussed on the dialogue. For longer delays, users will want to perform other tasks while waiting for the computer to finish, so they should be given feedback indicating when the computer expects to be done. Feedback during the delay is especially important if the response time is likely to be highly variable, since users will then not know what to expect.
+
+In cases where the computer cannot provide fairly immediate response, continuous feedback should be provided to the user in the form a pattern like a progress bar.
+
+If the work to be done by the computer will more likely take 2 to 10 seconds, rather than a progress bar another form of progressive feedback can be given, such as a "busy" indicator.
+
+h3. System failure
+
+No feedback is almost the worst possible feedback since it leaves users to guess what is wrong. Systems can be designed for graceful degradation, enabling them to provide some feedback to users even when they are mostly down.
+
+h2. Clearly Marked Exits
+
+Users do not like to feel trapped by the computer. In order to increase the user's feeling of being in control of the dialogue, the system should offer the user an easy way out of as many situations as possible. A typical pattern is the "escape hatch".
+
+A basic principle for user interface design should be to acknowledge that users will make errors no matter what else is done to improve the interface, and one should therefore make it as easy as possible to recover from these errors.
+
+In general, interfaces should show a high degree of responsiveness to the extent that paying attention to the user's new actions should get higher priority than finishing the user's old actions.
+
+The various exit and undo mechanisms should be made visible in the interface and should not depend on the user's ability to remember some special code or obscure combination of keys. Visibility is crucial for exit support since users will need these mechanisms in cases where they are in unfamiliar territory an may be afraid to lose data if they do the wrong thing.
+
+h2. Shortcuts
+
+The experienced user should be able to perform frequently-used operations by using dialog shortcuts. Typical accelerators include abbreviations, function or command keys that package an entire command into a single keypress, or having buttons availalbe to access important functions directly from within those parts of the dialogue where they may be most frequently needed.
+
+Users should be able to reuse their interaction history.
+
+System-provided defaults are a shortcut since it is faster to recognize rather than have to specify a value or option.
+
+h2. Good Error Messages
+
+Error situations:
+
+* Define where the user is in trouble
+* Are an opportunity to help the user understand the system better
+
+Error messages should follow these rules:
+
+* They should be phrased in a clear language and avoid obscure codes
+* They should be precise rather than vague or general
+* They should constructively help the user solve the problem
+* Error messages should be polite and should not initimidate the user or put the blame explicitly on the user
+
+h2. Prevent Errors
+
+There are many situations that are known to be error-prone and systems can be designed to avoid putting hte user in such situations.
+
+User errors can be identified as candidates for elimination through redesign either because of their frequency or because of serious consequences. This information can be gathered through user testing or software logging.
+
+Errors with especially serious consequences can also be reduced in frequency by asking users to reconfirm that they "really, really mean this" before going ahead with the dangerous actions.
+
+If a long sequence of actions is performed so frequently that it is experienced as a unit, the users risk making a "capture error" if they ever need to deviate from the sequence: Because they are so used to going ahead in a certain way, they may continue and issue the fatal click on the OK button before they have even read the warning message.
+
+h3. Avoid Modes
+
+If modes cannot be avoided totally, one can at least prevent many mode errors by explicitly recognizing the modes in the interface design. By showing states clearly and distinctly to the user, a designer can follow the principle of providing feedback and thus make it less likely that the user willl mistake the current mode.
+
+The interface should also exhibit clear differences between user actions in different modes to minimize the risk of confusing individual interface elements. System feedback should be sufficiently varied to provide additional differentiation between modes.
+
