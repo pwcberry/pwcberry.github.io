@@ -7,7 +7,7 @@ book_authors: Jakob Nielsen
 book_publisher: Academic Press, San Diego, 1993
 ---
 
-h1. Chapter 5 - Usability Heuristics
+h1. Chapter 5. Usability Heuristics
 
 These heuristics can be applied to any user interface.
 
@@ -131,4 +131,27 @@ h3. Avoid Modes
 If modes cannot be avoided totally, one can at least prevent many mode errors by explicitly recognizing the modes in the interface design. By showing states clearly and distinctly to the user, a designer can follow the principle of providing feedback and thus make it less likely that the user willl mistake the current mode.
 
 The interface should also exhibit clear differences between user actions in different modes to minimize the risk of confusing individual interface elements. System feedback should be sufficiently varied to provide additional differentiation between modes.
+
+In general, one should avoid having too-similar commands.
+
+h2. Help and Documentation
+
+* Most user interfaces have sufficiently many features to warrant a manual and possibly a help system
+* Regular users of a system may want documentation to enable them to acquire higher levels of expertise
+* "It's explained in the manual" should not be a designer's excuse if a user cannot understand how to use the system
+
+h3. A Model of Documentation Use
+
+1. _Searching_: Locate information relevant to a specific need
+2. _Understanding_ the information
+3. _Applying_: Carry out a procedure as described in the documentation
+
+Two main search tools are the index and the overview map of the structure of the information space. Contemporaneously it is more likely the search facility.
+
+A "minimal manual" may also be provided to give information that is absolutely necessary for the user to get started.
+
+h2. Heuristic Evaluation
+
+
+
 

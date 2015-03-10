@@ -7,7 +7,7 @@ book_authors: Jakob Nielsen
 book_publisher: Academic Press, San Diego, 1993
 ---
 
-# Chapter 2 - What is Usability
+# Chapter 2. What is Usability
 
 Usability is not "user friendliness": users don't need machines to be friendly to them, they just need machines that will not stand in their way when they try to get their work done.
 

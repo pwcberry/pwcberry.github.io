@@ -1,0 +1,185 @@
+---
+layout: book
+title: Usability Engineering | Chapter 6
+permalink: /rmit/books/usability-engineering/chapter-06/
+book_title: Usability Engineering
+book_authors: Jakob Nielsen
+book_publisher: Academic Press, San Diego, 1993
+---
+
+h1. Chapter 6. Usability Testing
+
+User testing with real users is the most fundamental usability method. It provides direct information about how people use the computers and what their exact problems are with the concrete interface being tested.
+
+*Reliability* of usability tests is a problem because of the huge individual differences between test users. It is not uncommon to find that the best user is 10 times as fast as the slowest user, and the best 25% of the users are normally about twice as fast as the slowest 25% of the users.
+
+*Validity* of usability tests is a question of what is to be measured is something of relevance to usability of real products in real use outside the laboratory. Whereas reliability may be addressed through statistical tests, validity requires methodological robustness of the tests. For example, a management information system is tested with undergraduates rather than with real managers.
+
+h2. Test Goals and Test Plans
+
+h3. Test Plans
+
+* The goal of the test: What do you want to achieve?
+* Where and when will the test take place
+* How long is each test session expected to take?
+* What computer support will be needed for the test?
+* What software needs to be ready for the test?
+* What should the state of the system be at the start of the test
+* What should the system / network load and response times be?
+* Who will serve as experimenters for the test?
+* Who are the test users going to be, and how are you going to get hold of them?
+* How many test users are needed?
+* What test tasks will the users be asked to perform?
+* What criteria will be used to determine when the users have finished each of the test tasks correctly?
+* What user aids (manuals, online help, etc.) will be made available to the test users?
+* To what extent will the experimenter be allowed to help the users during the test?
+* What data is going to be collected, and how will it be analyzed once it has been collected?
+* What will the criterion be for pronouncing the interface a success?
+
+h3. Test Budget
+
+* Usability specialists
+* Administrative assistants time
+* Software developers to modify the code
+* Test users: Out-of-pocket expense for outside people
+* Test users: Staff members' time
+* Lab space to hire
+* Video equipment
+* Fixed and variable costs estimates
+
+h2. Getting Test Users
+
+The main rule regarding test users is that they should be as representative as possible of the intended users of the system.
+
+If the test plan calls for a "discount usability" approach with very few test users, one should not choose users from outlier groups but should take additional care to involve average users.
+
+If more test users are to be used, one should select users from several different sub-populations to cover the main different categories of expected users.
+
+Almost all user interfaces need to be tested with novice users, and many systems should also be tested with expert users. 
+
+Sometimes, one will have to train the users with respect to those aspects of the user interface that are unfamiliar to them but are not relevant for the main usability test.
+
+h3. Between-Subjects versus Within-Subjects Testing
+
+*Between-subject testing* involves using different test users for the different systems. Each test user only participates in a single test session. However, there can be a sizeable variations in skill demonstrated by each test user. A large number of test users is required to smooth over random differences. 
+
+Test users should be randomly assigned to groups to avoid bias.
+
+*Within-subject testing* involves all test users being included for all the systems under test. This method controls for individual variability since any user who is particularly fast or talented will presumably be about equally superior in each test condition. A disadvantage to this design is that a novice user may learn to become an expert if the systems under test have similar features.
+
+h3. Ethical Aspects of Tests with Human Subjects
+
+_Before the test:_
+
+* Have everything ready before the user shows up
+* Emphasize that it is the _system_ that is being tested, not the user
+* Acknowledge that the software is new and untested, and may have problems
+* Let users know that they can stop at any time
+* Explain any recording, keystroke logging, or other monitoring that is used
+* Tell the user that the test results will be kept completely confidential
+* Make sure that you have answered all the user's questions before proceeding
+
+_During the test:_
+
+* Try to give the user an early success experirence
+* Hand out the test tasks one at a time
+* Keep a relaxed atmosphere in the test room, serve coffee and/or have breaks
+* Avoid disruptions: Close the door and post a sign on it. Disable telephone
+* Never indicate in any way that the user is making mistakes or is too slow
+* Minimize the number of observers at the test
+* Do not allow the user's management to observe the test
+* If necessary, have the experimenter stop the test if it becomes too unpleasant
+
+_After the test:_
+
+* End by stating that the user has helped you find areas of improvement
+* Never report results in such a way that individual users can be identified
+* Only show videotapes outside the usability group with the user's permission
+
+h2. Test Tasks
+
+The basic rule for test tasks is that they should be chosen to be as representative as possbile of the uses to which the system will eventually be put in the field. Also, the tasks should provide reasonable coverage of the most important parts of the user interface. The test tasks can be designed based on a task analysis or based on a product identity statement listing the intended uses for the product.
+
+The test tasks should be small enough to be completed within the time limits set for the user test. The test tasks should specify precisely what result the user is being asked to produce.
+
+The test tasks can also be used to increase the user's confidence.
+
+h2. Stages of a Test
+
+1. Preparation
+2. Introduction
+3. The test itself
+4. Debriefing
+
+h3. Preparation
+
+* The room is ready for the experiment
+* Computer / software is in the start state
+* Instructions, questionnaires and other materials are available
+* Other distractions, such as mobile phones and email clients, are hidden or switched off
+
+h3. Introduction
+
+* A brief explanation of the test
+* Explain the computer setup if necessary
+
+Typically the following is covered:
+
+* The purpose is to evaluate the software, not the user
+* The experimenter should explain if they have a personal stake in the project (neutrality)
+* Test results are to improve the user interface, so the software maybe different when it is finally released
+* The system is confidential
+* Participation in the test is voluntary and can be stopped at anytime
+* Reassurance test results will remain confidential
+* Explain video / audio recording
+* User is welcome to ask questions, though the experimenter will not answer questions during the test
+* Any specific instructions, such as "thinking aloud"
+* Invite the user to ask clarifying questions before the start of the experiment
+
+h3. Running the Test
+
+* The experimenter must refrain from interacting with the user
+* The experimenter must refrain from helping the user, unless it is clear beyond doubt that the same difficulty is being experienced as in previous tests
+
+h3. Debriefing
+
+* Fill in any questionnaires before discussing the system
+* Users are asked for any comments or suggestions
+* After the test user has left, the experimenter should write a report as soon as possible, while memories are fresh
+
+h2. Performance Measurement
+
+Typical quantifiable usability measurements include:
+
+* The time users take to complete a specific task
+* The number of tasks (or the proportion of a larger task) of various kinds that can be completed within a given time limit
+* The ratio between successful interactions and errors
+* The time spent recovering from errors
+* The number of user errors
+* The number of immediately subsequent erroneous actions
+* The number of commands or other features that were utilized by the user (either the absoulte number of commands issued or the number of _different_ commands and features used)
+* The number of commands or other features that were never used by the user
+* The number of system features the user can remember during a debriefing after the test
+* The frequence of use of the manuals and/or the help system, and the time spent using these system elements
+* How frequently the manual and/or help system solved the user's problem
+* The proportion of user statements during the test that were positive versus critical toward the system
+* The number of times the user expresses clear frustration (or clear joy)
+* The proportion of users who say that they would prefer using the system over some specified competitor
+* The number of times the user had to work around an unsolvable problem
+* The proportion of users using efficient working strategies compared to the users who use inefficient startegies (in case there are multiple ways of performing the tasks)
+* The amount of "dead" time when the user is not interacting with the system. The system can be instrumented to distinguish between two kinds of dead time: response-time delays where the user is waiting for the system, and thinking-time delays where the system is waiting for the user. These two kinds of dead time should obviously be approached in different ways
+* The number of times the user is sidetracked from focussing on the real task
+
+h2. Thinking Aloud
+
+A thinking-aloud test involves a test subject using the system while continuously thinking aloud. By verbalizing their thoughts, the test users enable us to understand how they view the computer system, and this again makes it easy to identify the users major misconceptions.
+
+Thinking aloud seems very unnatural to most people, and some test users have great difficulties in keeping up a steady stream of utterances as they use a system. Not only can the unnaturalness of the thinking aloud situation make the test harder to conduct, but it can also impact the results:
+
+1. The need to verbalize can slow users down, affecting any performance measurements
+2. Users' problem solving behaviour can be influenced by the very fact that they are verbalizing their own thoughts
+
+The experimenter will often need to prompt the user to think out loud by asking questions like: "What are you thinking now?" and "What do you think this message means?" (_after_ the user has noticed the message and is clearly spending time looking at it and thinking about it).
+
+
+

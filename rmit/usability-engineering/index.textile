@@ -8,3 +8,13 @@ h1. Usability Engineering
 
 "Notes":./notes/
 
+h2. External Resources
+
+["Case Study: Silvercar Mobile First":http://www.slideshare.net/theresaneil/mobile-first-silvercarcasestudyfinal]
+
+
+
+h2. Books
+
+["Usability Engineering":../books/usability-engineering/]
+

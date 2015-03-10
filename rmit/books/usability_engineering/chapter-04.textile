@@ -7,7 +7,7 @@ book_authors: Jakob Nielsen
 book_publisher: Academic Press, San Diego, 1993
 ---
 
-h1. Chapter 4 - The Usability Engineering Lifecycle
+h1. Chapter 4. The Usability Engineering Lifecycle
 
 Usability engineering is a set of activities that ideally take place throughout the lifecycle of the product, with significant activities happening at the early stages before the user interface has even been designed.
 
