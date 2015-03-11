@@ -182,4 +182,9 @@ Thinking aloud seems very unnatural to most people, and some test users have gre
 The experimenter will often need to prompt the user to think out loud by asking questions like: "What are you thinking now?" and "What do you think this message means?" (_after_ the user has noticed the message and is clearly spending time looking at it and thinking about it).
 
 
-
+<nav class="nav-chapters">
+	<ul>
+		<li class="prev-chapter"><a href="../chapter-05/">Previous chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>
+	</ul>
+</nav>

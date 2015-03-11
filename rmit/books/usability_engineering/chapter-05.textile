@@ -153,5 +153,10 @@ A "minimal manual" may also be provided to give information that is absolutely n
 h2. Heuristic Evaluation
 
 
-
-
+<nav class="nav-chapters">
+	<ul>
+		<li class="prev-chapter"><a href="../chapter-04/">Previous chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>
+		<li class="next-chapter"><a href="../chapter-06/">Next chapter</a></li>
+	</ul>
+</nav>

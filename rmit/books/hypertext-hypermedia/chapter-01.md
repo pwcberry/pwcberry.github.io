@@ -25,3 +25,10 @@ One of the important advantages of hypertext is that it is a method for integrat
 
 Hypertext also provides the opportunity to publish information structures to the general public in much the same way as books or newspapers are [currently] published. These information structures would be based primarily on moving images, in the tradition of the film and animation industries, and would be under computer control to allow for user interaction.
 
+
+<nav class="nav-chapters">
+	<ul>
+		<li class="index"><a href="../index.html">Index</a></li>
+		<li class="next-chapter"><a href="../chapter-03/">Next chapter</a></li>
+	</ul>
+</nav>
