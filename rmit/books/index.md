@@ -20,6 +20,8 @@ permalink: /rmit/books/
 
 [Usability Engineering](./usability-engineering/)
 
+[Hypertext and Hypermedia](./hypertext-hypermedia/)
+
 [Usability Engineering - Scenario-Based Development of Human Computer Interaction](./scenario-based-usability-engineering/)
 
 
