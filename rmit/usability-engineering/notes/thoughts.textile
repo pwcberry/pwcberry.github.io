@@ -1,0 +1,12 @@
+---
+layout: rmit
+title: THoughts & Insights | Usability Engineering | Semester 1, 2015 | RMIT
+permalink: /rmit/usability-engineering/thoughts/
+---
+
+h1. Thoughts and Insights
+
+h2. Patterns and Heuristics
+
+Design patterns in some ways underscore heuristics: a navigation pattern or layout pattern will assist "easy to learn" and memorability; a tool pattern will assist efficiency and memorability; feedback patterns will assist with error recovery and satisfaction.
+
