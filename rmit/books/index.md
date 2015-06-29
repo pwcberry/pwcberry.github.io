@@ -6,6 +6,8 @@ permalink: /rmit/books/
 
 ## Book summaries
 
+[Introduction to Algorithms](./introduction-to-algorithms/)
+
 [Software Systems Architecture](./software-systems-architecture/)
 
 [Software Architecture in Practice](./software-architecture-in-practice/)

@@ -7,5 +7,9 @@ permalink: /rmit/algorithms/
 Algorithms and Analysis (COSC2123)
 ==================================
 
-
 [Course Guide](http://www1.rmit.edu.au/courses/cosc21231450)
+
+Books
+-----
+
+[Introduction to Algorithms, 3rd Edition](/rmit/books/introduction-to-algorithms/)
