@@ -1,0 +1,212 @@
+---
+layout: book
+title: Introduction to The Design and Analysis of Algorithms, Third Edition
+permalink: /rmit/books/design-and-analysis-of-algorithms/chapter-01/
+book_title: Introduction to The Design and Analysis of Algorithms, Third Edition
+book_authors: Anany Levitin
+book_publisher: Pearson Education, 2012
+---
+
+h1. Chapter 1 - Introduction
+
+h2. Fundamentals of Algorithmic Problem Solving
+
+The algorithm design and analysis process:
+
+h3. Understand The Problem
+
+If possible, sketch examples with expected outcomes. Can the problem be solved by an algorithm?
+
+There are common types of problems in computing. There may already be a satisfactory algorithm for solving the problem in question if it is one of these types.
+
+It helps to understand how the algorithm works and its strengths and weaknesses. 
+
+An *instance* of the problem is an input to the algorithm. The set of instances that the algorithm can handle must me explicitly specified. The algorithm must work for every instance in this set; an unknown boundary value may crash the algorithm.
+
+
+h3. Ascertain the Capabilities of the Computational Device
+
+* Sequential algorithms
+* Parallel algorithms (concurrency)
+
+h3. Choose between Exact and Approximate Problem Solving
+
+* Some problems cannot be solved exactly for most instances
+* Available algorithms that can solve the problem exactly may too slow due to complexity
+
+h3. Algorithm Design Techniques
+
+An *algorithm design technique* ("strategy" or "paradigm") is a general approach to solving problems algorithmically. It is applicable to a variety of problems in the different areas of computing.
+
+Algorithms are the cornerstone of computer science.
+
+h3. Designing an Algoirthm and Data Structures
+
+* Be judicious with the choice of data structures to use in conjunction with the algorithm
+* The data structures should suit the operations within the algorithm
+
+h3. Methods of Specifying an Algorithm
+
+* Pseudocode
+* Rarely natural language
+* Never flowchart
+
+h3. Prove an Algorithm's Correctness
+
+* Prove the algorithm yields the correct result for every legitimate instance in a finite amount of time
+* Use of mathematical induction
+* For approximate algorithms the error produced by the algorithm does not exceed a predefined limit
+
+h3. Analyzing an Algorithm
+
+* Efficiency - time, space
+* Simplicity - can be understood with limited or no references
+* Generality - set of inputs, generality of the problem to solve
+
+If none of these criteria are satisifed by the algorithm design, it is time to rework. The best algorithm won't appear on first attempt.
+
+Consider fine-tuning available algorithms for the problem at hand.
+
+h3. Code an Algorithm
+
+Validity of the program that implements the alogrithm can be determined by testing (unit testing).
+
+Efficiency of the implementation is also important.
+
+As a rule, a good algorithm is a result of repeated effort and rework.
+
+*Optimality*: What is the minimum amount of effort the algorithm has to exert to solve the problem?
+
+h2. Important Problem Types
+
+h3. Sorting
+
+Rearrange items of a given list in nondecreasing order.
+
+A sorting algorithm is considered _stable_ if it preserves the relative order of any two equal elements in its input. Such that:
+
+Two equal elements, _i_ and _j_, where _i < j_ will have the positions _i'_ and _j'_ respectively, such that _i' < j'_ when the sort has finished.
+
+There are numerous sorting algorithms but not one that will fit all situations.
+
+h3. Searching
+
+Find a given value, or *search key*, in a given set or multiset (a set where several elements may have the same value).
+
+There are numerous search algorithms but not one that will fit all situations. Some algorithms depend on the input already being ordered.
+
+Searching dynamic sets has to take into consideration the effects of addition and deletion.
+
+h3. String Processing
+
+String matching is a critical type of algorithm that has useful applications such as DNA alphabets.
+
+h3. Graph Problems
+
+A *graph* can be thought of as a collection of points called _vertices_ that are connected by line segments called _edges_.
+
+* Graph traversal (how to reach all points)
+* Shortest-path algorithms
+* Topological sorting of graphs with directed edges
+* Travelling salesman problem (TSP)
+* Graph-colouring problem: assign the smallest number of colours to the vertices of a graph so that no two adjacent vertices are the same colour
+
+h3. Combinatorial Problems
+
+These are problems that ask, implicitly or explicitly, to find a combinatorial object - such as a permutation, a combination, or a subset - that satisfies certain constraints.
+
+These are the most difficult problems to solve due to:
+
+1. The number of combinatorial objects typically grow extremely fast with a problem's size, reaching unimaginable magnitudes even for moderate-sized instances
+2. There are no known algorithms fo solving such problems exactly in an acceptable amount of time
+
+h3. Geometric Problems
+
+Deal with geometric objects such as points, lines and polygons. Applications include computer graphics, robotics and tomography.
+
+* Closest-pair problem
+* Convex-hull problem
+
+h3. Numerical Problems
+
+Involve mathematical objects of continuous nature such as:
+
+* solving equations
+* computing definite integrals
+* evaluating functions
+
+The majority of these problems can only be solved approximately. Accumulation of rounding errors can drastically distort the output of even a sound algorithm.
+
+Not so important for business applications, but plays a critical role in scientific and engineering applications.
+
+h2. Fundamental Data Structures
+
+A *data structure* is a scheme for organizing related data items. Data items may be primitives such as integers or character, or other data structures.
+
+An *abstract data type* provides operations that work on a collection of data structures.
+
+h3. Linear Data Structures
+
+An *array* is a sequence of _n_ items of the same data type stored contiguously in memory. Each element of an array can be accessed by specifying an *index*.
+
+A *linked list* is a sequence of zero or more elements called *nodes*. Each node contains at least two pieces of information: some data and pointers to other nodes. A *singly linked list* contains a pointer to the next node in the sequence, except the last node.
+
+The lookup of an element in a linked list involves starting at the first node in the list and working through the list to the specified node. Thus the speed of lookup depends how far away the specified node is, unlike an array where the lookup is by index (and thus relatively immediate). However, a linked list does not need to reserve memory for all of its elements (which an array does). Insertions and deletions of elements from a linked list can be efficiently done by connecting the relevant pointers.
+
+A *doubly linked list* has for each node a pointer to the predecessor and successor nodes. Except the first node only has a pointer to the successor node, and the last node only has a pointer to the predecessor node.
+
+A *list* is a finite sequence of data items, usually in a certain linear order.
+
+A *stack* is a list that operates in a LIFO fashion: insertions and deletions occur at the *top* of the structure. What becomes the last element added to the stack ("push") is the first element remvoed from the stack ("pop").
+
+A *queue* is a list that operates in a FIFO fashion: insertions occur at the *rear* of the structure ("enqueue") and deletions occur at the *front* ("dequeue"). Thus the item that becomes the first added to the queue will be the element removed from the queue.
+
+A *priority queue* is a collection of data items from a totally ordered universe (such as integers or real numbers). Usually operations for a priority queue are finding its largest element (highest priority), deleting its largest element and adding a new element. Often the deletion and insertion returns another priority queue.
+
+h3. Graphs
+
+The formal definition of a graph is as follows:
+
+A *graph* _G = {V, E}_ is defined by a pair of two sets: a finite nonempty set _V_ of items called *vertices* and a set _E_ of pairs of these items called *edges*.
+
+If the pairs of vertices are unordered, and the pair of verices _(u, v)_ is the same as the pair _(v, y)_, then the vertices _u_ and _v_ are *adjacent* to each other and are connected by an *undirected edge* _(u, v)_. An *undirected graph* is a graph where all of its edges as undirected.
+
+If a pair of vertices _(u, v)_ is not the same as the pair _(v, u)_ then the edge _(u, v)_ is *directed* from the vertex _u_. It can also be said that edge _(u, v)_ leaves _u_ and enters _v_. A *directed graph* or *digraph* is a graph where all of its edges are directed.
+
+A graph with every pair of its vertices connected by an edges is called *complete*.
+
+Graphs can be represented as an *adjacency matrix* or as an *adjacency list* depending on how *dense* or *sparse* the graph is.
+
+A *weighted graph* is a graph or diagraph where each edge has a number assigned to it. These numbers are known as *weights* or *costs*. In a matrix (called a weight matrix or cost matrix), if there is no such edge, it is often depicted as the infinity symbol.
+
+A *path* from vertex _u_ to vertex _v_ of a graph _G_ is the sequence of edges (comprising adjacent vertices) that starts from _u_ and ends at _v_.
+
+A graph is said to be *connected* if for every pair of its vertices _u_ and _v_ there is a path from _u_ to _v_.
+
+A *cycle* is a path of postive length that starts and ends at the same vertex and does not traverse an edge more than once.
+
+A graph with no cycles is said to be *acyclic*.
+
+h3. Trees
+
+A *tree* (or *free tree*) is a connected acyclic graph.
+
+For every two vertices in a tree, there always exists exactly one simple path from one of these vertices to the other. Often an arbitrary vertex is chosen to be the *root*. A *rooted tree* is often depicted with its root at the top (level 0).
+
+An *ordered tree* is a rooted tree in which all the children of each vertex are ordered. A *binary tree* is an ordered tree where every vertex has no more than two children and each child is designated *left child* or *right child* of its parent. A binary tree may also be empty.
+
+A *binary search tree* has the property where the parent vertex has a value that is greater than any values in its left subtree but less than any values in its right subtree.
+
+h3. Sets and Dictionaries
+
+A *set* is an unordered collection of distinct items called *elements*. Therefore each element is unique.
+
+A *dictionary* implements insertion, deletion and searching for a set. As a set is in a dynamic state, trade-offs in efficiency with searching, insertion and deletion have to be considered. Unsophisticated use of arrays to advanced techniques such as hashing and balanced search trees will be explored in due course.
+
+<nav class="nav-chapters">
+    <ul>
+        <li class="index"><a href="../index.html">Index</a></li>
+        <li class="next-chapter"><a href="../chapter-02/">Next chapter</a></li>
+
+    </ul>
+</nav>
