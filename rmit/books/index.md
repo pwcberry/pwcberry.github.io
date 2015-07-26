@@ -8,6 +8,8 @@ permalink: /rmit/books/
 
 [Introduction to Algorithms](./introduction-to-algorithms/)
 
+[Introduciton to the Design and Analysis of Algorithms](./design-and-analysis-of-algorithms/)
+
 [Software Systems Architecture](./software-systems-architecture/)
 
 [Software Architecture in Practice](./software-architecture-in-practice/)
