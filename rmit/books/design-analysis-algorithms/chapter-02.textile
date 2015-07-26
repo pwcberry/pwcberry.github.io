@@ -7,7 +7,57 @@ book_authors: Anany Levitin
 book_publisher: Pearson Education, 2012
 ---
 
-# Chapter 2 - Fundamentals of the Analysis of Algoirthm Efficiency
+h1. Fundamentals of the Analysis of Algorithm Efficiency
+
+_Analysis_: "the separation of an intellectual or substantial whole into its constituent parts for individual study."
+
+Unlike simplicity and generality, efficiency can be studied in precise quantitative terms. 
+
+Efficiency is considered with regard to two resources: running time and memory space.
+
+h2. The Analysis Framework
+
+* *Time efficiency* (time complexity): how fast an algorithm runs
+* *Space efficiency* (space complexity): how much memory the algorithm consumes to run and to set aside for its input and output.
+
+Storage is no so much of a concern for algorithm design with most modern computers as it is plentiful. The issue with time has not diminished to the same degree. However, research has shown that improvements in time efficiency can be spectacular compared to space.
+
+h3. Measuring an Input's Size
+
+To begin the analysis, an investigation begins on the efficiency of an algorithm as a function of some parameter _n_ indicating the algorithm's input size. The choice of an appropriate size metric can be influenced by the operations of the algorithm in question.
+
+h3. Units for Measuring Running Time
+
+Identify the most important operation of the algorithm: the *basic operation*. This is the operation the contributes most of the total running time. 
+
+The time efficency is measured by counting the number of times the basic operation is executed on inputs of size _n_.
+
+h3. Orders of Growth
+
+The number of times the basic operation is executed increases as the input size _n_ increases. This is the algorithm's *order of growth*. That rate of increase can be expressed as a function and are important for algorithmic analysis. These growth functions are shown in the following table.
+
+|_. _n_ |_. log[~2~] _n_ |_. _n_ |_. _n_ log[~2~] _n_ |_. _n_[^2^] |_. _n_[^3^] |_. 2[^_n_^] |_. _n_! |
+| 10 | 3.3 | 10[^1^] | 3.3 * 10[^1^] | 10[^2^] | 10[^3^] | 10[^3^] | 3.6 * 10[^6^] |
+| 10[^2^] | 6.6 | 10[^2^] | 6.6 * 10[^2^] | 10[^4^] | 10[^6^] | 1.3 * 10[^30^] | 9.3 * 10[^157^] |
+| 10[^3^] | 10 | 10[^3^] | 1.0 * 10[^4^] | 10[^6^] | 10[^9^] | | |
+| 10[^4^] | 13 | 10[^4^] | 1.3 * 10[^5^] | 10[^8^] | 10[^12^] | | |
+| 10[^5^] | 17 | 10[^5^] | 1.7 * 10[^6^] | 10[^10^] | 10[^15^] | | |
+| 10[^6^] | 20 | 10[^6^] | 2.0 * 10[^7^] | 10[^12^] | 10[^18^] | | |
+
+h3. Worst-Case, Best-Case and Average-Case Efficiencies
+
+The *worst-case efficiency* of an algorithm is its efficiency for an input of size _n_ for which the algorithm runs the longest for all possible inputs of that size.
+
+The worst-case efficiency provides a bounding time on the algorithm from above.
+
+The *best-case efficency* is the algorithm's efficiency for an input of size _n_ for which the algorithm runs the fastest for all possible inputs of that size.
+
+Best-case efficency is not as useful as worst-case efficiency, but it can provide an understanding for the application of algorithm when the scenario provides best-case input.
+
+The *average-case efficency* is the algorithm's efficiency given a "typical" or "random" input. To calculate the average-case, some assumptions must be made about the possible inputs of size _n_. The analysis may also require the inputs to be divided into size classes to determine that the runtime for each instance is the same.
+
+The average-case efficency is much more useful for many algorithms than the given overly-pessimistic worst-case efficency.
+
 
 
 <nav class="nav-chapters">
