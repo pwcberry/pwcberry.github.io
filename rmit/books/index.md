@@ -10,6 +10,8 @@ permalink: /rmit/books/
 
 [Introduciton to the Design and Analysis of Algorithms](./design-and-analysis-of-algorithms/)
 
+[Project Management in Practice](./pm-practice/)
+
 [Software Systems Architecture](./software-systems-architecture/)
 
 [Software Architecture in Practice](./software-architecture-in-practice/)
@@ -47,12 +49,6 @@ permalink: /rmit/books/
 		</tr>
 	</thead>
 	<tbody>
-		<tr><td><img src="http://ecx.images-amazon.com/images/I/51n%2B3GEQvYL._SL500_PIsitb-sticker-arrow-big,TopRight,35,-73_OU01_SS160_.jpg" alt="Introduction to Algorithms" class="book"></td>
-			<td><i>Introduction to Algorithms, 2<sup>nd</sup> Edition</i><br/>Thomas H Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</td>
-			<td><span class="code">005.1 I61</span></td>
-			<td><a class="book-link" href="http://www.amazon.com/dp/0262032937/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=KTRKORNBOS30&coliid=IG9ZAXDQIP51X">Hardcover</a></td>
-			<td>&nbsp;</td>
-		</tr>
 		<tr><td><img src="http://ecx.images-amazon.com/images/I/41gNhHqNwGL._SL500_PIsitb-sticker-arrow-big,TopRight,35,-73_OU01_SS160_.jpg" alt="Refactoring: Improving the Design of Existing Code" class="book"></td>
 			<td><i>Refactoring: Improving the Design of Existing Code</i><br/>Martin Fowler, Kent Beck, John Brant</td>
 			<td>005.14 F787</td>
@@ -177,12 +173,6 @@ permalink: /rmit/books/
 			<td><i>Domain-Specific Languages</i><br/>Martin Fowler</td>
 			<td><span class="code">005.13 F787</span><br/><span class="online">Online</span></td>
 			<td><a class="book-link" href="http://www.amazon.com/dp/B003ZUYJ3G/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2XBZMUMNHW7QG&coliid=I1S8TQ99ML29LD">Kindle</a></td>
-		<td>&nbsp;</td>
-		</tr>
-		<tr><td><img src="http://ecx.images-amazon.com/images/I/41KFb4hOirL._SL500_PIsitb-sticker-arrow-big,TopRight,35,-73_OU01_SS160_.jpg" alt="" class="book"></td>
-			<td><i>The Algorithm Design Manual</i><br/>Steven Skiena</td>
-			<td><span class="code">005.1 S628 </span></td>
-			<td><a class="book-link" href="http://www.amazon.com/dp/B0016H523Q/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2XBZMUMNHW7QG&coliid=IHDMCTVM4DF7S">Kindle</a></td>
 		<td>&nbsp;</td>
 		</tr>
 		<tr><td><img src="http://ecx.images-amazon.com/images/I/41BQt2xGCHL._SL500_PIsitb-sticker-arrow-big,TopRight,35,-73_OU01_SS160_.jpg" alt="" class="book"></td>
