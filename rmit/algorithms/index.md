@@ -10,6 +10,9 @@ permalink: /rmit/algorithms/
 
 ## Week 2
 
+__Average Case__ is _not_ the average of the worst and best case. It is the average performance across all possible inputs.
+
+`_n_ log _n_`: how is this order-of-growth function determined?
 
 
 ## Books
