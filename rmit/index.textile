@@ -4,15 +4,21 @@ title: Academic Year 2015 | RMIT
 permalink: /rmit/
 ---
 
-h2. Semester 1
+h2. Semester 2
 
 ["Important Dates":http://www1.rmit.edu.au/browse;ID=dediq5vc4yww1]
 
-h3. Usability Engineering (COSC 1182)
+h3. Software Engineering Project Management (ISYS1106)
 
-["Course Guide":http://www1.rmit.edu.au/courses/cosc11821450]
+["Notes":./project-management/]
 
-"Notes":./usability-engineering/
+["(external). Course Guide":http://www1.rmit.edu.au/courses/isys11061550]
+
+h3. Algorithms and Analysis (COSC2123)
+
+["Notes":./algorithms/]
+
+["(external). Course Guide":http://www1.rmit.edu.au/courses/cosc12851550]
 
 h2. Books
 
@@ -20,3 +26,12 @@ h2. Books
 
 "Books to read":./books/#BooksToRead
 
+<script>
+(function () {
+	'use strict';
+	var links = document.querySelectorAll('a.external');
+	[].forEach.call(links, function (link) {
+		link.target = '_blank';
+	});
+}());
+</script>

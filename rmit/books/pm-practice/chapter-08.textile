@@ -1,0 +1,19 @@
+---
+layout: book
+title: Project Management in Practice, Fifth Edition
+permalink: /rmit/books/pm-practice/chapter-08/
+book_title: Project Management in Practice, Fifth Edition
+book_authors: Meredith, Shafer, Mantel, Sutton
+book_publisher: John Wiley & Sons Inc., New Jersey, 2014
+---
+
+h1. Chapter 8 - Evaluating and Terminating the Project
+
+
+
+<nav class="nav-chapters">
+    <ul>
+        <li class="prev-chapter"><a href="../chapter-07/">Previous chapter</a></li>
+        <li class="index"><a href="../index.html">Index</a></li>
+    </ul>
+</nav>
