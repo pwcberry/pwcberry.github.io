@@ -1,6 +1,6 @@
 ---
 layout: book
-title: Project Management in Practice, Fifth Edition
+title: Chapter 3 | Project Management in Practice, Fifth Edition
 permalink: /rmit/books/pm-practice/chapter-03/
 book_title: Project Management in Practice, Fifth Edition
 book_authors: Meredith, Shafer, Mantel, Sutton
@@ -8,6 +8,146 @@ book_publisher: John Wiley & Sons Inc., New Jersey, 2014
 ---
 
 h1. Chapter 3 - Project Activity and Risk Planning
+
+Careful planning is strongly associated with project success. 
+
+It is difficult to define the golden path between no-planning and overplanning ("paralysis by analysis").
+
+h2. The Basis of a Project Plan - The "Project Charter"
+
+The project plan serves as the map for the route to be taken by the PM to lead the project from start to finish.
+
+The Project Charter is in practice an abridge version of what will become the full project plan. It is the first artefact to be produced in the lifespan of the project.
+
+The Project Charter requires sign off from the major stakeholders. Thereafter, any changes to the Charter requires acceptance from the signatories.
+
+The eight categories of the Project Charter are:
+
+h3. 1. Purpose
+
+* Business Case for the project
+* Strategic reasons
+* Expected profitability and competitive effects
+* Defined scope
+* Technical results
+* The reasons why the organization is undertaking the project
+
+h3. 2. Objectives
+
+* Detailed description of scope: deliverables and outcomes
+* _Mission statement_
+* Communicates to project team members what will be done to achieve objectives
+* "Project scope plus expected desirable outcomes that accrue to stakeholders from matters beyond the project's deliverables"
+
+h3. 3. Overview
+
+* Brief description of project and scope
+* Major milestones or significant events in schedule
+* Constraints on project scope
+* Senior management is the audience
+* Technological and managerial approaches are described
+* Possibly project defined as "derivative", "platform", or "breakthrough" in relation to other projects within the organization
+* Use of consultants or sub-contractors
+* Agreements with clients or third-parties
+* Reporting requirements
+* Technical specifications of deliverables
+* Delivery dates
+* Incentives or penalties
+* Change management
+
+h3. 4. Schedules
+
+* Summary of schedules and milestones
+* High level: show only major tasks of WBS
+
+h3. 5. Resource requirements
+
+* Estimates for expenses: capital and operating
+* Costs for each task
+* Accounting details
+* _Project budget_
+* Cost monitoring and control
+
+h3. 6. Personnel and stakeholders
+
+* Describe stakeholders, sponsor, PM and possibly some members of team
+* Notes special skill requirements or training requirements
+* May also note time phasing of personnel, combined with schedule
+* May also show RACI matrix
+
+h3. 7. Risk management
+
+* Risk identification
+* Qualitative and quantitative analysis
+* Response (contingency) planning
+* Monitoring and control
+
+h3. 8. Evaluation methods
+
+* Evaluation procedures
+* Quality standards
+* Corporate compliance with reporting and data collection
+
+This is a contract specifying the process of potential problem solving between the project's principals in addition to the content of project deliverables.
+
+h2. The Planning Process - Overview
+
+Planning techniques are generic. 
+
+1. Develop and evaluate the concept of the project. 
+	- Basic performance characteristics
+	- Is deliverable worthwhile?
+
+2. Identify and describe plainly the actual capabilities that the deliverable must comprise in order for it to be successful. Design system, service or product.
+
+3. Create such a system, service or product.
+
+4. Test prototype to determine it has desired capabilities. Return to step 3 until deliverable matches preset requirements. 
+
+5. Integrate deliverable into system for which it was designed. (Install)
+
+6. Validate the deliverable
+
+7. Can client operate the system? If not instruct client.
+
+8. If client can operate and accepts deliverable, hand over the deliverable and ancillary artefacts such as maintenance documents.
+
+
+h2. The Planning Process - The Nuts and Bolts
+
+h3. The Launch Meeting - and Subsequent Meetings
+
+h3. Sorting Out the Project - The Work Breakdown Structure (WBS)
+
+h3. RACI Matrix
+
+* *R*esponsible
+* *A*ccountable
+* *C*onsult
+* *I*nform
+
+
+h3. Mind Mapping
+
+h2. Risk Management
+
+h3. 1. Risk Management Planning
+
+h3. 2-3. Risk Identification and Qualitative Risk Analysis
+
+*Scenario Analysis*
+
+*Failure Mode and Effect Analysis*
+
+h3. 4. Quantitative Risk Analysis
+
+*Estimates*
+
+*Expected Value*
+
+h3. Risk Response Planning
+
+h3. Risk Monitoring and Control
 
 
 

@@ -1,6 +1,6 @@
 ---
 layout: book
-title: Project Management in Practice, Fifth Edition
+title: Chapter 1 | Project Management in Practice, Fifth Edition
 permalink: /rmit/books/pm-practice/chapter-01/
 book_title: Project Management in Practice, Fifth Edition
 book_authors: Meredith, Shafer, Mantel, Sutton
