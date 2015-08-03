@@ -190,26 +190,69 @@ h3. 1. Risk Management Planning
 
 * Maybe in the charge of a risk management group
 * Steps 2-5 must be designed carefully
+* The outputs from steps 2-5 are inputs to the following step
 * Is a continuous process that tracks the variability of factors that cause uncertainty
 
 h3. 2-3. Risk Identification and Qualitative Risk Analysis
 
-* A thorough study of all sources of risk.
-* May involve a *Scenario Analysis*
+A thorough study of all sources of risk to identify:
+
+* highly probable risks
+* extremely serious risks
+* highly vulnerable areas
+
+*Scenario Analysis*
+
+* Work through likely scenarios that will have dramatic impacts on the organization or the project objectives; consider possible outcomes of these events
+* Analysis of the WBS, RACI matrix and PERT chart
 
 *Failure Mode and Effect Analysis*
+
+1. List ways the project may fail
+2. List consequences of each failure and evaluate its severity. This quantity "S" can be ranked from "1" (no effect) to "10" (very hazardous failure occurs without warning).
+3. List the causes of each failure and estimate their likelihood of occuring. This quantity "L" can be ranked from "1" (no chance) to "10" (almost certain to occur).
+4. Estimate the ability to detect each failure identified. This quantity "D" can be ranked from "1" (monitoring systems will detect failure) to "10" (virtually certain failure will not be detected).
+5. Calculate _Risk Priority Number (RPN)_ by multiplying _S_, _L_, and _D_ together.
+6. Sort list of potential failures by the RPNs and consider ways for reducing the risk associated with failures and high RPNs.
+
+*Sample FMEA for New Product Development Project at Pharmaceutical Company*
+
+table(grid).
+|_. Failiure |_. S |_. L |_. D |_. RPN |
+| Not effective | 8 | 6 | 5 | 240 |
+| Not safe | 8 | 4 | 5 | 160 |
+| Drug interacts with other drugs | 6 | 3 | 8 | 144 |
+| Can't produce | 6 | 4 | 4 | 96 |
+| Beat to market | 7 | 3 | 2 | 42 |
+
 
 h3. 4. Quantitative Risk Analysis
 
 *Estimates*
 
+Probability for an failure occuring is more difficult to determine than the range and timing of the failure due to lack of available data. Probability is usually estimated according to the experience of SMEs.
+
 *Expected Value*
+
+The value of outcome multiplied by the probability of that outcome occuring is added to a decision table (or payoff matrix).
+
+*Simulation*
+
+Software is used to calculate the likely costs of failure.
+
+It is dependent on reliable, honest estimates of variables supplied by people connected to the project.
 
 h3. 5. Risk Response Planning
 
+Contingency plans and logic charts are developed to describe the tasks and activities that are required to mitigate the impact of failure and respond to the failure.
+
 h3. 6. Risk Monitoring and Control
 
+Records are kept to show how the project dealt with risks.
 
+The Risk Management Group should be on the lookout for improving techniques for measuring and handling risk and for estimating the impact of risk.
+
+The Risk Management Group should provide an ongoing evaluation of current risk identification, measurement, analysis and response techniques.
 
 <nav class="nav-chapters">
     <ul>
