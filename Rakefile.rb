@@ -17,6 +17,11 @@ task :build => [:compass] do
 	sh 'jekyll build'
 end
 
+desc 'build and serve the website'
+task :serve => [:compass] do
+	sh 'jekyll serve'
+end
+
 desc 'watch for changes to SASS files and recompile'
 task :watch do
 	puts "Compiling and watching for changes..."

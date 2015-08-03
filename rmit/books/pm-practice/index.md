@@ -11,6 +11,6 @@ book_publisher: John Wiley & Sons Inc., New Jersey, 2014
 
 [Chapter 01 - The World of Project Management](./chapter-01/)
 
-
+[Chapter 03 - Project Activity and Risk Planning](./chapter-03/)
 
 [Index](../index.html)

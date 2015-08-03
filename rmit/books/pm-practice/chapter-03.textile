@@ -117,25 +117,85 @@ h2. The Planning Process - The Nuts and Bolts
 
 h3. The Launch Meeting - and Subsequent Meetings
 
+When PM is appointed to lead a new project he must review the objectives first with the senior manager responsible for the project. This is so that the PM:
+
+1. Understands the stakeholders' expectations
+2. Identify senior managers who have an interest in the project
+3. Determine if project is not typical of its category (e.g. produce development project)
+
+Invitees to the launch meeting:
+
+* Project champion (senior manager most interested)
+* Functional managers who have resources that will be utilized by the project (competencies and capabilities)
+* Subject matter experts
+
+Topics to be addresssed or presented at the launch meeting:
+
+* The contributions to the organization expected from the project
+* Possible priority of the project
+* Budgetary estimates
+* Any due dates of deliverables
+
+Senior management remain during meeting while PM conducts it to ensure functional managers are assured there is real commitment by the organization for the project.
+
+The launch meeting may also be a brainstorming session that develops action items that become projects. If participative decision making is in play, then the meetings are worth the effort. 
+
+The results of the launch meeting:
+
+1. The project scope is understood
+2. The functional managers understand their responsibilities and have committed to making plans
+3. Potential benefits to the organization outside the scope of the project are noted
+
+It is important that any changes to the project plan during this phase are communicated to all those who were participants of the launch meeting and other interested parties.  
+
+
 h3. Sorting Out the Project - The Work Breakdown Structure (WBS)
+
+The primary purpose for creating a WBS is to ensure that any task required to produce a deliverable is not overlooked and is omitted from the plan.
+
+The _hierarchical planning process_ is the basis for generating a WBS. It starts by listing the primary activities that when completed will achieve the project objective(s). These are Level 1 activities.
+The planner may then delegate or keep to himself the responsibility for determining the Level 2 activities that will in total will see the completion of the parent Level 1 activity. For each Level 2 activity, another person or group is given the responsibility for prepare action plans for the sub-tasks of each Level 2 activity, forming Level 3 activities. 
+
+Each task is decomposed into subtasks until the lowest level clearly demonstrates what needs to be done and continuing to break down tasks is no longer required. 
+
+Each level of activity must describe the same degree of detail.
+
+The WBS is generally oriented toward the project's deliverables.
+
+The WBS may be expanded to include:
+
+* Immediate predecessor tasks (_predecessors_)
+* Estimated time duration
+* Estimated resources
+* Assigned to (personnel, responsibility)
 
 h3. RACI Matrix
 
-* *R*esponsible
-* *A*ccountable
-* *C*onsult
-* *I*nform
+* *R*esponsible: undertakes the task
+* *A*ccountable: ensures task is completed
+* *C*onsult: ask for expertise
+* *I*nform: notify progress and changes
 
+Organizes the project team by clarifying responsibilities of the project team members. The each cell of the matrix shows the category of the link between a team member and task.
 
 h3. Mind Mapping
 
+A brainstorming activity that starts with the project goal at the centre, then tasks are identified that will lead to the completion of that goal and are linked to it. Then tasks are subsequently broken down into more detailed sub-tasks that at the furthest extent from the project goal only have a label containing a noun and verb.
+
 h2. Risk Management
+
+Six sub-processes are involved in completing the three tasks of: risk identification, risk analysis, and response to risk.
 
 h3. 1. Risk Management Planning
 
+* Maybe in the charge of a risk management group
+* Steps 2-5 must be designed carefully
+* Is a continuous process that tracks the variability of factors that cause uncertainty
+
 h3. 2-3. Risk Identification and Qualitative Risk Analysis
 
-*Scenario Analysis*
+* A thorough study of all sources of risk.
+* May involve a *Scenario Analysis*
 
 *Failure Mode and Effect Analysis*
 
@@ -145,9 +205,9 @@ h3. 4. Quantitative Risk Analysis
 
 *Expected Value*
 
-h3. Risk Response Planning
+h3. 5. Risk Response Planning
 
-h3. Risk Monitoring and Control
+h3. 6. Risk Monitoring and Control
 
 
 

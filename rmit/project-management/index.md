@@ -58,7 +58,7 @@ __Boundaries__: Itemize the out-of-scope deliverables.
 
 * Comprehensive list of tasks and sub-tasks that lead to a milestone. Against each sub-task is duration, resources and predecessors.
 * Numbering of tasks is important: identification & sequencing
-* Outline the WBS using I, P, E, M, C
+* Outline the WBS using I, P, E, M, C (Initiating, Planning, Executing, Monitoring & Controlling, Closing)
 * (R)esponsible, (A)ccountable, (C)onsult, (I)nformed -> the matrix should be considered before / alongside development of WBS
 
 ### Risk Analysis
