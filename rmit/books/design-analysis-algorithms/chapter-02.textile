@@ -58,7 +58,11 @@ The *average-case efficency* is the algorithm's efficiency given a "typical" or 
 
 The average-case efficency is much more useful for many algorithms than the given overly-pessimistic worst-case efficency.
 
+h2. Asymptotic Notations and Basic Efficency Classes
 
+h3. _O_-notation
+
+*DEFINITION*: 
 
 <nav class="nav-chapters">
     <ul>
