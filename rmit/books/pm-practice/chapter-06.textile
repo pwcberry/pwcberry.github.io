@@ -9,6 +9,10 @@ book_publisher: John Wiley & Sons Inc., New Jersey, 2014
 
 h1. Chapter 6 - Allocating Resources to the Project
 
+h2. Resource Loading
+
+h2. Allocating Scare Resources to Projects
+
 
 <nav class="nav-chapters">
     <ul>

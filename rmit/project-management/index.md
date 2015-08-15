@@ -74,4 +74,63 @@ __Boundaries__: Itemize the out-of-scope deliverables.
 
 [Could you use a crystal ball for risk management?](https://www.youtube.com/watch?v=lrCOIRGpeeM)
 
+## Week 3
+
+## Week 4
+
+Network diagrams
+
+* Concern is for major tasks (activities)
+* Challenging job: scheduling, budgeting and risk management
+    - How much slack time is available to finish project on time
+* Critical path: the path that takes the most time and any delay will compound to push the project finishing date out past the deadline
+
+AON Network
+
+* How much time can I pad for each activity
+* `ES + duration = EF`
+* `LS + duration = LF`
+* Forward pass over diagram: ES / EF
+* Backward pass over diagram: LS / LF
+
+### Sample Project Charter
+
+Every part of the report has to be uniquely identified.
+
+High-Level Requirements: Business requirements; not technical requirements; features that are in plain English
+
+Repeated information: the parts of the Charter may be read by other readers
+
+Boundaries: in-scope features; out-of-scope features
+
+Project stages
+
+1. Initiating
+2. Planning
+    * Requirements gathering
+3. Execution
+4. Closing
+5. Monitoring & Control
+    * Starts happening from stage 2
+    * Start date / end date of project 
+    * Reports
+
+Budgeting:
+* Research into costs for equipment and contactors
+* Assumption for PM to be a Scrum Master
+* Budget properties to consider: training, wages, administrative, technical; contingency reserve
+
+[System Administrator / Dev Ops] => project costs for cloud provisioning
+
+Constraints - (Training)
+
+FMEA
+
+Software / Planning / Financial / Training / Loss of Staff
+
+### Monitoring and Controlling
+
+[Prochain Video](www.prochain.com)
+
+__Earned value (EV)__
 
