@@ -9,12 +9,20 @@ book_publisher: John Wiley & Sons Inc., New Jersey, 2014
 
 h1. Chapter 5 - Scheduling the Project
 
+The three activities: planning, budgeting and scheduling are inter-related.
 
+* _Budgeting_: amounts and timings of resources received or expended depend on scheduling of tasks
+* _Scheduling_: when and how long tasks are expected to run depend on the overall project plan
+* _Planning_: what to plan for depends on estimated size of budget and estimated resources and proposed milestones and deadlines
+
+h2. The Gantt Chart
+
+ 
 
 <nav class="nav-chapters">
     <ul>
-        <li class="prev-chapter"><a href="../chapter-04/">Previous chapter</a></li>
+        <li class="prev-chapter"><a href="../chapter-03/">Previous chapter</a></li>
         <li class="index"><a href="../index.html">Index</a></li>
-        <li class="next-chapter"><a href="../chapter-13/">Next chapter</a></li>
+        <li class="next-chapter"><a href="../chapter-06/">Next chapter</a></li>
     </ul>
 </nav>

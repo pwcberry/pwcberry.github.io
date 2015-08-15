@@ -14,6 +14,12 @@ __Average Case__ is _not_ the average of the worst and best case. It is the aver
 
 `_n_ log _n_`: how is this order-of-growth function determined?
 
+## Week 3
+
+
+
+
+
 
 ## Books
 
