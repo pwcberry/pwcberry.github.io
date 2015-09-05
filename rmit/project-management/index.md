@@ -134,3 +134,45 @@ Software / Planning / Financial / Training / Loss of Staff
 
 __Earned value (EV)__
 
+* Variances - negative variance is bad
+
+__Example for EV__
+
+Work on project expected to cost: 1500 (PV)
+
+## Week 5
+
+Research:
+
+[J Curve](https://en.wikipedia.org/wiki/J_curve)
+
+[Technology Life Cycle](https://en.wikipedia.org/wiki/Technology_life_cycle)
+
+## Week 6
+
+"We are going to check"
+
+SADBET - Project Management Governance
+
+Agile only works with experienced developers.   
+
+### RUP
+
+[RUP - Work Components](http://www.ibm.com/developerworks/rational/library/5317.html)
+
+For each of the milestones of an RUP project, it becomes a sub-project that includes inception, elaboration, construction and transition.
+
+Gantt Charts are incompatible with agile projects as these charts are static and very difficult to keep up to date as the project evolves.
+
+[Small Project Development Case: Inception](http://sce.uhcl.edu/helm/rationalunifiedprocess/examples/devcase_sp/sip_iii.htm)
+
+### Scrum
+
+Product owner is most likely not a technical person who may be in a position to not trust the scrum development team. The Scrum Master acts as a facilitator, translator and mentor.
+
+Project Management is shared by the product owner, scrum master and the development team. 
+
+Scrum only applies to the software development phase of the product development lifecycle.
+
+Requirements are gathered before development commences.
+

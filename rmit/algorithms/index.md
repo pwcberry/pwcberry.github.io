@@ -17,9 +17,19 @@ __Average Case__ is _not_ the average of the worst and best case. It is the aver
 ## Week 3
 
 
+## Week 6
 
+Research:
 
+[AVL Tree](https://en.wikipedia.org/wiki/AVL_tree)
 
+[Red-Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
+
+[B-Trees](https://en.wikipedia.org/wiki/B-tree)
+
+[B+ Trees](https://en.wikipedia.org/wiki/B%2B_tree)
+
+[B-Trees](http://www.cs.cornell.edu/courses/cs3110/2011sp/recitations/rec24-B-trees/B-trees.htm)
 
 ## Books
 
