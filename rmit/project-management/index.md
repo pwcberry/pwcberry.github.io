@@ -148,6 +148,8 @@ Research:
 
 [Technology Life Cycle](https://en.wikipedia.org/wiki/Technology_life_cycle)
 
+[Technology Management Growth Lifecycle](http://www.scribd.com/doc/20309856/Technology-Management-Growth-Lifecycle)
+
 ## Week 6
 
 "We are going to check"
@@ -176,3 +178,10 @@ Scrum only applies to the software development phase of the product development 
 
 Requirements are gathered before development commences.
 
+## Week 7
+
+[Tutorial](./tutorial-07/)
+
+## Week 8
+
+[Tutorial](./tutorial-08/)
