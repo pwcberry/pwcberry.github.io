@@ -1,0 +1,58 @@
+---
+layout: book
+title: User Stories Applied
+permalink: /rmit/books/user-stories-applied/chapter-03/
+book_title: User Stories Applied - For Agile Software Development
+book_authors: Mike Cohn
+book_publisher: Addison Wesley, Boston, 2004
+---
+
+h1. Chapter 3 - User Role Modeling
+
+The fallacy is the belief that all stories are written for one type of user. This will ensure teams will miss stories for users who do not fit the mould for the primary user type of the system. Interaction design and user-centered design encourage the identification of user roles and personas prior to writing stories.
+
+h2. User Roles
+
+A user role is a collection of defining attributes that characterize a population of users and their intended interactions with the system. 
+
+There will be some overlap of roles in that they use the same features of the software, although with different perspectives and differing frequencies.
+
+h2. Role Modeling Steps
+
+* brainstorm an initial set of user roles
+* organize the initial set
+* consolidate roles
+* refine the roles
+
+Wehn refining roles, consider these attributes:
+
+* How often the user is expected to use the software
+* The user's level of experience with the domain
+* The user's general level of proficiency with computers and software
+* The user's level of proficiency with the software being developed
+* The user's general goal for using the software. Some users are after convenience, others favor a rich experience, and so on.
+
+Additionally, the user roles may be further fleshed out with __personas__ that includes more background information about the a potential user. __Extreme characters__ are drawn from the "edges of society" to derive possible, and perhaps valuable, stories. 
+
+h2. Developer Responsibilities
+
+* Participate in the process of identifying user roles and personas
+* Understand each of the user roles or personas and how they differ
+* Think about how different user roles may prefer the software to behave
+* Make sure that identifying and describing user roles do not go beyond its role as a tool in the process
+
+h2. Customer Responsibilities
+
+* Look broadly across the space of possible users and identify appropriate user roles
+* Participate in the process of identifying user roles and personas
+* Ensure that the software does not focus inappropriately on a subset of users
+* Ensure that each story when being written can be associated with at least one user role or persona
+* Think about how different user roles may prefer the software to behave
+* Make sure that identifying and describing user roles do not go beyond its role as a tool in the process
+
+<nav class="nav-chapters">
+	<ul>
+		<li class="index"><a href="../">Index</a></li>
+		<li class="next-chapter"><a href="../chapter-07">Next chapter</a></li>
+	</ul>
+</nav>

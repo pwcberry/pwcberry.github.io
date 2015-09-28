@@ -1,0 +1,64 @@
+---
+layout: book
+title: User Stories Applied
+permalink: /rmit/books/user-stories-applied/chapter-13/
+book_title: User Stories Applied - For Agile Software Development
+book_authors: Mike Cohn
+book_publisher: Addison Wesley, Boston, 2004
+---
+
+h1. Chapter 12 - What Stories Are Not
+
+User stories are different from IEEE 830 software requirements specifications, use cases and interation design scenarios.
+
+No matter how much thinking, thinking and thinking we do, we cannot fully and perfectly specify a non-trivial system upfront.
+
+There is a valuable feedback loop that occurs between defining requirements and users having early and frequent access to the software.
+
+It is more important to think about users' goals than to list the attributes of a solution.
+
+User stories are similar to a use case scenario. But use cases still tend to be larger than a single story and can be more prone to containing embedded assumptions about the user interface.
+
+Additionally, user stories differ from use cases in their completeness and longevity. Use cases are much more complete than are user stories. Use cases are designed to be permanent artifacts of the development process; user stories are more transient and not intended to outlive the iteration in which they are developed.
+
+User stories and use cases are written for different purposes. Use cases are written so that developers and customers can discuss them and agree to them. User stories are written to facilitate release planning and to serve as reminders to fill in requirments details with conversations.
+
+Unlike IEEE 830 specifications and use cases, user stories are not artifacts of analysis activities. Rather, user stories are a support tool for analysis.
+
+Interaction design scenarios are much more details than user stories and differ in the kind of detail provided.
+
+A typical interaction design scenario is much larger than a user story. One scenario may comprise multiple use cases, which, in turn, may comprise many user stories.
+
+h1. Chapter 13 - Why User Stories?
+
+User stories force a shift to verbal communication. Unlike other requirements techniques that rely entirely on written documents, user stories place significant value on conversations between developers and users.
+
+The shift toward verbal communication provides rapid feedback cycles, which leads to greater understanding.
+
+User stories are comprehensible by both developers and users. IEEE 830 software requirements specifications tend to be filled with too much technical or business jargon.
+
+User stories, which are typicaly smaller in scope than use cases and scenarios but larger than IEEE 830 statements, are the right size for planning. Planning, as well ass programming and testing, can be completed with stories without further aggregation or disaggregation.
+
+User stories work well with iterative development because it is easy to start with an epic story and later split it into multiple smaller user stories.
+
+User stories encourage deferring details. Individual user stories may be written very quickly and it is also extremely easy to write stories of different sizes. Areas of less importance, or that won't be developed initially, may easily be left as epics, while other stories are written with more detail.
+
+Stories encourage opportunistic development, in which the team readily shifts focus between high and low levels of detail as opportunities are discovered.
+
+Stories enhance the level of tacit knowledge on the team.
+
+User stories encourage participatory, rather than empirical, design, in which users become active and valued participants in designing the behavior of the software.
+
+While there are many reasons to write stories, they do have some drawbacks: on large projects it can be difficult to keep hundreds or thousands of stories organized; they may need to be augmented with additional documentation for traceability; and, while great at improving tacit knowledge through face-to-face communication, conversations do not scale adequately to entirely replace written documents on large projects.
+
+
+
+
+<nav class="nav-chapters">
+	<ul>
+		<li class="prev-chapter"><a href="../chapter-09/">Previous chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>
+		<li class="next-chapter"><a href="../chapter-14/">Next chapter</a></li>
+	</ul>
+</nav>
+

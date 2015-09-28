@@ -1,0 +1,37 @@
+---
+layout: book
+title: User Stories Applied
+permalink: /rmit/books/user-stories-applied/chapter-14/
+book_title: User Stories Applied - For Agile Software Development
+book_authors: Mike Cohn
+book_publisher: Addison Wesley, Boston, 2004
+---
+
+h1. Chapter 14 - A Catalog of Story Smells
+
+Stories are too small.
+
+Interdependent stories.
+
+Goldplating.
+
+Too many details.
+
+Including user interface detail too soon.
+
+Thinking too far ahead.
+
+Splitting too many stories.
+
+Customer has trouble prioritizing.
+
+Customer won't write and prioritize the stories.
+
+
+<nav class="nav-chapters">
+	<ul>
+		<li class="prev-chapter"><a href="../chapter-13/">Previous chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>
+	</ul>
+</nav>
+
