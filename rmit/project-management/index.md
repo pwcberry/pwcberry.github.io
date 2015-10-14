@@ -185,3 +185,118 @@ Requirements are gathered before development commences.
 ## Week 8
 
 [Tutorial](./tutorial-08/)
+
+### Lecture
+
+The exam will have a 15-mark question on Lean principles.
+
+## Week 9
+
+## Week 10
+
+### People skills!
+
+[Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman's_stages_of_group_development)
+
+[MIT: Stages of Development](http://hrweb.mit.edu/learning-development/learning-topics/teams/articles/stages-development)
+
+[SWEBOK - IEEE Computer Society](http://www.computer.org/web/swebok)
+
+### IT Services Management:
+
+[ITIL Project Management](http://blog.pluralsight.com/itil-project-management)
+
+## Week 11
+
+### Case Studies
+
+* The case study is kept ambiguous; make an assumption and stick to it.
+* Set up the premise for your answer in the first couple of lines. 
+
+Points to consider:
+
+* Is this a projectized, functional matrix or functional organization?
+* What are the factors that influence the methodoogy?
+* Cost-benefit no in favour
+* Risk of failure too high
+* Total project cost exceeds funding
+* Other projects competing for resources
+* Agile may not be the panacea, especially for organizations that have not already used it
+* Buffer time: estimation. Junior employees may be lower cost but that is offset by their need to learn
+* Experts may still take up time
+* Scheduling people to work on two projects on the same day is not time efficient
+* Mythical man month
+
+### Budgeting
+
+## Week 12
+
+### Assignment 2 discussion
+
+In Sprint 0 of an Agile process, planning should be minimal; requirements should be gathered as user stories to determine any epics or major feature areas.
+
+Sprint 0 should also investigate what resources will be required and the availability of those resources for the project; will extra resources need to be added?
+
+Sprint 0 - identify depedencies or constraints (such as existing techologies or systems)
+
+Sprint 0 - research the project; team building
+
+Sprint 0 - baseline the project
+
+### Guest speaker
+
+What sets ThoughtWorks as the benchmark for Agile processes?
+
+
+
+Agile: 
+
+Focus on delivery of quality software
+Focus on delivery of features of highest priority
+
+Optimal team size: "The team can share a pizza"
+
+Pair Programming is a very effective means to write quality software. However management buy-in is difficult due to the argument about two resources working on one problem.
+
+Three-amigo sessions: Product Owner, Project Manager, Tech Lead
+
+Focus on testing for user - BDD & UAT
+
+
+
+Become Project Manager:
+
+* Good relationship with business
+* Have a background in testing and QA
+
+
+
+### Exam preparation
+
+* 3 practice exams
+* No way to "bluff your way out of the exam"
+* Revise the material that was recommended for the exam
+* This a technical subject that waffling will not work in the exam
+* Filtered reading the exam preparation guide
+
+* Implementation questions
+* 9 Questions
+* PMBOK needs to be read in depth
+* Lean case studies
+* Analysis and comparison is significant
+
+* Read assignments
+* Will be asked to calculate variances (Lecture 4). Remember formulae but not `ETC`.
+* `BAC`: Budget at completion
+* Bring calculator
+
+* Do look at the tute sheets, particularly for definition of "Tracer bullet"
+* Case study on Lean for post-grads
+* Nothing from Lecture 10
+* Project Termination probably - read tute sheets
+
+* Where a question asks for a list, just give a list of relevant answers
+* For a question like "RACI Matrix": provide definition of RACI, and a brief explanation for how it is useful for the project charter
+* Practice the scenario questions; identify features; write product items from this; show answer to Shekhar
+
+
