@@ -1,0 +1,82 @@
+---
+layout: book
+title: User Stories Applied
+permalink: /rmit/books/user-stories-applied/chapter-09/
+book_title: User Stories Applied - For Agile Software Development
+book_authors: Mike Cohn
+book_publisher: Addison Wesley, Boston, 2004
+---
+
+h1. Chapter 9 - Planning a Release
+
+With a rough product development roadmap:
+
+* When do we want to release?
+* What is the priority of each story?
+
+h2. When Do We Want to Release?
+
+* Customer and developers discuss a range of dates, rather than a fixed date
+* Plan releases according to dates that are acceptable to give more flexibility in timing releases
+
+h2. What Would You Like In It?
+
+DSDM includes the prioritization technique called MoSCoW rules:
+
+* **M**ust have
+* **S**hould have
+* **C**ould have
+* **W**on't have this time
+
+__Must-have__ features are fundamental to the system. __Should-have__ features are important but there's a short-term workaround for them; if there are no time constraints, they may be considered mandatory. __Could-have__ features can be left out of the release if there is no time left. __Won't-have__ features are desirable but recognized as having to be a part of a later release.
+
+h2. Prioritizing the Stories
+
+Possible technical factors to consider:
+
+* The risk that the story cannot be completed as desired
+* The impact the story will have on other stories if deferred
+
+Customers and users may have these factors to consider:
+
+* the desirability of the story to a broad base of users or customers
+* the desirability of the story to a small number of important users or customers
+* the cohesiveness of the story in relation to other stories
+
+Collectively developers have a preferred sequence to implementing the stories. The customer will also have preferences and these must always be considered over developer preferences. Nonetheless, customers can not prioritize without information from the development team regarding the potential cost for the implementation of each story.
+
+The customer uses the estimates, along with their own assessment of the value of each story, to sort the stories so that they maximize the value delivered to the organization.
+
+If the customer is having difficulty prioritizing a story, the story may have to be split. Once split, the separated stories will allow the customer to prioritize accordingly.
+
+h2. Risky Stories
+
+Take on risky stories first and work on them iteratively to reduce risk early (Barry Boehm).
+
+Agile advcoates the "juicy-bits" first: allows projects to not solve risks too far in advance. This includes deferring infrastructure work that may not be needed. The focus is also on the highest value functionality that may be released early. 
+
+Nonetheless, risky stories must be discussed with the customer who has the final say on when to implement and release the functionality.
+
+h2. Developer Responsibilities
+
+* Provide information (sometimes including your underlying assumptions and possible alternatives) to the customer in order to help her prioritize the stories
+* Resist the urge to prioritize infrastructural or architectural needs higher than they should be
+* Create a release plan that is built on realistic estimates yet includes an appropriately sized project buffer
+
+h2. Customer Responsibilities
+
+* Prioritize the user stories into the precise roder you value them. It is not sufficient to sort them into stacks of high, medium and low priority
+* Express honest deadlines for the release
+* Understand the difference between ideal time and calendar time
+* Split stories that contain components that you want prioritized differently
+* Understand why a programmer with a personal velocity lower than the expected velocity must not be reprimanded
+
+
+<nav class="nav-chapters">
+	<ul>
+		<li class="prev-chapter"><a href="../chapter-07/">Previous chapter</a></li>
+		<li class="index"><a href="../">Index</a></li>
+		<li class="next-chapter"><a href="../chapter-13/">Next chapter</a></li>
+	</ul>
+</nav>
+

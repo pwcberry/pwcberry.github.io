@@ -1,0 +1,58 @@
+---
+layout: book
+title: User Stories Applied
+permalink: /rmit/books/user-stories-applied/chapter-07/
+book_title: User Stories Applied - For Agile Software Development
+book_authors: Mike Cohn
+book_publisher: Addison Wesley, Boston, 2004
+---
+
+h1. Chapter 7 - Guidelines for Good Stories
+
+h2. Start with Goal Stories
+
+For each user role, identify the goals that the user has for interacting with the software. There maybe a primary goal supported by secondary goals which can be turned into stories.
+
+h2. Slice the Cake
+
+For a large story, instead of breaking it apart along technical lines, consider the replacement stories as providing some level of end-to-end functionality. Like slicing a cake, each story should have little from each layer of the software.
+
+To write stories that represent a full slice of the cake provide two benefits:
+
+# Excercising each layer of the architecture reduces the risk of finding last minute problems in one of the layers
+# Although not ideal, it is conceivable that the application can be released with only some of its functionality in place, but enough functionality to allow the user to complete tasks.
+
+h2. Write Closed Stories
+
+A closed story is one that finishes with the achievement of a meaningful goal and that allows the user to feel they have accomplished something.
+
+Keep in mind that a story needs to be small enough to be estimable.
+
+h2. Size the Story to the Horizon
+
+* Stories for iterations in the near future can be written small enough to be added to these iterations
+* Stories not planned to be included in immediate iterations, can be "fuzzy": large and not precise, close to the horizon of stories. Certainly in the future.
+
+h2. Keep the UI Out as Long as Possible.
+
+Considering user interface details in a story is specifying a solution.
+
+h2. Other Guidelines
+
+* Some things aren't stories
+* Include user roles in stories
+* Write for one user
+* Write in active voice
+* Ideally the customer writes the stories
+* Don't number story cards - discussions become about numbers rather than features that need to be developed.
+
+
+
+<nav class="nav-chapters">
+	<ul>
+		<li class="prev-chapter"><a href="../chapter-03/">Previous chapter</a></li>
+		<li class="index"><a href="../index.html">Index</a></li>
+		<li class="next-chapter"><a href="../chapter-09/">Next chapter</a></li>
+	</ul>
+</nav>
+
