@@ -187,5 +187,11 @@ permalink: /rmit/books/
 			<td><a class="book-link" href="http://www.amazon.com/dp/B004W8ZL3M/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2XBZMUMNHW7QG&coliid=INEMHD07HYGWV">Kindle</a></td>
 		<td>&nbsp;</td>
 		</tr>
+		<tr>
+			<td><img src="http://ecx.images-amazon.com/images/I/51hw1Rd274L._SX379_BO1,204,203,200_.jpg" alt="" class="book"/></td>
+			<td><i>Leading Lean Software Development</i><br/>Mary and Tom Poppendieck</td>
+			<td><span class="book">658.403 8011 P831</span></td>
+			<td><a class="book-link" href="http://amzn.com/B002Y1U7VU">Kindle</a></td>
+		</tr>
 	</tbody>
 </table>

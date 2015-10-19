@@ -6,7 +6,7 @@ permalink: /rmit/project-management/
 
 # Software Engineering Project Management (ISYS1106)
 
-[Course Guide](http://www1.rmit.edu.au/courses/isys11061550)
+[Exam Preparation](./exam/)
 
 [Project Management in Pratice](./books/pm-practice/)
 

@@ -1,0 +1,351 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/project-management/exam/
+---
+
+h1. Exam Preparation
+
+h2. Structure of The Exam
+
+The exam is divided into 4 secions:
+
+# Project Management - Concepts _(20 marks)_
+# Project Management - Implementation _(25 marks)_
+# Methodology - Concepts _(10 marks)_
+# Methodology - Implementation _(25 marks)_
+
+9 questions with sub parts. 80 marks in total.
+
+h2. Content of The Exam
+
+h3. Week 1
+
+Lecture notes: Slides 16 - 62
+
+* Definition of a project
+* Definition of project management
+* Three goals of project management
+## Scope
+## Cost
+## Time
+* Risk (uncertainty)
+* Risk - the fourth project goal
+* Project methodologies
+** Software development lifecycles
+* Why projects fail
+* Standards for project management
+** PMBOK
+** PRINCE2 (not examinable in detail)
+* Higher-level project coordination
+** Portfolio management
+** Program management
+** Project Management Office (PMO)
+** Projects and strategic planning
+* PMBOK Guide
+* Role of project manager
+
+Textbook: Chapter 1: pp 1-9, 22-31
+
+h3. Week 2
+
+Lecture notes: Slides 5-74
+
+* Enterprise Environmental Factors
+* Project life cycle
+* Project stakeholders
+* Organizational influences
+* Organization structure
+** Functional
+** Matrix - weak, balanced, strong
+** Projectized
+* Project process groups:
+## Initiating
+## Planning
+## Executing
+## Monitoring and Controlling
+## Closing
+* Project management knowledge areas
+** Integration
+** Scope
+** Time
+** Cost
+** Quality
+** Human resources
+** Communications
+** Risk management
+** Procurement
+* Project integration management
+* Planning:
+** "Ready, aim, fire"
+** "Paralysis by analysis"
+* Project charter
+** Purpose
+** Objectives
+** Overview
+** Schedule (WBS)
+** Resource requirements
+** Personnel and stakeholders
+** Risk management
+** Evaluation methods
+* Planning process
+* Work Breakdown Structure (WBS)
+* RACI Matrix
+* Mind-mapping
+* Risk Management
+## Risk management planning
+## Risk identification
+## Qualitative risk analysis
+## Quantitative risk analysis
+## Risk response planning
+## Risk monitoring and control
+* Develop project management plan
+* Direct and manage project execution
+* Monitor and control project work
+* Perform integrated change control
+* Close project or phase
+
+Textbook: Chapter 2: pp 106- _Plymouth Zoo's Re-engineering Project_
+Textbook: Chapter 3: pp 76-97, 98-103
+
+Tutorial: All of it
+
+h3. Week 3
+
+Lecture: slides 19-26
+
+* Common problem solving (within teams)
+## Define the Problem
+## Identify and define the Root Causes
+## Fishbone diagram (izikawa)
+## Generate alternative solutions
+## Evaluate the alternatives
+## Agree on the best solution
+## Develop an Action Plan
+## Implement and evaluation the solution
+
+Textbook: Chapter 5: pp 151, 181-188 _scheduling the project_
+Textbook: Chapter 6: pp 207-213, 221-223 _allocating resources to the project_
+
+Tutorial: Read all of it
+
+*Expectations:* 
+
+* Perform risk analysis and provide mitigation strategies for a given scenario
+* Create RACI matrix and perform FMEA analysis for a given scenario
+
+*Ignore:*
+
+* Gantt charts
+* Microsoft Project
+
+h3. Week 4
+
+Lecture notes: slides 11-16
+
+* Critical Path Method (CPM)
+* ES, EF, LS, LF
+* Network of nodes
+* Activity slack
+
+Lecture notes: slides 34-69
+
+* Project monitoring
+* Design monitoring system
+* Data collection and reporting
+* Earned value
+* Project variances
+* Project control
+* Common mistakes
+* Types and tools for control
+
+Textbook: Chapter 7: pp 244-271 _monitoring and controlling the project_
+
+Tutorial: Read all of it
+
+*Expectations:*
+
+* Calculate variances: EV, AC, PV, CPI, SPI
+* Critical path for network diagram and ES, EF, LS, LF
+
+*Ignore:*
+
+* Scope creep
+* Change control
+
+h3. Week 5
+
+Lecture notes: slides 6-25
+
+* Project methodologies
+* Traditional waterfall
+* Traditional SDLC
+* Assumptions underlying the Waterfall model
+* Rational Unified Process
+* Compare PMBOK to RUP
+
+Lecture notes: slides 31-34
+
+* Agile
+* What Agile is best suited to
+* Agile manifesto
+* Agile principles
+* Agile methods
+
+Lecture notes: slides 42-47
+
+* Agile- Scrum
+* Product backlog
+* User stories
+* Release backlog
+* Sprints
+
+Tutorial: Read all of it
+
+h3. Week 6
+
+Lecture notes: All slides
+
+* Agile and Scrum
+* What Agile is
+* Is Agile related to Scrum
+* People in Scrum
+* Backlogs
+* Sprints
+* Daily Scrum
+* Scrum master
+* Product owner
+* Scrum team
+* Scrum meetings
+** Sprint planning
+** Daily scrum
+** Sprint review
+** Sprint retrospective
+* Story points
+* Sprint velocity
+
+Watch associated videos.
+
+Tutorial: Read all of it
+
+h3. Week 7
+
+Lecture notes: All slides
+
+* Is Agile different than Scrum?
+* Is Scrum a fad?
+* Backlog grooming
+* Common pitfalls
+* What happens when a team falls behind
+* Scrum - supporting cast
+* Identification of an additional task
+* Sprint review meeting
+* Sprint retrospective meeting
+* Scrum of Scrums
+* Product increment
+* Definition of Done
+* Sashimi
+* Scrum But
+* Terms:
+** Spike
+** Tracer Bullet
+** Abnormal Termination
+** Scrum-ban
+* Limitations of Scrum
+* Scrum certification
+
+Watch associated videos.
+
+Tutorial: Read all of it
+
+h3. Week 8
+
+Lecture notes: All slides
+
+* Lean practices
+* Five principles of Lean
+## Understand _and_ maximise value
+## Optimise the value stream
+## Pull production
+## Single-piece flow
+## Continuous improvement (_Kaizen_)
+* Kanban
+* How does Agile fit in?
+* Lean mindset (misconceptions / perspectives)
+* Implementation of Lean
+
+* Project Quality and Metrics
+* Capability Maturity Model Integration (CMMI)
+* Quality Assurance
+* Standards and Procedures
+* Audits
+* Software metrics
+* Internal and external control
+
+Tutorial: Read all of it
+
+*Expectations:*
+
+* Illustrate how to plan, execute and close Lean projects
+* Use project management frameworks
+* Simulate regular Lean project management meetings
+* Comprehend quality and metrics
+
+h3. Week 9
+
+Lecture notes: All slides
+
+* Lean principles used by Toyota
+* Apply Lean asa methodology to Project Management
+* Lean execution phase
+* Criticism of Lean
+* Agile practices found in industry
+* Disciplineed Agile Delivery (DAD)
+
+Watch associated videos.
+
+Tutorial: Read all of it
+
+*Expectations:*
+
+* Illustrate how to plan, execute and close Lean projects
+* Use project management frameworks
+* Simulate regular Lean project management meetings
+* Understand Agile better
+
+h3. Week 10
+
+Lecture notes: All slides
+
+Apparently this lecture will not appear in the exam. However, it won't hurt to skim:
+
+* Project manager roles and responsibilities
+* Factors of a successful team
+
+Textbook: Chapter 2: pp 35-73 _The manager, the organization and the team_
+Textbook: Chapter 8: pp 280-293 _Evaluating and terminating the project_
+
+Tutorial: Read all of it
+
+h3. Week 11
+
+Lecture notes: All slides
+
+* Case studies
+* Budgeting
+* Budgeting problems
+* Top-down budgeting
+* Bottom-up budgeting
+* Cost estimating
+* Budget uncertainty
+
+Textbook: Chapter 4: pp 112-130 _budgeting the project_
+Textbook: Chapter 6: pp 200-235 _allocating resources to the project_
+
+Tutorial: Read all of it
+
+h2. Assignment Section
+
+* Given a scenario
+* Implement Scrum techniques
+* Practice exam scenarios from previous exams
