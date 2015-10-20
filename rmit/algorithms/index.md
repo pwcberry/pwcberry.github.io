@@ -6,7 +6,7 @@ permalink: /rmit/algorithms/
 
 # Algorithms and Analysis (COSC2123)
 
-[Course Guide](http://www1.rmit.edu.au/courses/cosc21231450)
+[Exam revision](./exam/)
 
 [CS 161 - Design and Analysis of Algorithms](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms)
 
@@ -134,3 +134,16 @@ A* search won't be asked to do it; will need to understand the idea
 ## Books
 
 [Introduction to The Design and Analysis of Algorithms, Third Edition](/rmit/books/design-and-analysis-of-algorithms/)
+
+
+<script>
+(function () {
+	'use strict';
+	var links = document.getElementsByTagName('a');
+	[].forEach.call(links, function (link) {
+		if (!(/travelsincode.com/.test(link.href))) {
+			link.target = '_blank';
+		}
+	});
+}());
+</script>

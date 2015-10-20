@@ -6,7 +6,7 @@ permalink: /rmit/
 
 h2. Semester 2
 
-["Important Dates":http://www1.rmit.edu.au/browse;ID=dediq5vc4yww1]
+["(external). Important Dates":http://www1.rmit.edu.au/browse;ID=dediq5vc4yww1]
 
 h3. Software Engineering Project Management (ISYS1106)
 

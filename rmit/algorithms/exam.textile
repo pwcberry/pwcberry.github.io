@@ -17,6 +17,8 @@ h3. Week 1 - Basics
 
 Levitin: Chapter 1
 
+["Notes":./week-01/]
+
 h2. Week 2 - Algorithmic Analysis
 
 * Basic operation and input size

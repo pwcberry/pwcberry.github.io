@@ -300,3 +300,15 @@ Become Project Manager:
 * Practice the scenario questions; identify features; write product items from this; show answer to Shekhar
 
 
+
+<script>
+(function () {
+	'use strict';
+	var links = document.getElementsByTagName('a');
+	[].forEach.call(links, function (link) {
+		if (!(/travelsincode.com/.test(link.href))) {
+			link.target = '_blank';
+		}
+	});
+}());
+</script>

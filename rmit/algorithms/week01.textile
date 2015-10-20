@@ -1,0 +1,108 @@
+---
+layout: rmit
+title: Algorithms and Analysis | Semester 2, 2015 | RMIT
+permalink: /rmit/algorithms/week-01/
+---
+
+h1. Introduction to Algorithms
+
+An *algorithm* is a sequence of unambiguous instructions for solving a problem, i.e. for obtaining a required output for any legitimate input in a finite amount of time.
+
+h2. Fundamentals of Algorithmic Problem Solving
+
+* Understand the problem
+* Ascertaining the Capabilities of the Computational Device
+* Choosing between Exact and Approximate Problem Solving
+* Algorithm Design Techniques
+* Designing an Algorithm and Data Structures
+* Methods of Specifying an Algorithm
+* Proving an Algorithm's Correctness
+* Analysing an Algorithm
+** Time efficiency
+** Space efficiency
+** Simplicity
+** Generality
+* Coding an Algorithm
+
+h2. Important Problem Types
+
+h3. Sorting
+
+* Rearrange items of a given list in non-descreasing order where the items can be ordered (compared) - a relation of total ordering.
+* Each item is arranged by a given *key*
+* A sorting algorithm is stable if: In the original list two elements in positions @i@ and @j@ where @i < j@ when sorted are in positions @i'@ and @j'@ where @i' < j'@
+* Sorting is *in-place* if the algorithm does not require any extra storage to finish its processing
+
+h3. Searching
+
+* Find an item with a given *search key* in a set or multiset
+
+h3. String Processing
+
+* String matching
+* Edit distance
+
+h3. Graph Problems
+
+h3. Combinatorial PRoblems
+
+* Traveling salesman problem
+* Graph colouring problem
+* A permutation, a combination or subset
+
+h3. Geometric Problems
+
+* Points, lines and polygons
+* *Closest-pair problem*
+
+h3. Numerical Problems
+
+* Solving equations, systems of equations, computing definite integrals, evaluating functions, and other mathematical objects of continuous nature
+
+h2. Fundamental Data Structures
+
+A *data structure* is a particular scheme for organising related data items.
+
+h3. Linear Data Structures
+
+* Array
+** _index_
+** string (array of @char@)
+** binary strings or bit strings
+* linked list
+* doubly linked list
+* list (a finite sequence of data items)
+* stack (LIFO) (push, pop)
+* queue (FIFO) (enqueue, dequeue)
+
+h3. Graphs
+
+* @G = <V,E>@ 
+* Undirected graph
+* Digraphs
+* Number of edges (no loops): @0 <= |E| <= |V|(|V| - 1) / 2@
+* Adjacency matrix
+* Adjacency lists
+* Weighted graphs
+** Weighted matrix (or cost matrix)
+* Acyclic graphs
+* Connectivity
+* Trees (free tree): connected acyclic graph
+* Rooted trees
+* Ordered trees
+** Binary search trees
+
+h3. Sets and Dictionaries
+
+* Set
+* Multiset / bag
+* Dictionary
+* Abstract Data Type
+
+<nav class="nav-lectures">
+	<ul>
+		<!-- <li class="prev-lecture"><a href="../week-01/">Previous</a></li> -->
+		<li class="index"><a href="../index.html">Index</a></li>
+		<li class="next-lecture"><a href="../week-02/">Next</a></li>
+	</ul>
+</nav>
