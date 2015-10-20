@@ -349,3 +349,9 @@ h2. Assignment Section
 * Given a scenario
 * Implement Scrum techniques
 * Practice exam scenarios from previous exams
+
+<nav class="nav-lectures">
+    <ul>
+        <li class="index"><a href="../index.html">Index</a></li>
+    </ul>
+</nav>

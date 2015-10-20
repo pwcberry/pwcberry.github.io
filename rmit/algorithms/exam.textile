@@ -1,0 +1,158 @@
+---
+layout: rmit
+title: Algorithms and Analysis | Semester 2, 2015 | RMIT
+permalink: /rmit/algorithms/exam/
+---
+
+h1. Exam Preparation
+
+h2. Content of The Exam
+
+h3. Week 1 - Basics
+
+* Abstract data types (ADTs)
+* Sets
+* Sequences
+* Graphs
+
+Levitin: Chapter 1
+
+h2. Week 2 - Algorithmic Analysis
+
+* Basic operation and input size
+* Best, average and worst cases
+* Order of growth
+** Theta ( &Theta; )
+** Big omega ( &Omega; )
+** Big o ( &Omicron; )
+* Non-recursive analysis
+* Recursive analysis
+** Recurrence relation
+** Forward substitution (initial guess)
+** Backward substitution (formal)
+* Empirical analysis (purpose?)
+
+Levitin: Chapter 2
+
+h3. Week 3 - Brute Force
+
+* Philosophy
+* Basic sorting algorithms
+** Selection sort
+** Bubble sort
+** Understand the implementation
+** Understand the different cases
+* Brute force string matching
+** Understand formula to quickly compute number of comparisons
+** Contrast to algorithms in Week 9
+* Computational geometry
+* Exhaustive search
+* Graph search
+** Depth-first search
+** Breadth-first search
+
+Levitin: Chapter 3
+
+h3. Week 4 - Decrease and Conquer
+
+* Philosophy
+* Decrease by a constant
+** Insertion sort
+** Shell sort 
+** Topological sort
+* Decrease by a factor
+** Binary search
+** Fake coin problem
+* Variable size decrease
+** BST traversal
+** BST search and insertion
+** BST deletion
+
+Levitin: Chapter 4
+
+h3. Week 5 - Divide and Conquer
+
+* Philosophy
+* Merge sort (compare performance with other sorting algorithms)
+* Recursion tree
+* Master theorem
+* Quick sort (performance, pivot selection strategies)
+* Quick hull (idea, performance and worst case)
+* Divide and conquey closet pair (idea, performance and worst case)
+
+Levitin: Chapter 5
+
+h3. Week 6 - Transform and Conquer
+
+* Philosophy
+* Instance simplication
+* Representation change
+** AVL trees
+** 2-3 trees
+** Heaps
+** Priority queues
+** Heapsort
+* Problem reduction (linear programming)
+
+Levitin: Chapter 6
+
+h3. Week 7 - Space and Time 1
+
+* Input enhancement
+* Prestructuring
+** Hashing
+** Collision resolution
+** Cuckoo hasing
+
+Levitin: Chapter 7.1, 7.3
+
+h3. Week 8 - Graph Matching
+
+* Definitions
+* Assignment problem (brute force)
+* Stable marriage problem (Gale-Shapley algorithm)
+
+Levitin: Chapters 3.4, 10.3, 10.4
+
+h3. Week 9 - Space and Time 2
+
+* Definitions for pattern matching
+* Prefix-based algorithms
+** Brute-force
+** KMP (rationale, apply to constructed automata)
+** Shift-and (rationale, apply)
+* Suffix-based algorithms
+** BM (rationale, difference with Horspool)
+** Horspool (rationale, apply)
+* Factor-based (general idea, some examples like BOM)
+* Indexing
+** Suffix-tree and array (idea, no need to construct)
+** Information retrieval (inverted index)
+
+Levitin: Chapter 7.2
+
+h3. Week 10 - Dynamic Programming
+
+* Philosophy
+* Coin-row problem
+* Edit distance
+* Knapsack (bottom-up and top-down)
+* Warshalls algorithm (transitivity)
+* Floyd's algorithm (all pairs shortest path)
+
+Levitin: Chapter 8
+
+h3. Week 11 - Greedy Approaches
+
+* Philosophy
+* Prim's algorithm (spanning tree)
+* Kruskal's algorithm (spanning tree)
+* Dikstra's algorithm (single source shortest path)
+* Path finding (A* search)
+* Data compression
+** Definitions, aims
+** Fixed-length codes
+** Variable-length codees, prefix codes
+** Huffman codes and trees
+
+Levitin: Chapter 9
