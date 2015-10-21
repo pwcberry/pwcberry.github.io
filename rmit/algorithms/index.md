@@ -8,11 +8,15 @@ permalink: /rmit/algorithms/
 
 [Exam revision](./exam/)
 
+[Notes](./week-01/)
+
 [CS 161 - Design and Analysis of Algorithms](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms)
+
+[Index](../index.html)
 
 ## Week 2
 
-__Average Case__ is _not_ the average of the worst and best case. It is the average performance across all possible inputs.
+__Average Case__ is _not_ the average of the worst and best case. It is the Saverage performance across all possible inputs.
 
 `_n_ log _n_`: how is this order-of-growth function determined?
 
@@ -138,12 +142,16 @@ A* search won't be asked to do it; will need to understand the idea
 
 <script>
 (function () {
-	'use strict';
-	var links = document.getElementsByTagName('a');
-	[].forEach.call(links, function (link) {
-		if (!(/travelsincode.com/.test(link.href))) {
-			link.target = '_blank';
-		}
-	});
+    'use strict';
+    var links = document.getElementsByTagName('a'),
+        host = location.hostname + (location.port ? (':' + location.port) : '');
+    [].forEach.call(links, function (link) {
+        if (link.href.indexOf(host) < 0) {
+            link.target = '_blank';
+            if (!link.classList.contains('external')) {
+                link.classList.add('external');
+            }
+        }
+    });
 }());
 </script>

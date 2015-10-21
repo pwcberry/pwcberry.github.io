@@ -4,6 +4,8 @@ title: Algorithms and Analysis | Semester 2, 2015 | RMIT
 permalink: /rmit/algorithms/exam/
 ---
 
+"index":../index.html
+
 h1. Exam Preparation
 
 h2. Content of The Exam
@@ -17,7 +19,7 @@ h3. Week 1 - Basics
 
 Levitin: Chapter 1
 
-["Notes":./week-01/]
+["Notes":../week-01/]
 
 h2. Week 2 - Algorithmic Analysis
 
@@ -158,3 +160,4 @@ h3. Week 11 - Greedy Approaches
 ** Huffman codes and trees
 
 Levitin: Chapter 9
+SS

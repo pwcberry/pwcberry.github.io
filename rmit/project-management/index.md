@@ -8,7 +8,11 @@ permalink: /rmit/project-management/
 
 [Exam Preparation](./exam/)
 
+[Notes](./week-01/)
+
 [Project Management in Pratice](./books/pm-practice/)
+
+[Index](../index.html)
 
 # Weekly Notes
 
@@ -304,10 +308,14 @@ Become Project Manager:
 <script>
 (function () {
 	'use strict';
-	var links = document.getElementsByTagName('a');
+	var links = document.getElementsByTagName('a'),
+        host = location.hostname + (location.port ? (':' + location.port) : '');
 	[].forEach.call(links, function (link) {
-		if (!(/travelsincode.com/.test(link.href))) {
+		if (link.href.indexOf(host) < 0) {
 			link.target = '_blank';
+            if (!link.classList.contains('external')) {
+                link.classList.add('external');
+            }
 		}
 	});
 }());

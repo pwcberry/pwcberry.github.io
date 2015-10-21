@@ -4,6 +4,8 @@ title: Software Engineering Project Management | Semester 2, 2015 | RMIT
 permalink: /rmit/project-management/exam/
 ---
 
+"Index":../index.html
+
 h1. Exam Preparation
 
 h2. Structure of The Exam
@@ -48,6 +50,8 @@ Lecture notes: Slides 16 - 62
 Textbook: Chapter 1: pp 1-9, 22-31
 
 h3. Week 2
+
+"Notes":../week-02/
 
 Lecture notes: Slides 5-74
 
@@ -349,9 +353,3 @@ h2. Assignment Section
 * Given a scenario
 * Implement Scrum techniques
 * Practice exam scenarios from previous exams
-
-<nav class="nav-lectures">
-    <ul>
-        <li class="index"><a href="../index.html">Index</a></li>
-    </ul>
-</nav>

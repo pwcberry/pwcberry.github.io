@@ -101,8 +101,7 @@ h3. Sets and Dictionaries
 
 <nav class="nav-lectures">
 	<ul>
-		<!-- <li class="prev-lecture"><a href="../week-01/">Previous</a></li> -->
-		<li class="index"><a href="../index.html">Index</a></li>
+		<li class="index"><a href="../exam/">Index</a></li>
 		<li class="next-lecture"><a href="../week-02/">Next</a></li>
 	</ul>
 </nav>

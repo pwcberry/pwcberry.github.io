@@ -1,0 +1,40 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/project-management/week-01/
+---
+
+h1. Week 1
+
+h2. The Project Portfolio Process
+
+Step 1. Establish a Project Council
+
+Step 2. Identify Project Categories and Criteria
+
+Categories:
+
+# Derivative projects
+# Platform projects
+# Breakthrough projects
+# R & D projects
+
+Step 3. Collect Project Data
+
+Step 4. Assess Resource Availability
+
+Step 5. Reduce the Project and Criteria Set
+
+Step 6. Prioritize the Projects within Categories
+
+Step 7. Select the Projects to Be Funded and Held in Reserve
+
+Step 8. Implement the Process
+
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="index"><a href="../exam/">Index</a></li>
+		<li class="next-lecture"><a href="../week-02/">Next</a></li>
+	</ul>
+</nav>
