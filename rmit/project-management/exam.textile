@@ -4,7 +4,7 @@ title: Software Engineering Project Management | Semester 2, 2015 | RMIT
 permalink: /rmit/project-management/exam/
 ---
 
-"Index":../index.html
+"Index":../
 
 h1. Exam Preparation
 

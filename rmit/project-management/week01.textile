@@ -34,7 +34,7 @@ Step 8. Implement the Process
 
 <nav class="nav-lectures">
 	<ul>
-		<li class="index"><a href="../exam/">Index</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
 		<li class="next-lecture"><a href="../week-02/">Next</a></li>
 	</ul>
 </nav>

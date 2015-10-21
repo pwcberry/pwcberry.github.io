@@ -4,7 +4,7 @@ title: Algorithms and Analysis | Semester 2, 2015 | RMIT
 permalink: /rmit/algorithms/exam/
 ---
 
-"index":../index.html
+"Index":../
 
 h1. Exam Preparation
 

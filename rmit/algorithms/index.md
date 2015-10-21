@@ -6,13 +6,13 @@ permalink: /rmit/algorithms/
 
 # Algorithms and Analysis (COSC2123)
 
-[Exam revision](./exam/)
+[Exam preparation summary](./exam/)
 
-[Notes](./week-01/)
+[Revision notes](./week-01/)
 
 [CS 161 - Design and Analysis of Algorithms](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=IntroToAlgorithms)
 
-[Index](../index.html)
+[Index](../)
 
 ## Week 2
 
@@ -133,7 +133,6 @@ Why do we need empirical analysis?
 ### Greedy Approaches
 
 A* search won't be asked to do it; will need to understand the idea
-
 
 ## Books
 

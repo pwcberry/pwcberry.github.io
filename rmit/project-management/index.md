@@ -6,13 +6,13 @@ permalink: /rmit/project-management/
 
 # Software Engineering Project Management (ISYS1106)
 
-[Exam Preparation](./exam/)
+[Exam preparation summary](./exam/)
 
-[Notes](./week-01/)
+[Revision notes](./week-01/)
 
 [Project Management in Pratice](./books/pm-practice/)
 
-[Index](../index.html)
+[Index](../)
 
 # Weekly Notes
 

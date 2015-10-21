@@ -1,0 +1,32 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/project-management/week-02/
+---
+
+h1. Week 2
+
+h2. The Project Charter
+
+# *Purpose* - _Business Case_ for the project
+# *Objectives* - scope, deliverables and outcomes
+# *Overview* - executive summary
+# *Schedules* - milestones, WBS
+# *Resource requirements* - budget, expenses both operating and capital
+# *Personnel and stakeholders* - PM, sponsor, stakeholders, key members of project team
+# *Risk management* - identified risks, mitigation plans
+# *Evaluation methods* - how to measure effectiveness of outcomes
+
+h2. The Planning Process
+
+# Launch meeting
+# WBS
+# RACI Matrix
+# Risk management
+** Planning
+** Identification
+** Qualitative analysis (FMEA)
+** Quantitative analysis
+** Response planning
+** Mointoring and control
+
