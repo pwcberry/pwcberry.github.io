@@ -1,0 +1,138 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/project-management/tutorials/
+---
+
+h1. Tutorial Notes
+
+h2(#Tutorial-2). Tutorial 2
+
+h3. Contrast project with a non-project
+
+A project is unique, has definite outcomes and is temporary: there is a due date. A project is creating an iPhone app for CFA before the expected start of the bushfire season.
+
+A non-project will not have all of these properties at the same time. A non-project is characterized by business-as-usual activities.
+
+In a project-based organisational structure the employees of a company are organised around projects. Each team is focussed on the successful delivery of the project's outcomes.
+
+h3. Distinction between a program and a project
+
+A program groups projects together that are coherent set of activities that make up a larger, generalised effort. Each project must be managed to ensure they contribute to the overall success of the program.
+
+h3. Why the functional manager should attend the project launch meeting
+
+The functional managers have to give their approval to allow the project manager to allocate the functional managers' personnel to the project.
+
+The project's success may depend on the functional manager's willingness to allow important subordinates to take part in the project.
+
+The cooperation of the functional managers may increase when they have an understanding of the importance of the project. They may also help with the initial plan.
+
+h3. Different types of risk
+
+*Highly probably risks* Likely to eventuate but the degree of impact may be negligible to severe
+
+*Extremely serious risks* Will severely impact the project but the probability is low to high
+
+*Highly vulnerable areas* Highly probable and extremely serious risks. Often associated with activities that are untried and have substantial resources
+
+h3. Problems that arise from an incomplete Project Charter
+
+table(grid simple).
+| Purpose | Not meeting strategic reasons for conducting the project |
+| Objectives | Missed specifications; ill-defined deliverables |
+| Overview | Key milestones missed; opportunities to uncover problems early are missed |
+| Schedules | Required tasks overlooked or missing; project misses due date; cost overruns |
+| Resource requirements | Failure to have resources available when needed; cost elements are omitted |
+| Personel and Stakeholders | Skill requirements and training not considered; not involving critical stakeholders; the schedule may blow out and costs increase | 
+| Risk management | Missed plans for risk mitigation that could lead to project delay and/or exceeding the budget; Misunderstood risk assessment; |
+| Evaluation methods | Import performance data not captured; timeliness of problem discovery is affected; mislead PM about other project goals not specifically detailed |
+
+h2(#Tutorial-3). Tutorial 3
+
+h3. Components of a Project Charter
+
+# Purpose
+# Objectives
+# Overview
+# Schedule
+# Resource requirements
+# Personnel and Stakeholders
+# Risk management
+# Evaluation methods
+
+h3. RACI Matrix
+
+A RACI matrix is a grid that shows the degree of involvement for each person associated with the project according to task. Each person is assigned one of four values for each task:
+
+1. Responsible - The person(s) responsible for the successful completion of the task (or deliverable)
+2. Accountable - The person ultimately responsible for the completion of the task - has approval authority. At least one A in each row.
+3. Consult - The person to be consulted prior to a final decision or action. They may also be informed about the progress of the task. It is two-way communication.
+4. Inform - The person only needs to be informed after the decision or action, not just progress.
+
+The rows of the matrix are the tasks derived from the WBS and the columns are the departments or people involved in the project. The value of the RACI matrix is that it helps to organise the project team according to the responsibilities of the project team members.
+
+Drawbacks for not implementing a RACI matrix for the project:
+
+* Stakeholders are not informed when problems occur
+* Critical information is not given thus causing a task to be completed incorrectly then delaying the project
+* Conflict over who is accountable for an incompleted task
+* A task without someone responsible for it will not be started, let alone finished
+* Functional managers are upset when not informed of project changes
+
+h3. Qualitative Risk Analysis with FMEA
+
+IT firm tendering for work with large retail company. Risks:
+
+# Competition: high probability for very competitive bids and potential impact is substantial
+# Economy: economy is heading to a mild recession but the impact is high as company would not advertise
+# Chance of loss of bid: small probability but with a negative impact
+# Personnel loss (head of IT headhunted by competitor): probability of loss is moderate
+
+FMEA: *F*ailure *M*ode and *E*ffect *A*nalysis.
+
+* *S*: Severity - 1 = No effect, 10 = Very severe
+* *L*: Likelihood - 1 = Unlikely, 10 = Almost certain to happen
+* *D*: Detection - 1 = Almost certain failure can be detected, 10 = Certain failure can't be detected
+
+|_. Failure |_. S |_. L |_. D |_. RPN |
+| Competition wins | 8 | 8 | 1 | 64 |
+| Company does not advertise | 8 | 6 | 5 | 240 |
+| Loss of bid | 10 | 1 | 1 | 10 |
+| Personnel loss | 7 | 5 | 5 | 175 |
+
+h3. Risk Identification Technique - Scenario Analysis
+
+Envision a likely scenario that as will greatly impact an organisation and identifying the possible outcomes.
+
+For example: A software company is aware that a competitor is developing a restaurant mobile phone app and if the app is not released by the end of the month, the organization will not receive investment capital and thus the organization may have to liquidate.
+
+Once the major risks are identified, analysis should be pursued following collection of this data:
+
+* Probability of each risk occuring
+* Range or distribution of possible outcomes should the risk occur
+* Probabilities of each outcome
+* Expected timing of each outcome
+
+Getting as much data and accurate estimates as possibleis crucial for follow-on analysis.
+
+h2(#Tutorial-4). Tutorial 4
+
+h3. Micromanagement
+
+Micromanagement is the behaviour of a manager who needs to control every action of their subordinates.
+
+It is bad managerial practice because it does not allow trust to develop between the manager and their subordinates.
+
+h3. Scheduling as the Major Focus
+
+Throughout the history of project management, the focus has been on scheduling rather than performance and budgeting because it is the most difficult part of the plan to get right. There are many characteristics of the schedule - timing, resources, durations - to estimate correctly and that if a task on the critical path is delayed then the entire project is delayed.
+ 
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-01/">Previous</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-03/">Next</a></li>
+	</ul>
+</nav>

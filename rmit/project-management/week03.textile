@@ -28,7 +28,6 @@ There are common rules for what order a scarce resouce will be assigned to activ
 * *Most successors* - Activities with the highest number of successors, not necessarily critical
 * *Most resources first* - The greater the use of the specific resource on a task, the higher the task's priority for the resource.
 
-
 <nav class="nav-lectures">
 	<ul>
 		<li class="prev-lecture"><a href="../week-02/">Previous</a></li>

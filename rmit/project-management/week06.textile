@@ -1,0 +1,16 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/project-management/week-06/
+---
+
+h1. Week 6
+
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-05/">Previous</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-07/">Next</a></li>
+	</ul>
+</nav>

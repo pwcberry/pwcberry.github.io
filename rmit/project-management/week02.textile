@@ -17,6 +17,8 @@ h2. The Project Charter
 # *Risk management* - identified risks, mitigation plans
 # *Evaluation methods* - how to measure effectiveness of outcomes
 
+*Milestone* - An opportunity to assess the project's performance.
+
 h2. The Planning Process
 
 # Launch meeting
@@ -30,6 +32,47 @@ h2. The Planning Process
 ** Response planning
 ** Mointoring and control
 
+h2. Tutorial
+
+h3. Contrast project with a non-project
+
+A project is unique, has definite outcomes and is temporary: there is a due date. A project is creating an iPhone app for CFA before the expected start of the bushfire season.
+
+A non-project will not have all of these properties at the same time. A non-project is characterized by business-as-usual activities.
+
+In a project-based organisational structure the employees of a company are organised around projects. Each team is focussed on the successful delivery of the project's outcomes.
+
+h3. Distinction between a program and a project
+
+A program groups projects together that are coherent set of activities that make up a larger, generalised effort. Each project must be managed to ensure they contribute to the overall success of the program.
+
+h3. Why the functional manager should attend the project launch meeting
+
+The functional managers have to give their approval to allow the project manager to allocate the functional managers' personnel to the project.
+
+The project's success may depend on the functional manager's willingness to allow important subordinates to take part in the project.
+
+The cooperation of the functional managers may increase when they have an understanding of the importance of the project. They may also help with the initial plan.
+
+h3. Different types of risk
+
+*Highly probably risks* Likely to eventuate but the degree of impact may be negligible to severe
+
+*Extremely serious risks* Will severely impact the project but the probability is low to high
+
+*Highly vulnerable areas* Highly probable and extremely serious risks. Often associated with activities that are untried and have substantial resources
+
+h3. Problems that arise from an incomplete Project Charter
+
+table(grid simple).
+| Purpose | Not meeting strategic reasons for conducting the project |
+| Objectives | Missed specifications; ill-defined deliverables |
+| Overview | Key milestones missed; opportunities to uncover problems early are missed |
+| Schedules | Required tasks overlooked or missing; project misses due date; cost overruns |
+| Resource requirements | Failure to have resources available when needed; cost elements are omitted |
+| Personel and Stakeholders | Skill requirements and training not considered; not involving critical stakeholders; the schedule may blow out and costs increase | 
+| Risk management | Missed plans for risk mitigation that could lead to project delay and/or exceeding the budget; Misunderstood risk assessment; |
+| Evaluation methods | Import performance data not captured; timeliness of problem discovery is affected; mislead PM about other project goals not specifically detailed |
 
 <nav class="nav-lectures">
 	<ul>
