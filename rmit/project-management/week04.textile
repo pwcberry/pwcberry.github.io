@@ -6,6 +6,35 @@ permalink: /rmit/project-management/week-04/
 
 h1. Week 4
 
+h2. Earned Value and Variance
+
+Earned value of a task (or project) is the budget cost of the work actually done. It is caluclated by multiplying the budgeted cost of the task by the percentage of work completed for the task.
+
+A negative variance is bad - suggests the task has not used resources appropriately or may be delayed
+
+A postive variance is good - suggests tasks are ahead of schedule or resources are efficiently utilised
+
+Variance glossary:
+*EV*: Earned value
+*AC*: Actual cost
+*PV*: Planned cost
+*CPI*: Cost performance index
+*SPI*: Schedule performance index
+*BAC*: Budget at completion
+*ETC*: Estimated remaining cost to completion
+*EAC*: Estimated total cost at completion
+
+*Cost/spending variance*: EV - AC
+*Scheduled variance*: EV - PV
+*CPI*: EV / AC
+*SPI*: EV / PV
+*ETC*: (BAC - EV) / CPI
+*EAC*: ETC + AC
+
+h2. Project Control
+
+Control: the act of reducing differences between the plan and actuality
+
 
 <nav class="nav-lectures">
 	<ul>

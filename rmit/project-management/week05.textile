@@ -6,6 +6,80 @@ permalink: /rmit/project-management/week-05/
 
 h1. Week 5
 
+h2. Project Methodology - Traditional Waterfall
+
+h3. Stages
+
+# Requirements defintion
+# System & software design
+# Implementation & unit testing
+# Integration & system testing
+# Operation & maintenance
+# Disappointment and rejection (in about 72% of case in 2000)
+
+* Each stage cannot begin until the previous stage is complete.
+* Output of one step is input for the next step
+* Separate and distinct phases of specification and development
+* Separate and distinct application of resources
+
+h3. Problems
+
+* Inflexible when it comes to changed requirements
+* Inappropriate for releases that push out a new version
+* Failure or success is not known until too late
+* Errors found in later phases difficult (and expensive!) to correct
+* Customer doesn't know what they want and development teams follow best guesses
+* All aspects attempted to be defined prior to work
+
+h3. Assumptions Underlying the Waterfall Model
+
+* Reasonable set of requirements exists that can be understood
+* During development changes to requirements will be small enough without having to revise plans
+* System integration is necessary and it can be reasonably predicted based on architecture and planning
+* R&D and innovation to create significant new software can be done on a predictable schedule
+
+These cause issues because:
+
+* Projects fail to deliver what the customer expected in the predicted time frame
+* Rework is expensive and time-consuming
+* Risk management difficult to integrate
+
+h2. Project Methodology - Rational Unified Process
+
+* RUP activities create and maintain models rather than the generation of paper documents
+* Iterative process with the following advantages over the waterfall model:
+** Risks mitigated earlier
+** Change is manageable
+** Greater reuse
+** Project team learns along the way
+** Better overall quality
+* RUP is maintained like any software tool or product
+
+* Use-case driven
+* Architecture centric
+* Iterative and incremental in approach
+
+table(grid simple).
+|_. RUP |_. PMBOK |
+| Software development | Any project type |
+| Website delivery with lots of templates, whitepapers & examples | Books and 3 ^rd^ party resources |
+| Project management - as well as software development focus | Project management focus |
+| Iterative | Progressive elaboration |
+| Adapt the process | It is a guide rather than a methodology |
+| Phases and iterations specific to software development | Phases are specific to project type |
+
+h3. RUP Phases
+
+*1. Inception*
+
+*2. Elaboration*
+
+*3. Construction*
+
+*4. Transition*
+
+
+
 
 <nav class="nav-lectures">
 	<ul>

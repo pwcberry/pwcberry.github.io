@@ -1,0 +1,89 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/project-management/week-07/
+---
+
+h1. Week 7
+
+h2. ScrumBut Symptoms
+
+* Reports to Scrum Master at stand-up
+* Developers keep getting ahead of testers
+* Falling behind on regulatory documentation
+* Failed customer demo demoralizes the team
+* Team members are afraid to try new ideas because they might fail
+* Retrospectives focus on who rather than what
+
+h2. Other Scrum terms
+
+h3. Spike
+
+A story or task aimed at answering a question or gathering information, rather than at producing shippable product. "Spike - Agile Dictionary":http://agiledictionary.com/209/spike/.
+
+A spike:
+
+* May discover the work cannot be implemented for any practical purpose
+* May discover the work can be used for great benefit on future stories
+* Is not to implement the completed work "as is"
+* Must have clear objectives and outcomes
+* Must be timeboxed
+
+Reference: "Spikes and the Effort-to-Grief Ratio":https://www.scrumalliance.org/community/articles/2013/march/spikes-and-the-effort-to-grief-ratio
+
+h3. Tracer Bullet
+
+A very narrow implementation in production quality of an epic/large user story and is usually an indicator that the user story is too large in estimation. "Research, Spikes, Tracer Bullets, Oh My!":http://www.gettingagile.com/2007/10/22/research-spikes-tracer-bullets-oh-my/
+
+The purpose of a tracer bullet is to examine how an end-to-end process will work to examine feasibility. "Agile Dictionary - Tracer Bullet":http://www.requirementally.com/agile-dictionary-tracer-bullet/
+
+h3. Abnormal Termination
+
+An abnormal termination is essentially blowing up the sprint and starting a new sprint instead. An abnormal termination is most frequently the result of a dramatic shift in business priorities - something previously considered important is no longer important, or something even more important is discovered. "Making the Decision to Abnormally Terminate a Sprint":http://www.mountaingoatsoftware.com/blog/making-the-decision-to-abnormally-terminate-a-sprint
+
+Reasons for an Abnormal Sprint Termination may include, but are not limited to:
+
+* The company changes direction
+* Market forces render the work obsolete
+* A major technology change occurs
+* A better technical solution is found that makes the current Sprint’s activity throwaway work
+* Fundamental and urgent external changes that invalidate the Sprint Goal or the bulk of the functionality
+* Urgent bug fix or feature development request that cannot wait until the normal completion of the Sprint
+
+"Abnormal Termination of a Sprint":http://agileatlas.org/articles/item/abnormal-termination-of-a-sprint
+
+h3. Scrum-ban
+
+Compare Kanban, Scrum and Scrum-ban:
+
+table(grid simple).
+|_. |_. Kanban |_. Scrum |_. Scrum-ban |
+| Daily stand ups | No | Yes | Yes |
+| Artifacts | None | Backlog, Current work, Burndown charts | Current work |
+| Metrics | Lead time / Cycle time | Velocity | Lead Time / Cycle time |
+| Demo | Not used | Required | Optional |
+| Skill sets | Specialized | Cross-Functional | Either specialized or cross-functional |
+| Iterations | No | Yes | No |
+| New Work | Prioritized immediately | Prioritized at Sprint Planning Meeting | Prioritized immediately |
+| Retrospective | Not used | Required | Optional |
+| Defined roles | None | PO, Scrum Master, Scrum Team | PO, Scrum Master, Scrum Team |
+
+
+
+"A Quick Comparison of Scrum-ban, Kanban, and Scrum":http://www.requirementally.com/a-quick-comparison-of-scrum-ban-kanban-and-scrum/
+
+"Scrum-ban":http://leansoftwareengineering.com/ksse/scrum-ban/
+
+h2. Other References
+
+"You May Be a Scrum-But":http://www.scrumalliance.org/community/articles/2013/february/you-may-be-a-scrum-but/
+
+"The Servant Leader":https://www.scrumalliance.org/community/articles/2014/october/the-servant-leader 
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-06/">Previous</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-08/">Next</a></li>
+	</ul>
+</nav>

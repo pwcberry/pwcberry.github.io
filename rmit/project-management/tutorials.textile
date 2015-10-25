@@ -6,6 +6,10 @@ permalink: /rmit/project-management/tutorials/
 
 h1. Tutorial Notes
 
+"Exam prep":../exam/
+
+"Notes":../week-01/
+
 h2(#Tutorial-2). Tutorial 2
 
 h3. Contrast project with a non-project
@@ -127,12 +131,228 @@ It is bad managerial practice because it does not allow trust to develop between
 h3. Scheduling as the Major Focus
 
 Throughout the history of project management, the focus has been on scheduling rather than performance and budgeting because it is the most difficult part of the plan to get right. There are many characteristics of the schedule - timing, resources, durations - to estimate correctly and that if a task on the critical path is delayed then the entire project is delayed.
- 
+
+h2(#Tutorial-5). Tutorial 5
+
+h3. Why is a PM concerned with Resource Allocation?
+
+Resource allocation - availability of people to complete tasks within the duration specified in the project plan.
+
+* Project plan lists general categories of resource requirements - the PM still needs to arrange to get the specific resources
+* Project plan may specify how much of the resource and priority for an activity - but may not specify when exactly the resource is needed by the PM
+* Project plan may specify the amount of a resource need for a project, but no mechanism is available to balance the load of the resource across projects - this may lead to conflict and bottlenecks
+
+h3. Difference between a fixed delivery day and fixed limit on resources
+
+A project with a fixed delivery day may have access to more resources to ensure it delivers on time; a project with a fixed limit on resource usage has to plan carefully around the available resources and delay the delivery date.
+
+h3. Student syndrome
+
+Definition: "Too much time available, leave until last minute"
+
+The PM should:
+
+* make a "fake deadline" to induce urgency but the real deadline is then announced (as slack)
+* attempt to strike a balance between unrealistic deadlines and slack time
+* set goals that have a reasonable chance (40 - 60 percent) of being met
+
+h3. S-shaped and J-shaped Lifecycles
+
+An S-shaped project lifecycle involves a slow build up, has a period of quick momentum, then a slow finish.
+
+A J-shaped project has a slow start then a rapid finish.
+
+Project A: S-shaped lifecycle
+Project B: J-shaped lifecycle
+
+Project C would borrow the important resouce from Project A as it is slowing down as it nears completion; taking the resource away from Project A won't have as great an impact than if the resource was taken from Project B. Project B is rapidly finishing its project and any reallocation of resources will disrupt its progress.
+
+h3. Critical Path
+
+The definition of "critical path" for a project may be modified when activity times are not known with certainty as it is unknown what the impact of a delay in one activity will have on the entire project. It may only become clearer during the execution of the project.
+
+One danger is that the PM may focus exclusively on a potential critical path and other paths fall behind that end up delaying the project. All paths that have the potential to delay the project shoud be appropriately managed.
+
+h2(#Tutorial-6). Tutorial 6
+
+h3. Accounting for Project Overheads in Project Estimates
+
+The time and cost required for developing the planning, monitoring and controlling systems should be included in the scheduling and the budget estimates. If there is a cost implication, such as software or other tools, then this is required to be part of the budget. The time needs to be planned for and including these tasks in the action plan or WBS will help the PM and other stakeholders understand what is needed for a succesful execution.
+
+h3. Verbal Characterisations of a Project Team
+
+Measure a project management characteristic, such as "energy" using a scale of 1 - 5 where each team member is asked:
+
+* I look forward to coming to work each day
+* I find facing and resolving new challenges stimulating
+* I take immediate action when I discover a problem
+
+h3. Monitoring System and Failure
+
+If a monitoring system can only report on activities that have finished, for a PM to see what will go wrong they will have to look for clues in the monitoring system of something about to go wrong. These clues should already be present as data of things gone wrong.
+
+Use the monitoring system tp anticipate future problems rather than reacting to them as after they have happened. The monitoring system may include "lead indicators" as symptoms of problems.
+
+h3. Weekly or Daily Project Progress Report Meetings
+
+It is often to difficult to prevent a meeting for a standard progress report because there are stakeholders who need the face-to-face contact to listen to the status update and provide feedback directly. These meetings are justifiable early in the project to build relationships with team members and stakeholders.
+
+h3. Earned Value and other Variances
+
+Project in 26 ^th^ week with actual cost $270,000. Scheduled to have spent $261,000. To date, the budgeted value for the work performed is $272,000.
+
+AC = 270,000 (actual cost of work performed)
+PV = 261,000 (budget cost of work scheduled)
+EV = 272,000 (budget cost of work performed)
+
+Cost variance = EV - AC = $272,000 - 270,000 = $2,000
+Scheduled variance = EV - PV = $272,000 - 261,000 = $11,000
+Cost Performance Index = EV / AC = $272,000 / 270,000 = 1.01
+Schedule Performance Index = EV / PV = $272,000 / 261,000 = 1.04
+
+More has been spent than the baseline plan, but considerably more progress has been made than was either anticipated or a bit more relative to what was spend (good variance).
+
+h2(#Tutorial-7). Tutorial 7
+
+h3. Main Steps of RUP
+
+*1. Inception*
+
+* Vision, objectives - the scope of the project
+* Bring business risks under control
+* Milestone: Lifecycle Objective
+
+*2. Elaboration*
+
+* Architecture
+* Requirements
+* Modelling
+* Bring architectural and technical risks under control
+* Milestone: Lifecycle Architecture
+
+*3. Constuction*
+
+* Software development
+* Classes
+* Services
+* Bring logistical, project execution risks under control
+* Milestone: Initial Operational Capacity
+
+*4. Transition*
+
+* Release to customers
+* Manuals
+* Bring roll-out risks under control
+* Product release
+
+h3. Questions to ask for each phase
+
+*Inception*
+
+* If the system already exists, how important is it to understand it?
+* Are we delivering software as well as the hardware it runs on?
+* Are we changing the business processes as well as building the system?
+
+*Elaboration*
+
+* Is this a new system? Have the team built anything like this before?
+* What framework or frameworks will be used for construction?
+* Is this new technology available to the team?
+* Will the services support thousands of requests?
+
+*Construction*
+
+* Is there a separate integration test environment?
+* What is the source control system in use?
+* Is there a continuous integration pipeline?
+* Are the developers familiar with the frameworks?
+* Is the team co-located?
+
+*Transition*
+
+* Are you expecting a beta release cycle?
+* Can the system be delivered incrementally?
+
+h3. SDLC Probes
+
+|_. Factor |_. Questions to ask? |_. SDLC to use |
+| Type of work | Is there a clearly defined outcome? | For transactional system development, Waterfall is better suited. For creative endeavours such as websites, Agile is preferred. |
+| Type of customer | Are they willing to work in an iterative way? | Agile |
+| View of your manager | Can they adapt to a different approach? | Agile |
+| View of IT within the organization | Is IT seen as a valued partner or a necessary evil? | If the latter, us Waterfall |
+| Internal or external customer | Is your customer internal or external? | Waterfall works will with external customers bound to a contract; internal customers have the backing of senior management when changes are requested |
+
+h2(#Tutorial-8). Tutorial 8
+
+h3. Scrum terms
+
+- Collocation := All members of the Scrum team are based in the same office building. Having a distributed team may not work with agile - "people over processes".
+- Servant leadership := The "Scrum Master" must not assign tasks to team members; must be a facilitator in meetings; must be a coach and mentor (in the ways of Scrum and Agile) to the team
+- Kaizen := A Japanese word that means to learn through reflection for self-improvement.
+
+"Kaizen Institution":http://www.kaizen.com/about-us/definition-of-kaizen.html
+
+* Good processes bring good results
+* Go see for yourself to grasp the current situation
+* Speak with data, manage by facts
+* Take action to contain and correct root causes of problems
+* Work as a team
+* Kaizen is everybody’s business
+
+h3. Where does the Project Manager fit into the Scrum process?
+
+They don't have direct contact with scrum teams. 
+
+A the tasks that a Project Manager would normal undertake are distributed across all members of the Scrum team. It is not a simple mapping from Project Manager to Scrum Master or Project Manager to Product Owner.
+
+They may however be involved with planning, resourcing and risk management for a program.
+
+h3. Where does the Business Analyst fit into the Project Management process?
+
+There is not a role in the Scrum team responsible for gathering of requirements.
+
+However, business analysis is a vital element of change process. Real dangers exist if the business analyst role is ignored and a project is too focused on its scope, ignoring the rest of the business and those stakeholders.
+
+* In the planning stage of the project
+* Understand the needs of the business and customer
+* Produce requirements for the development team
+* Business modelling
+
+*Roles in the Scrum Team*
+
+* Project Charter: PO, Team, SM
+* Contracts: PO (indirectly through business)
+* Priorities: PO (consult with team)
+* Risk: PO, SM, Team
+* Self-organized team
+
+h3. What to ask of the Business Analyst in a Scrum project
+
+* Work with the product owner to research user stories and meet other parts of the business to explain what is needed and what is being done
+* Work with the team to uncover system documentation, develop user acceptance tests, ensure copy is signed off, seeking approval for use of a third-party product
+
+h3. Reasons for Conflict in the Project Lifecycle
+
+These are the phases considered:
+
+# Project formation
+# Early program
+# Main program
+# Toward end of program
+
+|_. Source of conflict |_. Reason for decline during project life span |
+| Project priorities | Higest at start due to arguments over priorities of key elements; while they decline, they continue to be a major area of conflict during the project |
+| Administrative procedured | Highest during first two phases; issues are usually resolved by the main phase and the rate of conflict declines rapidly |
+| Technical trade-offs | Highest during second and third phases due to the issues of trade-off decisions needing to be resolved |
+| Staffing | Conflict remains largely constant over the project life span, especially when staff are drawn from functional areas |
+| Support cost estimates | Minor source of conflict and remain constant during the project life span |
+| Schedules | The greatest source of conflict. Becomes highest in the main program because of the continual pressure to push the project toward completion |
+| Personalities | If the same individuals are involved during the entire project life span, the conflict remains constant |
+| Total | The largest numbers of conflicts occur in the early stage of a project and the smallest number during the late phase by which time many of the sources of conflict have been resolved. |
 
 <nav class="nav-lectures">
 	<ul>
-		<li class="prev-lecture"><a href="../week-01/">Previous</a></li>
 		<li class="index"><a href="../exam/">Exam Prep</a></li>
-		<li class="next-lecture"><a href="../week-03/">Next</a></li>
+		<li class="next-lecture"><a href="../week-01/">Notes</a></li>
 	</ul>
 </nav>

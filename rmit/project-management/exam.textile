@@ -114,7 +114,7 @@ Lecture notes: Slides 5-74
 Textbook: Chapter 2: pp 106- _Plymouth Zoo's Re-engineering Project_
 Textbook: Chapter 3: pp 76-97, 98-103
 
-Tutorial: All of it
+"Tutorial:":../tutorials/#Tutorial-2
 
 h3. Week 3
 
@@ -135,7 +135,8 @@ Lecture: slides 19-26
 [-Textbook: Chapter 5: pp 151, 181-188 _scheduling the project_-]
 Textbook: Chapter 6: pp 207-213, 221-223 _allocating resources to the project_
 
-Tutorial: Read all of it
+"Tutorial: Week 3":../tutorials/#Tutorial-3
+"Tutorial: Week 4":../tutorials/#Tutorial-4
 
 *Expectations:* 
 
@@ -172,7 +173,8 @@ Lecture notes: slides 34-69
 [+Textbook: Chapter 5: pp 153, 156-159 - PERT and CPM networks+]
 Textbook: Chapter 7: pp 244-271 _monitoring and controlling the project_
 
-Tutorial: Read all of it
+"Tutorial: Week 5":../tutorials/#Tutorial-5
+"Tutorial: Week 6":../tutorials/#Tutorial-6
 
 *Expectations:*
 
@@ -211,7 +213,7 @@ Lecture notes: slides 42-47
 * Release backlog
 * Sprints
 
-Tutorial: Read all of it
+"Tutorial: Week 7":../tutorials/#Tutorial-7
 
 h3. Week 6
 
@@ -237,7 +239,7 @@ Lecture notes: All slides
 
 Watch associated videos.
 
-Tutorial: Read all of it
+"Tutorial: Week 7":../tutorials/#Tutorial-7
 
 h3. Week 7
 
@@ -267,7 +269,7 @@ Lecture notes: All slides
 
 Watch associated videos.
 
-Tutorial: Read all of it
+"Tutorial: Week 8":../tutorials/#Tutorial-8
 
 h3. Week 8
 
@@ -293,7 +295,7 @@ Lecture notes: All slides
 * Software metrics
 * Internal and external control
 
-Tutorial: Read all of it
+"Tutorial: Week 9":../tutorials/#Tutorial-9
 
 *Expectations:*
 
@@ -315,7 +317,7 @@ Lecture notes: All slides
 
 Watch associated videos.
 
-Tutorial: Read all of it
+"Tutorial: Week 10":../tutorials/#Tutorial-10
 
 *Expectations:*
 
@@ -336,7 +338,7 @@ Apparently this lecture will not appear in the exam. However, it won't hurt to s
 Textbook: Chapter 2: pp 35-73 _The manager, the organization and the team_
 Textbook: Chapter 8: pp 280-293 _Evaluating and terminating the project_
 
-Tutorial: Read all of it
+"Tutorial: Week 11":../tutorials/#Tutorial-11
 
 h3. Week 11
 
@@ -353,7 +355,7 @@ Lecture notes: All slides
 Textbook: Chapter 4: pp 112-130 _budgeting the project_
 Textbook: Chapter 6: pp 200-235 _allocating resources to the project_
 
-Tutorial: Read all of it
+"Tutorial: Week 12":../tutorials/#Tutorial-12
 
 h2. Assignment Section
 

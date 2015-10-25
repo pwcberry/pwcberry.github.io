@@ -6,6 +6,32 @@ permalink: /rmit/project-management/week-06/
 
 h1. Week 6
 
+h2. Agile
+
+h2. Agile and Scrum
+
+h2. People in Scrum
+
+h2. Backlogs
+
+h2. Sprints
+
+h2. Daily Scrum
+
+h2. Scrum master
+
+h2. Product Owner
+
+h2. Scrum Team
+
+h2. Scrum Meetings
+
+h3. Story Points 
+
+h3. Sprint Velocity
+
+
+
 
 <nav class="nav-lectures">
 	<ul>
