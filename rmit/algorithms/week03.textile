@@ -1,0 +1,20 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/algorithms/week-03/
+---
+
+h1. Week 3 - Brute Force and Exhaustive Search
+
+*Brute force* is a straightforward approach to solving a problem, usually directly based on the problem statement and definitions of the concepts involved.
+
+A first application of the brute-force approach often results in an algorithm that can be improved with a modest amount of effort.
+
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-02/">Prev</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-04/">Next</a></li>
+	</ul>
+</nav>

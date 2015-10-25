@@ -1,0 +1,28 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/algorithms/week-02/
+---
+
+h1. Week 2 - Analysis Fundamentals of Algorithm Efficiency
+
+*Basic asymptotic efficiency classes*
+
+table(grid simple).
+|_. Class |_. Name |_. Comments |
+| 1 | _constant_ | Algorithm's running time typically goes to infinity when its input size grows infinitely large |
+| log _n_ | _logarithmic_ | A result of cutting a problem's size by a constant factor on each iteration of the algorithm |
+| _n_ | _linear_ | Algorithms that scan a list of size _n_ (sequential search) |
+| _n_ log _n_ | _linearithmic_ | Many divide-and-conquer algorithms including mergesort and quicksort (average case) |
+| _n_ ^2^ | _quadratic_ | Two embedded loops; elementary sorting; operations on _n_ x _n_ matrices |
+| _n_ ^3^ | _cubic_ | Three embedded loops; non-trivial algorithms from linear algebra |
+| 2 ^_n_^ | _exponential_ | Algorithms that generate subsets of an _n_-element set |
+| _n_! | _factorial_ | Algorithms that generate all permutations of an _n_-element set |
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-01/">Prev</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-03/">Next</a></li>
+	</ul>
+</nav>

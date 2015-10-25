@@ -23,6 +23,8 @@ h2. Content of The Exam
 
 h3. Week 1
 
+"Notes":../week-01/
+
 Lecture notes: Slides 16 - 62
 
 * Definition of a project
@@ -116,19 +118,21 @@ Tutorial: All of it
 
 h3. Week 3
 
+"Notes":../week-03/
+
 Lecture: slides 19-26
 
 * Common problem solving (within teams)
 ## Define the Problem
 ## Identify and define the Root Causes
-## Fishbone diagram (izikawa)
+## Fishbone diagram (_ishikawa_)
 ## Generate alternative solutions
 ## Evaluate the alternatives
 ## Agree on the best solution
 ## Develop an Action Plan
 ## Implement and evaluation the solution
 
-Textbook: Chapter 5: pp 151, 181-188 _scheduling the project_
+[-Textbook: Chapter 5: pp 151, 181-188 _scheduling the project_-]
 Textbook: Chapter 6: pp 207-213, 221-223 _allocating resources to the project_
 
 Tutorial: Read all of it
@@ -144,6 +148,8 @@ Tutorial: Read all of it
 * Microsoft Project
 
 h3. Week 4
+
+"Notes":../week-04/
 
 Lecture notes: slides 11-16
 
@@ -163,6 +169,7 @@ Lecture notes: slides 34-69
 * Common mistakes
 * Types and tools for control
 
+[+Textbook: Chapter 5: pp 153, 156-159 - PERT and CPM networks+]
 Textbook: Chapter 7: pp 244-271 _monitoring and controlling the project_
 
 Tutorial: Read all of it

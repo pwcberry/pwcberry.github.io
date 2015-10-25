@@ -1,6 +1,6 @@
 ---
 layout: rmit
-title: THoughts & Insights | Usability Engineering | Semester 1, 2015 | RMIT
+title: Thoughts & Insights | Usability Engineering | Semester 1, 2015 | RMIT
 permalink: /rmit/usability-engineering/thoughts/
 ---
 

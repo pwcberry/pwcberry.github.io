@@ -1,0 +1,79 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/algorithms/week-04/
+---
+
+h1. Week 4 - Decrease and Conquer
+
+To solve a problem, use a smaller instance of the problem. Then use the solution from the smaller instance to solve the original problem. The approach may be bottom-up or top-down.
+
+This type of alogrithm my also be called _inductive_ or _incremental_.
+
+h2. Decrease-by-one
+
+This type of algorithm solves a problem by exploiting a relationshiop between a given instance of size _n_ and a smaller instance of size _n_ - 1. 
+
+This may also be known as *decrease by a constant*.
+
+Typical examples are:
+
+* recursive evaluation of _n_! 
+* insertion sort
+* topological sort
+
+The recurrence relation for investigating time efficiency usually has this form:
+
+T(n) = T(n-1) + f(n)
+
+where function f(n) accounts for the time needed to reduce an instance to a smaller one and then apply that solution to the original instance size.
+
+Note: "top-down" usually involves recursive relations being solved with backward substitution; "bottom-up" usually involves non-recursive techniques such as a sum over a sequence.
+
+
+h2. Decrease by a Constant-Factor
+
+This type of algorithm solves a problem by reducing its instance of size _n_ to an instance of size n/b (where b=2 for most but not all such algorithms) solving the smaller instance recursively and then, if necessary, extending this solution to the original problem.
+
+Typical examples are:
+
+* binary search
+* fake-coin problem
+
+The recurrence relation for investigating time efficiency usually has this form:
+
+T(n) = T(n/b) + f(n)
+
+where b > 1 and function f(n) accounts for the time needed to reduce an instance to a smaller one and then apply that solution to the original instance size.
+
+
+h2. Variable Size Decrease
+
+The size of reduction for the solution varies with each iteration. 
+
+Typical examples are:
+
+* Search and Insert in a Binary Search Tree
+* Euclid’s Algorithm (greatest common denominator)
+* Interpolation Search
+* Selection by Partitioning - Lomuto
+* Game of Nim
+
+The recurrence relation for investigating time efficiency usually has this form:
+
+T(n) = T(n - v) + f(n)
+
+where _v_ is the variable factor and function f(n) accounts for the time needed to reduce an instance to a smaller one and then apply that solution to the original instance size.
+
+h2. Insertion Sort
+
+
+
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-03/">Prev</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-05/">Next</a></li>
+	</ul>
+</nav>

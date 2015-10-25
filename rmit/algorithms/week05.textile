@@ -1,0 +1,29 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/algorithms/week-05/
+---
+
+h1. Week 5 - Divide and Conquer
+
+To solve a problem, follow this strategy.
+
+1. Divide the problem instance into smaller problems, ideally of equal size
+2. Solve each sub-problem
+3. Combine the solutions of the sub-problems to solve the original problem.
+
+h2. Master Theorem
+
+h2. Mergesort
+
+h2. Quicksort
+
+
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-04/">Prev</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-06/">Next</a></li>
+	</ul>
+</nav>

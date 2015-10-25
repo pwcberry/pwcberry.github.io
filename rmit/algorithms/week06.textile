@@ -1,0 +1,32 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/algorithms/week-06/
+---
+
+h1. Week 6 - Transform and Conquer
+
+A problem is transformed so that it is simpler to solve. Such techniques are called:
+
+* instance simplification
+* representation change
+* problem reduction
+
+h2. Presorting
+
+h2. Balanced search trees
+
+h2. Heaps and heapsort
+
+h2. Problem reduction
+
+
+
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-05/">Prev</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-07/">Next</a></li>
+	</ul>
+</nav>

@@ -38,6 +38,8 @@ h2. Week 2 - Algorithmic Analysis
 
 Levitin: Chapter 2
 
+["Notes":../week-02/]
+
 h3. Week 3 - Brute Force
 
 * Philosophy
@@ -56,6 +58,8 @@ h3. Week 3 - Brute Force
 ** Breadth-first search
 
 Levitin: Chapter 3
+
+["Notes":../week-03/]
 
 h3. Week 4 - Decrease and Conquer
 

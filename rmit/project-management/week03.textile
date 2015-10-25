@@ -1,0 +1,38 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/project-management/week-03/
+---
+
+h1. Week 3
+
+h2. Resource Loading
+
+*Resource loading* is the scheduled use of certain resources for a specified activity at a specified time for a planned duration.
+
+Each resource should have a calendar denoting their availabilty, the hours and days they work each week, and any holidays the resource will not be available.
+
+Resource cost per unit time and cost for overtime or overuse should also be recorded on the calendar.
+
+Problems arise for the PM when a resource is overscheduled. Problems such as stress and burnout for the resource and questions asked by senior management about why projects are not finishing on time.
+
+h2. Allocating Scarce Resources to Projects
+
+There are common rules for what order a scarce resouce will be assigned to activities.
+
+* *As soon as possible* - Standard rule in scheduling. Usually at the earliest start times (ES)
+* *As late as possible* - Activities start on the latest start times (LS) without increasing the project's duration
+* *Shortest task duration first* - This rule maximizes the number of tasks that can be completed in a given time period
+* *Minimum slack first* - Tasks are supplied with resources in inverse order of their slacks to minimize the number of late activities
+* *Most critical followers* - Activities with the highest number of critical successors on the critical path(s) take precedence
+* *Most successors* - Activities with the highest number of successors, not necessarily critical
+* *Most resources first* - The greater the use of the specific resource on a task, the higher the task's priority for the resource.
+
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-02/">Previous</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-04/">Next</a></li>
+	</ul>
+</nav>
