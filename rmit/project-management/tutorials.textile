@@ -340,6 +340,7 @@ These are the phases considered:
 # Main program
 # Toward end of program
 
+table(grid simple).
 |_. Source of conflict |_. Reason for decline during project life span |
 | Project priorities | Higest at start due to arguments over priorities of key elements; while they decline, they continue to be a major area of conflict during the project |
 | Administrative procedured | Highest during first two phases; issues are usually resolved by the main phase and the rate of conflict declines rapidly |
@@ -349,6 +350,63 @@ These are the phases considered:
 | Schedules | The greatest source of conflict. Becomes highest in the main program because of the continual pressure to push the project toward completion |
 | Personalities | If the same individuals are involved during the entire project life span, the conflict remains constant |
 | Total | The largest numbers of conflicts occur in the early stage of a project and the smallest number during the late phase by which time many of the sources of conflict have been resolved. |
+
+h2(#Tutorial-9). Tutorial 9
+
+h3. Spike
+
+This is work to discover if a concept is feasible given the technology available. It doesn't form part of the shippable product. The work may take place in between sprints or as a work item within a sprint and is time-boxed.
+
+h3. Tracer Bullet
+
+This is work to implement a thin slice of end-to-end functionality through the system, given the technology available and practices to follow. The work is production quality.
+
+h3. Definition of Done (DoD)
+
+The exit criteria the Scrum team have agreed upon to determine if a product backlog item is complete. Usually this is after regression testing and user acceptance testing.
+
+h3. Abnormal Termination
+
+The current sprint is abandoned and a new sprint is started. This may happen as a result in a dramatic shift in business priorities. Termination is at the behest of the Product Owner, but beforehand they may seek input from management or the Scrum Team.
+
+h3. Scrum-ban
+
+Scrum-ban is a combination of elements from both Scrum and Kanban. Scrum has work divided into sprints of a defined duration; Kanban has a continuous workflow. Scrum-ban has a minimum amount of work required for each task.
+
+h3. Mapping Agile to PMBOK
+
+Agile can be mapped to PMBOK because:
+
+* PMBOK does not prescribe any methodology; PM determines what processes are appropriate and to what degree applicable to the project
+* A phase defined in the PMBOK is similar to a Scrum Release (?)
+* The sub-phases of a project can be mapped to individual iterations or sprints
+
+Main adjustments:
+
+* Consider each sub-phase of a traditional project to be a compelte cycle of design, development and test, resulting in working software (mini-waterfalls)
+* Consider Requirements, Design, Development and Testing and Deployment to be activities and *not phases* where each phase encompass all these activities, always resulting working software
+
+h3. Map PMBOK areas to SCRUM Processes 
+
+table(grid simple).
+|_. Knowledge Area |_. PMI Process / Practice | Scrum Process / Practice |
+|/5(area). *Integration Management* | Project Charter | Product Roadmap, Vision and Backlog |
+| Project Management Plan | high-level release plan (Rolling wave Planning) |
+| Direct and Manage; Monitor and Control | Scrum team executes and delivers; Scrum principles; Scrum team self-manages; continuous improvement |
+| Integrated Change Control | constant feedback during iteration and review; (ranked) product backlog |
+| Close Project or Phase | Sprint reviews / retrospectives; Sprint N+1 for admin closure or audits if necessary |
+|/5(area). Scope Management | Collect Requirements | Develop Product Backlog |
+| Define Scope | Select PBIs for release or sprints |
+| Create WBS | Create Feature Breakdown Structure for release; breakdown into scenarios for sprint |
+| Verify Scope | feature acceptance (by PO) |
+| Control Scope | Manage via backlog and  PO; protect iteration |
+|/5. Risk Management | Risk Planning | Informal risk planning as part os sprint/release planning and review meetings. Entire team is involved |
+| Risk Identification | Identify risks in daily scrums; iteration/release planning reviews |
+| Qualitative / Quantitative Risk Analysis | Risk matrices (probability x impact) may be created if needed |
+| Risk Response Planning | Avoidance (change scope or resources); mitigation (POC); transfer (outsource); acceptance (contingency plans) |
+| Monitor and Control Risks | Part of team planning and review |
+
+h2(#Tutorial-10). Tutorial 10
 
 <nav class="nav-lectures">
 	<ul>

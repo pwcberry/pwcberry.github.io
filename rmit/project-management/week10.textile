@@ -1,0 +1,71 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/project-management/week-10/
+---
+
+h1. Week 10
+
+h2. Project Manager's Roles
+
+* Facilitator
+* Communicator
+
+Must also take a "systems approach" to understand how everything impacts the overall project.
+
+h2. Project Manager's Responsibilities
+
+* To senior management
+** Don't ever surprise the boss
+* To the client
+** Manage expectations
+* To the project team
+** Facilitate the team's success
+* To the project
+** Resource acquisition
+** Fighting fires and obstacles
+
+h2. Skills of Persuasion
+
+* Must be credible
+* Find goals in common
+* Vivid language and compelling evidence
+* Empathetic
+
+h2. Five Dysfunctions of a Team
+
+# Absence of truse
+# Fear of conflict
+# Lack of commitment
+# Avoidance of accountability
+# Inattention to results
+
+h2. Four Important Dimensions of Project Success
+
+# Efficiency in meeting the budget and schedule
+# Customer impact and satisfaction
+# Business success
+# Future potential
+
+h2. Four Generic Factors Associated with Project Failure
+
+# A project was not required for this task in the first place
+# Insufficient support from senior management
+# Naming the wrong project manager
+# Poor up-front planning
+
+h2. Types of Project Termination
+
+* Project extinction - Project activity suddenly stops as it has completed successfully or it is about to fail
+* Termination-by-addition - In-house project is successful and is incorporated as a new formal part of the organization
+* Termiantion-by-integration - Project output becomes standard part of the client's operations
+* Termination-by-starvation - A project's budget is squeezed dry when it is impolitic to terminate it directly
+
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-09/">Previous</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-11/">Next</a></li>
+	</ul>
+</nav>

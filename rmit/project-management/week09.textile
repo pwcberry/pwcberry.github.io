@@ -1,0 +1,77 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/project-management/week-09/
+---
+
+h1. Week 9
+
+h2. Lean principles used by Toyota
+
+# Base your management decisions on a long-term philosophy, even at the expense of short-term financial goals
+# Create a continuous process flow to bring problems to the surface
+# Use "pull" systems to avoid overproduction
+# Level out the workload (_heijunka_)
+# Build a culture of stopping to fix the problems, to get the quality right the first time
+# Standardise tasks and processes
+# Use visual control so no problems are hidden
+# Use only reliable, thoroughly tested technology that serves your people and processes
+# Grow leaders who thoroughly understand the work, live the philosophy, and teach it to others
+# Develop exceptional people and teams who follow your company's philosophy
+# Respect your extended network of partners and suppliers by challenging them and helping them improve
+# Go and see for yourself to thoroughly understand the situation (management by wondering)
+# Make decisions slowly by consensus, throughly considering all options, _and then implement decisions rapidly_
+# Become a learning organization through relentless reflection and continuous improvement
+
+h2. Lean Methodology as Project Management
+
+h2. Criticism of Lean
+
+* Lack of consideration of human aspects
+* Lack of creativity
+* Promotes culture of incrementalism
+* Coping with variable nature of project management
+* Does not apply to every project
+
+h2. Agile Practices Found in Industry
+
+* Cross-functional teams
+* Iterative and incremental development
+* Feature-driven development
+* Planning game
+* Co-location
+* Pair programming
+
+h2. Disciplined Agile Delivery (DAD)
+
+Risk-value delivery lifecycle:
+
+* goal-driven
+* enterprise aware
+* scalable
+
+Hybrid approach that extends Scrum and blends strategies from:
+
+* Agile Modelling
+* Extreme Programming
+* Unified Process
+* Kanban
+* Lean (Software Development)
+
+DAD addresses full end-to-end delivery lifecycle of software development, not just the construction phase focussed on by Scrum.
+
+h2. Resources
+
+"The Hawthorne Effect":https://www.youtube.com/watch?v=mV9Wj8ohT0k
+
+
+
+
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-08/">Previous</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-10/">Next</a></li>
+	</ul>
+</nav>

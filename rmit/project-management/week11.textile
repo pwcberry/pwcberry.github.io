@@ -1,0 +1,39 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/project-management/week-11/
+---
+
+h1. Week 11
+
+h2. Budgeting
+
+A budget: 
+
+* Is developed in order to obtain required resources
+* Is a plan for allocating resources to project activities
+* Ties the proejct to organization's aims and objectives through organizational policy
+* A tool for upper management to monitor and guide the project
+
+h2. Methods of Budgeting
+
+h3. Top-down
+
+h3. Bottom-up
+
+h3. Budgeting problems
+
+h2. Cost estimating
+
+h2. Tracking Signals
+
+h2. Budget Uncertainty
+
+
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-10/">Previous</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+	</ul>
+</nav>

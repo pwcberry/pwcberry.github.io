@@ -188,6 +188,8 @@ Textbook: Chapter 7: pp 244-271 _monitoring and controlling the project_
 
 h3. Week 5
 
+"Notes":../week-05/
+
 Lecture notes: slides 6-25
 
 * Project methodologies
@@ -217,6 +219,8 @@ Lecture notes: slides 42-47
 
 h3. Week 6
 
+"Notes":../week-06/
+
 Lecture notes: All slides
 
 * Agile and Scrum
@@ -242,6 +246,8 @@ Watch associated videos.
 "Tutorial: Week 7":../tutorials/#Tutorial-7
 
 h3. Week 7
+
+"Notes":../week-07/
 
 Lecture notes: All slides
 
@@ -272,6 +278,8 @@ Watch associated videos.
 "Tutorial: Week 8":../tutorials/#Tutorial-8
 
 h3. Week 8
+
+"Notes":../week-08/
 
 Lecture notes: All slides
 
@@ -306,6 +314,8 @@ Lecture notes: All slides
 
 h3. Week 9
 
+"Notes":../week-09/
+
 Lecture notes: All slides
 
 * Lean principles used by Toyota
@@ -328,6 +338,8 @@ Watch associated videos.
 
 h3. Week 10
 
+"Notes":../week-10/
+
 Lecture notes: All slides
 
 Apparently this lecture will not appear in the exam. However, it won't hurt to skim:
@@ -341,6 +353,8 @@ Textbook: Chapter 8: pp 280-293 _Evaluating and terminating the project_
 "Tutorial: Week 11":../tutorials/#Tutorial-11
 
 h3. Week 11
+
+"Notes":../week-11/
 
 Lecture notes: All slides
 
@@ -362,3 +376,4 @@ h2. Assignment Section
 * Given a scenario
 * Implement Scrum techniques
 * Practice exam scenarios from previous exams
+* Compare PMBOK with Agile / Scrum / Lean

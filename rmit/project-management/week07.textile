@@ -35,7 +35,7 @@ h3. Tracer Bullet
 
 A very narrow implementation in production quality of an epic/large user story and is usually an indicator that the user story is too large in estimation. "Research, Spikes, Tracer Bullets, Oh My!":http://www.gettingagile.com/2007/10/22/research-spikes-tracer-bullets-oh-my/
 
-The purpose of a tracer bullet is to examine how an end-to-end process will work to examine feasibility. "Agile Dictionary - Tracer Bullet":http://www.requirementally.com/agile-dictionary-tracer-bullet/
+The purpose of a tracer bullet is to examine how an end-to-end process will work to assess its feasibility. "Agile Dictionary - Tracer Bullet":http://www.requirementally.com/agile-dictionary-tracer-bullet/
 
 h3. Abnormal Termination
 
@@ -68,8 +68,6 @@ table(grid simple).
 | Retrospective | Not used | Required | Optional |
 | Defined roles | None | PO, Scrum Master, Scrum Team | PO, Scrum Master, Scrum Team |
 
-
-
 "A Quick Comparison of Scrum-ban, Kanban, and Scrum":http://www.requirementally.com/a-quick-comparison-of-scrum-ban-kanban-and-scrum/
 
 "Scrum-ban":http://leansoftwareengineering.com/ksse/scrum-ban/
@@ -79,6 +77,8 @@ h2. Other References
 "You May Be a Scrum-But":http://www.scrumalliance.org/community/articles/2013/february/you-may-be-a-scrum-but/
 
 "The Servant Leader":https://www.scrumalliance.org/community/articles/2014/october/the-servant-leader 
+
+"Scrum Inc":http://www.scruminc.com/scrumlab-open/
 
 <nav class="nav-lectures">
 	<ul>

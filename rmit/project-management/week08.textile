@@ -1,0 +1,115 @@
+---
+layout: rmit
+title: Software Engineering Project Management | Semester 2, 2015 | RMIT
+permalink: /rmit/project-management/week-08/
+---
+
+h1. Week 8
+
+h2. The Five Principles of Lean
+
+*1. Understand _and_ maximize value*
+
+* Clearly identify requirements; these are the acceptance criteria
+* Satisfy all stakeholders by doing the right project right
+* Specify value as the customer sees it
+
+*2. Optimize the value stream*
+
+* Identify the value stream - the actions that underlie the process for creating the product
+* Remove redundant steps and any burdens on resources
+* Identify what impacts risk, relationships and quality
+* Fine tune
+* Stream mapping
+
+*3. Pull production*
+
+* A meaningful need
+* Planning and execution cycles are reduce to minimum possible
+* Make value flow at the customer's pull
+
+*4. Single-piece flow*
+
+* A piece of work can flow smoothly across the system without interruption at maximum speed
+* Only commit teams to realistic schedules and budgets
+* Involve and empower employees
+
+*5. Continuous improvement (_Kaizen_)*
+
+* Kanban
+* A perpetual state of discomfort with the current state
+* Keep pushing to achieve a higher degree of quality, perforamnce and customer satisfaction
+* Keep changing
+
+h2. Lean and Agile
+
+* Free flowing, meaningful communication
+* No excess and no insufficiency
+* Self-managed teams
+* Commitment to success
+* Managed change and continuous improvement
+
+h2. Lean Mindset
+
+table(grid simple).
+|_. Misconceptions |_. Lean Perspectives |
+| We don't have enough people with the right skills | We have not made a strong enough effort to simplify, standardise and error-proof |
+| Our customers don't understand | We aren't really solving customer problems |
+| Employees are dedicated and valuable | Our processes help waste employee's time and cause stress |
+| We pay for strong, reliable performance | Poor performance is often hidden by heroics |
+| We listen to our employees (but really listen to others) | Employees have answers that need to be unleashed |
+| We continually create value | We're all busy but only some of it really adds value |
+| We know who the big problems are | Our systems are set up to give us exactly what we get |
+
+h3. Lean Stand up meeting
+
+Questions:
+
+* What progress have you made since the last meeting?
+* How will you work toward your next key milestone?
+* What do you need from others to meet this goal?
+
+h2. Quality and Metrics - CMMI
+
+* Capability Maturity Model Integration (CMMI)
+* CMMI levels are a set of steps which the organization can use to improve its processes to increase its value on the market
+
+- 1. Initial := Process unpredictable, poorly controlled, and reactive
+- 2. Managed := Process characterized for *projects* and is often reactive
+- 3. Defined := Process characterized for the *organization* and is proactive
+- 4. Quantitatively Managed := Process measured and controlled
+- 5. Optimizing := Focus on continuous process improvement
+
+h2. Quality Assurance
+
+h3. Standards
+
+h3. Procedures
+
+h2. Quality Audits
+
+h3. Software Metrics
+
+* Measurable, independent, accountable, precise
+
+Typical categories:
+
+- Progress := Actual vs planned task completions
+- Effort := Actual vs planned staffing profiles
+- Cost := Actual vs planned costs; cost and schedule variations
+- Review Results := Status of action items
+- Trouble Reports := Status of reports; number of reports opened and closed during reporting period
+- Requirements Stability := Number of changes / clarifications; distribution of requirements over releases
+- Size Stability := Size (of codebase?) growth; Distribution of size over releases
+- Computer Resource Utilization := Actual vs planned profiles of computer resource utilization
+- Training := Actual vs planned number of personnel attending sessions
+
+h2. Standards Quagmire
+
+<nav class="nav-lectures">
+	<ul>
+		<li class="prev-lecture"><a href="../week-07/">Previous</a></li>
+		<li class="index"><a href="../exam/">Exam Prep</a></li>
+		<li class="next-lecture"><a href="../week-09/">Next</a></li>
+	</ul>
+</nav>
