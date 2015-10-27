@@ -301,7 +301,7 @@ h3. Scrum terms
 
 h3. Where does the Project Manager fit into the Scrum process?
 
-They don't have direct contact with scrum teams. 
+They don't have direct contact with Scrum teams. 
 
 A the tasks that a Project Manager would normal undertake are distributed across all members of the Scrum team. It is not a simple mapping from Project Manager to Scrum Master or Project Manager to Product Owner.
 
@@ -400,13 +400,107 @@ table(grid simple).
 | Create WBS | Create Feature Breakdown Structure for release; breakdown into scenarios for sprint |
 | Verify Scope | feature acceptance (by PO) |
 | Control Scope | Manage via backlog and  PO; protect iteration |
-|/5. Risk Management | Risk Planning | Informal risk planning as part os sprint/release planning and review meetings. Entire team is involved |
+|/5. Risk Management | Risk Planning | Informal risk planning as part of sprint/release planning and review meetings. Entire team is involved |
 | Risk Identification | Identify risks in daily scrums; iteration/release planning reviews |
 | Qualitative / Quantitative Risk Analysis | Risk matrices (probability x impact) may be created if needed |
 | Risk Response Planning | Avoidance (change scope or resources); mitigation (POC); transfer (outsource); acceptance (contingency plans) |
 | Monitor and Control Risks | Part of team planning and review |
 
 h2(#Tutorial-10). Tutorial 10
+
+h3. Kanban board at end of sprint
+
+The project manager was upset because:
+
+* More tasks in progress than developers on team
+* Task pulled into "In Progress" and left there
+* Feature B - second highest priority - not worked on until end of sprint
+* Feature C worked on throughout sprint but not finished. No help for developer responsible
+* Several features in progress at the same time causing unmanaged code changes and integration problems
+
+h3. Improve Scrum process with Lean thinking
+
+* Each team limits WIP to one feature at a time
+* Feature not complete until integrated into main line
+* Before work on another feature, teams rebase from main line
+
+The intent is:
+
+* Smoother deliver of features; no longer will teams be idle; no Integration week
+* Continuous integration: time to integrate changes becomes less as experience grows
+* No doubts about Definition done: when feature is in main line
+* Team more productive as they don't have to wait to integrate code increasing the ability to ship
+
+h2(#Tutorial-11). Tutorial 11
+
+h3. Early commitment by Scrum team wastes ideas
+
+To avoid premature commitment that leads to other options being discarded, it is best to defer the decision until the very last moment while waiting for more information to make a clear decision to commit.
+
+h3. Development team not collaborating and placing pressure on tester
+
+Team members become cross-functional and to share the load of some of the work activities. After each sprint retrospective the team members agree to work together to combine the stages involved into finishing work. The developers agree to write some of the tests to reduce pressure on the tester.
+
+* Working together to improve the process and the value stream
+
+h3. Disciplined Agile Delivery (DAD)
+
+DAD is a step beyond Scrum because:
+
+* Scrum only really is concered about project execution - the sprints (planning, execution and retrospection)
+* DAD has 3 stages: Inception > Construction > Transition
+
+h2(#Tutorial-12). Tutorial 12
+
+h3. Termination project
+
+* Only one person conducting the project (no "project selection")
+* Distribution of resources and personnel rather than acquisition
+* Tasks are standard or specified in advance
+* Best conducted by someone who is not emotionally invested in the project
+* Completely administrative with one purpose
+
+h3. Who make the best auditors?
+
+* Internal auditors: probably more efficient and less expensive. However, not objective and not able to compare against other organizations
+* External auditors: more expensive; better able to compare project outcomes with other organizations
+
+h3. Project evaluation
+
+Evaluate based on project goals because:
+
+* They are specific
+* They may change during the course of the project
+* Project goals may have been minimized to ensure selection
+
+Project selection is good, _but not sufficient_ tool for evaluating a completed project or to determine if a project should be terminated.
+
+h3. Project auditing by an external consultant
+
+* No formal audit process; not enough time to take corrective measures
+* Auditor failed to follow up requested documentation
+* Opinion from one team member not followed up by asking other team members or having conversation with PM; superficial
+* Senior management unable to make an informed decision due to lack of data on project status
+
+Keywords for criticism:
+
+* Tone: needs to be constructive
+* Problems to be solved must be enumerated (techincal challenges)
+* Provide estimates of new due date if project will be delayed
+
+h3. Pros and cons of external auditor
+
+*Pros*
+
+* Dig deep and press for answers without affecting worker relationships
+* Brings expertise to the organization
+* Can do work without interfering with other projects
+
+*Cons*
+
+* Lack of confidence, need to build trust
+* Unaware of office politics
+* Unaware of the information senior management needs
 
 <nav class="nav-lectures">
 	<ul>

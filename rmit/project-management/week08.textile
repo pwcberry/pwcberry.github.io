@@ -41,6 +41,28 @@ h2. The Five Principles of Lean
 * Keep pushing to achieve a higher degree of quality, perforamnce and customer satisfaction
 * Keep changing
 
+h2. Kanban
+
+* Keep strategic goals in focus
+* Avoid short-sighted efficienies
+* Measure performance
+* Analyse results
+* Improve the process
+* Involve all stakeholders
+
+h3. Kanban cards
+
+Visual cues for:
+* What to produce
+* How much to produce
+* When to produce
+
+Cards represent PBIs and steps in the workflow. The steps for the workflow are defined by the Scrum team. 
+
+Kanban imposes limits on the number of items that can occupy the same position within the workflow: *WIP limits*. If there are too many cards in one position this indicates a bottleneck that must be addressed as soon as possible. It's important that the work moves smoothly - _single piece flow_.
+
+It is also important to minimize the amount of task switching. A Scrum team member must focus on working on one item until it is completed. 
+
 h2. Lean and Agile
 
 * Free flowing, meaningful communication

@@ -319,7 +319,7 @@ h3. Week 9
 Lecture notes: All slides
 
 * Lean principles used by Toyota
-* Apply Lean asa methodology to Project Management
+* Apply Lean as a methodology to Project Management
 * Lean execution phase
 * Criticism of Lean
 * Agile practices found in industry

@@ -25,6 +25,62 @@ h2. Lean principles used by Toyota
 
 h2. Lean Methodology as Project Management
 
+h3. Stage 1 - Initiating Phase
+
+* Assess if project will add value to organization and is inline with vision and mission
+* Project Portfolio Management (PMBOK)
+* Commence initial phase
+** Select project leader who is a Lean expert (9)
+** Stakeholder map drawn
+** Governance structure chart composed
+** Choose the team
+** Communication plan created
+** Challenges and risks discussed
+** Complete Project Charter - output
+
+h3. Stage 2 - Planning Phase
+
+* Outline structure and processes in the project (2, 3, 4, 6)
+* Start discussion cycles for process improvement
+* Do not overload leaders
+* Schedule meetings
+** Deliver team
+** Cluster
+** Work steam
+** Project integration
+** Service delivery
+* Team defines process landscape
+* Kick-off for end of phase
+
+h3. Stage 3 - Executing Phase
+
+* RACI matrix
+* Unique to project
+* Kanban board
+* Stand-up meetings
+* Risk management through communication
+* One person accountable for team
+* Decisions taken at lowest level possible - escalate only if important stakeholders need to be made aware
+* Team must be 100% motivated that this is the right project for the organization
+
+h3. Stage 4 - Monitoring and Controlling Phase
+
+* Reporting (7)
+* Continuous improvement (12)
+* Monitor change (8)
+
+h3. Stage 5 - Closing Phase
+
+* Documentation of:
+** Best practices
+** What worked
+** What did not work
+* SWOT Analysis, cause and effect diagram (Fishbone diagram)
+* Brainstorming
+* Resources released
+* Termination and closure report
+* Handing over
+
 h2. Criticism of Lean
 
 * Lack of consideration of human aspects
