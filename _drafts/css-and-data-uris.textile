@@ -1,0 +1,23 @@
+h1. 
+
+
+h2. Resources
+
+"MDN: Data URIs":https://developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs
+
+"NCZ: Data URIs explained":https://www.nczonline.net/blog/2009/10/27/data-uris-explained/
+
+"CodePen: Data URIs":https://css-tricks.com/data-uris/
+
+"Wikipedia: Data URI examples":https://en.wikipedia.org/wiki/Data_URI_scheme#Examples
+
+"Using Data URIs to Speed Up Your Website":http://blog.teamtreehouse.com/using-data-uris-speed-website
+
+"Optimizing SVGs in data URIs":http://codepen.io/Tigt/post/optimizing-svgs-in-data-uris
+
+"Custom cursors using data-uri":http://codepen.io/netsi1964/pen/DsAhE
+
+"StackOverflow: how to convert Image to Data URI for Html with C#?":http://stackoverflow.com/questions/6826390/how-to-convert-image-to-data-uri-for-html-with-c 
+
+"Grunt data URI node module":https://www.npmjs.com/package/grunt-datauri
+
