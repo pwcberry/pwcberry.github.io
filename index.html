@@ -1,12 +1,15 @@
 ---
 layout: default
-title: Welcome 
+title: Welcome
 ---
-
-<h1>Welcome to Travels in Code</h1>
-{% for post in site.posts %}
-<article class="post">
-  <a href="{{ post.url }}">{{ post.title }}</a>
-  <p>{{ post.excerpt }}</p>
-</article>
-{% endfor %}
+<header class="page-header">
+    <h1>Welcome to Travels in Code</h1>
+</header>
+<div class="blog-roll">
+    {% for post in site.posts %}
+    <article class="post">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <p>{{ post.excerpt }}</p>
+    </article>
+    {% endfor %}
+</div>
