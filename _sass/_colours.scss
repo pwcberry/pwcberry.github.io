@@ -1,0 +1,33 @@
+// The colours are sourced from the following:
+// 1) https://color.adobe.com/My-Color-Theme-color-theme-10425960/?showPublished=true
+// 2) http://www.color-hex.com/color-palette/53414
+//
+
+$colour-1: #567496; //rgb(86,116,150)   (soft blue)
+$colour-2: #dbbe93; //rgb(219,190,147)  (creamy beige 1)
+$colour-3: #b28b50; //rgb(178,139,80)   (tan)
+$colour-4: #723f2e; //rgb(114,63,46)	(brown)
+$colour-5: #331c14; //rgb(51,28,20)		(chocolate)
+
+$colour-6: #7F6346; //rgb(127,99,54)	(light brown)
+$colour-7: #FFECD8; //rgb(255,237,216)  (creamy beige 2)
+$colour-8: #FFC78C; //rgb(255,199,140)  (golden brown)
+$colour-9: #7F766C; //rgb(127,118,108)  (greyish brown)
+$colour-10: #CC9F70; //rgb(204,159,112) (dark beige)
+
+$colour-soft-blue: $colour-1;
+$colour-creamy-beige-1: $colour-2;
+$colour-tan: $colour-3;
+$colour-brown: $colour-4;
+$colour-chocolate: $colour-5;
+$colour-light-brown: $colour-6;
+$colour-creamy-beige-2: $colour-7;
+$colour-golden-brown: $colour-8;
+$colour-greyish-brown: $colour-9;
+$colour-dark-beige: $colour-10;
+
+// Triadic
+$colour-green-bright: #90ff19; // rgb(144, 255, 25)
+$colour-red-bright: #FF3900; // rgb(255, 57, 0)
+$colour-blue-bright: #143CCC; // rgb(20, 60, 204)
+$colour-blue-darker: #092DB2; // rgb(9, 45, 178)

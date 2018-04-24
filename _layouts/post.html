@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{{ page.title }} | Travels In Code</title>
+    {% include fonts.html %}
     <link href="/assets/main.css" type="text/css" rel="stylesheet">
 <body>
-{{content}}
+{% include header.html %}
+<main class="main-content">
+    {{content}}
+</main>
 </body>
 {% include google.html %}
 </html>

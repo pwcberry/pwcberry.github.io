@@ -1,44 +1,32 @@
-$main-color-sample: #362f2d;
-
-// Triadic
-$color-1: #90ff19; // rgb(144, 255, 25)
-$color-2: #FF3900; // rgb(255, 57, 0)
-$color-3: #143CCC; // rgb(20, 60, 204)
-$color-4: #092DB2; // rgb(9, 45, 178)
-
-// Some colors:
-$green-bright: $color-1;
-$red-bright: $color-2;
-$blue-bright: $color-3;
-$blue-darker: $color-4;
+@import "colours";
 
 // Breakpoints
 $large-breakpoint: 960px;
 $medium-breakpoint: 512px;
 
 // Body
-$body-bg-color: #f7f5f5;
+$body-bg-color: lighten($colour-creamy-beige-2, 4%);
 
 // Main Content
-$main-content-bg-color: #eeebea;
-$body-text-color: #362f2d;
+$main-content-bg-color: $colour-creamy-beige-2;
+$body-text-color: $colour-chocolate;
 $section-headings-color: $body-text-color;
-$body-link-color: $blue-bright;
-$body-link-visited-color: $blue-darker;
-$blockquote-text-color: #819198;
+$body-link-color: $colour-soft-blue;
+$body-link-visited-color: $colour-blue-darker;
+$blockquote-text-color: $colour-greyish-brown;
 
 // Site Nav
 $site-nav-bg-color: $body-bg-color;
-$site-nav-text-color: $body-text-color;
+$site-nav-text-color: $colour-brown;
 $site-nav-visited-color: $site-nav-text-color;
 
 // Headers
 $header-heading-color: #fff;
-$header-bg-color:$body-bg-color;
+$header-bg-color: $body-bg-color;
 
 // Code
-$code-bg-color: #f3f6fa;
-$code-text-color: #567482;
+$code-bg-color: lighten($colour-soft-blue, 50%);
+$code-text-color: $colour-greyish-brown;
 
 // Borders
 $border-color: #dce6f0;

@@ -1,0 +1,18 @@
+---
+---
+@import "../_sass/main";
+
+.post {
+	a {
+	    color: $body-link-color;
+	    text-decoration: underline;
+
+	    &:hover {
+	        text-decoration: none;
+	    }
+
+	    &:visited {
+	        color: $body-link-visited-color;
+	    }
+	}
+}

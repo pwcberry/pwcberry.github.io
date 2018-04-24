@@ -7,10 +7,17 @@
         {{ page.title }} | Travels In Code
     </title>
     {% include fonts.html %}
-    <link href="/assets/main.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/home.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-{% include header.html %}
+<header class="site-header">
+    <div class="site-home">
+        <img src="/assets/travels-in-code.svg" alt="Travels in Code" />
+    </div>
+    <nav class="site-nav">
+        <a href="/about/">About</a>
+    </nav>
+</header>
 <main class="main-content">
     {{content}}
 </main>
