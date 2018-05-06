@@ -2,39 +2,30 @@
 @import "./rouge-github";
 @import "./variables";
 @import "./fonts";
-@mixin large {
-    @media screen and (min-width: #{$large-breakpoint}) {
-        @content;
-    }
-}
-@mixin medium {
-    @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
-        @content;
-    }
-}
-@mixin small {
-    @media screen and (max-width: #{$medium-breakpoint}) {
-        @content;
-    }
-}
+@import "./breakpoints";
+
 *, *::after, *::before {
     box-sizing: border-box;
 }
 html {
     width: 100%;
     height: 100%;
-    font-size: 16px;
 }
+
 body {
     padding: 0;
     margin: 0;
     font-family: $body-font-family;
-    background: $body-bg-color url(/assets/coffee-rings.png) repeat;
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: calc(18px + .25vh);
+    line-height: calc(1.5 + .2vh);
     color: $body-text-color;
     height: 100%;
     width: 100%;
+    background-color: $body-bg-color;
+
+    @include breakpoint-lg {
+        background: $body-bg-color url(/assets/coffee-rings.png) repeat;
+    }
 }
 a {
     color: $body-link-color;
@@ -68,14 +59,7 @@ a {
     +.btn {
         margin-left: 1rem;
     }
-    @include large {
-        padding: 0.75rem 1rem;
-    }
-    @include medium {
-        padding: 0.6rem 0.9rem;
-        font-size: 0.9rem;
-    }
-    @include small {
+    @include breakpoint-sm {
         display: block;
         width: 100%;
         padding: 0.75rem;
@@ -85,25 +69,32 @@ a {
             margin-left: 0;
         }
     }
+    @include breakpoint-md {
+        padding: 0.6rem 0.9rem;
+        font-size: 0.9rem;
+    }
+    @include breakpoint-lg {
+        padding: 0.75rem 1rem;
+    }
 }
 .site-header {
     position: relative;
 
-    @include large {
+    @include  breakpoint-sm {
+        padding: 0 1rem;
+        background-color: $header-bg-color;
+    }
+    @include  breakpoint-md {
+        padding: 0 1rem;
+        background-color: $header-bg-color;
+    }
+    @include  breakpoint-lg {
         max-width: 1024px;
         height: 120px;
         overflow: hidden;
         margin: 0 auto;
         background: $header-bg-color url("/assets/vs_code_main.png") no-repeat scroll 130px 0;
         padding: 0 2rem;
-    }
-    @include medium {
-        padding: 0 1rem;
-        background-color: $header-bg-color;
-    }
-    @include small {
-        padding: 0 1rem;
-        background-color: $header-bg-color;
     }
 }
 .site-home {
@@ -124,32 +115,51 @@ a {
     float: right;
     background-color: $site-nav-bg-color;
 
-    @include large {
+    @include breakpoint-lg {
         margin-top: 30px;
-    }
 
-    a {
-        color: $site-nav-text-color;
-        background-color: $site-nav-bg-color;
-        display: inline-block;
-        border-radius: 0.3rem;
-        padding: 0.75rem 1rem;
-        transition: all ease-in 0.2s;
-        border: 1px solid rgba(255, 199, 140, 0.7); // (golden brown)
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: none;
-            background-color: $colour-golden-brown;
-            color: $site-nav-bg-color !important;
-        }
-
-        &:visited {
+        a {
             color: $site-nav-text-color;
+            background-color: $site-nav-bg-color;
+            display: inline-block;
+            border-radius: 0.3rem;
+            padding: 0.75rem 1rem;
+            transition: all ease-in 0.2s;
+            border: 1px solid rgba(255, 199, 140, 0.7); // (golden brown)
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+                background-color: $colour-golden-brown;
+                color: $site-nav-bg-color !important;
+            }
+
+            &:visited {
+                color: $site-nav-text-color;
+            }
         }
     }
 }
+.site-footer {
+    position: relative;
+    color: $colour-light-brown;
+    border-top: 1px solid $colour-golden-brown; 
 
+    @include  breakpoint-sm {
+        padding: 0 1rem;
+        font-size: 0.8rem;
+    }
+    @include  breakpoint-md {
+        padding: 0 1rem;
+        font-size: 0.9rem;
+    }
+    @include  breakpoint-lg {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        font-size: 0.9rem;
+    }
+}
 .main-content {
     background-color: $main-content-bg-color;
     border-style: solid;
@@ -159,38 +169,46 @@ a {
     :first-child {
         margin-top: 0;
     }
-    @include large {
-        max-width: 1024px;
-        padding: 2rem 6rem;
-        margin: 0 auto 2rem;
-        min-height: calc(100vh - 120px - 2rem);
+    @include  breakpoint-sm {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        margin-bottom: 1rem;
     }
-    @include medium {
-        padding: 2rem 4rem;
+    @include  breakpoint-md {
+        padding: 2rem 3rem;
         font-size: 1.1rem;
         margin-bottom: 1rem;
     }
-    @include small {
-        padding: 2rem 1rem;
-        font-size: 1rem;
-        margin-bottom: 1rem;
+    @include  breakpoint-lg {
+        max-width: 1024px;
+        padding: 2rem 4rem;
+        margin: 0 auto 2rem;
+        min-height: calc(100vh - 120px - 2rem);
     }
 }
 img {
     max-width: 100%;
 }
+
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
     font-family: $heading-font-family;
     color: $section-headings-color;
 }
+
+h1 {
+    margin: 0 0 1em;
+}
+
+h2 {
+    margin: 2em 0 1em;
+}
+
 p {
     margin-bottom: 1em;
 }
 code {
     padding: 2px 4px;
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: $code-font-family;
     font-size: 0.9rem;
     color: $code-text-color;
     background-color: $code-bg-color;
@@ -200,7 +218,7 @@ pre {
     padding: 0.8rem;
     margin-top: 0;
     margin-bottom: 1rem;
-    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font: 1rem $code-font-family;
     color: $code-text-color;
     word-wrap: normal;
     background-color: $code-bg-color;
@@ -295,25 +313,4 @@ hr {
     margin: 1rem 0;
     background-color: $hr-border-color;
     border: 0;
-}
-.site-footer {
-    padding-top: 2rem;
-    margin-top: 2rem;
-    border-top: solid 1px $hr-border-color;
-    @include large {
-        font-size: 1rem;
-    }
-    @include medium {
-        font-size: 1rem;
-    }
-    @include small {
-        font-size: 0.9rem;
-    }
-}
-.site-footer-owner {
-    display: block;
-    font-weight: bold;
-}
-.site-footer-credits {
-    color: $blockquote-text-color;
 }

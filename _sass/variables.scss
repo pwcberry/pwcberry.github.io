@@ -1,14 +1,10 @@
-@import "colours";
-
-// Breakpoints
-$large-breakpoint: 960px;
-$medium-breakpoint: 512px;
+@import "./colours";
 
 // Body
-$body-bg-color: lighten($colour-creamy-beige-2, 4%);
+$body-bg-color: lighten($colour-creamy-beige-2, 5%);
 
 // Main Content
-$main-content-bg-color: $colour-creamy-beige-2;
+$main-content-bg-color: lighten($colour-creamy-beige-2, 2%);
 $body-text-color: $colour-chocolate;
 $section-headings-color: $body-text-color;
 $body-link-color: $colour-soft-blue;
