@@ -3,6 +3,7 @@
 @import "./variables";
 @import "./fonts";
 @import "./breakpoints";
+@import "./mixins";
 
 *, *::after, *::before {
     box-sizing: border-box;
@@ -80,15 +81,14 @@ a {
 .site-header {
     position: relative;
 
-    @include  breakpoint-sm {
-        padding: 0 1rem;
+    @include breakpoint-mobile {
+        @include clearfix;
+
+        padding: 1rem;
         background-color: $header-bg-color;
     }
+
     @include  breakpoint-md {
-        padding: 0 1rem;
-        background-color: $header-bg-color;
-    }
-    @include  breakpoint-lg {
         max-width: 1024px;
         height: 120px;
         overflow: hidden;
@@ -98,24 +98,30 @@ a {
     }
 }
 .site-home {
-    width: 120px;
-    height: 120px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    @include breakpoint-mobile {
+        float: left;
+    }
 
-    > img {
-        width: 80%;
-        height: 80%;
-        margin-top: 10%;
-        margin-left: 10%;
+    @include breakpoint-md {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        .site-logo {
+            width: 80%;
+            height: 80%;
+            margin-top: 10%;
+            margin-left: 5%;
+        }
     }
 }
 .site-nav {
     float: right;
     background-color: $site-nav-bg-color;
 
-    @include breakpoint-lg {
+    @include breakpoint-md {
         margin-top: 30px;
 
         a {
@@ -145,15 +151,11 @@ a {
     color: $colour-light-brown;
     border-top: 1px solid $colour-golden-brown; 
 
-    @include  breakpoint-sm {
-        padding: 0 1rem;
-        font-size: 0.8rem;
-    }
-    @include  breakpoint-md {
+    @include  breakpoint-mobile {
         padding: 0 1rem;
         font-size: 0.9rem;
     }
-    @include  breakpoint-lg {
+    @include  breakpoint-md {
         max-width: 1024px;
         margin: 0 auto;
         padding: 0 2rem;
@@ -169,7 +171,7 @@ a {
     :first-child {
         margin-top: 0;
     }
-    @include  breakpoint-sm {
+    @include breakpoint-mobile {
         padding: 1rem 1.5rem;
         font-size: 1rem;
         margin-bottom: 1rem;
