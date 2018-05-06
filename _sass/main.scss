@@ -1,0 +1,318 @@
+@import "./normalize";
+@import "./rouge-github";
+@import "./variables";
+@import "./fonts";
+@import "./breakpoints";
+@import "./mixins";
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: $body-font-family;
+    font-size: calc(18px + .25vh);
+    line-height: calc(1.5 + .2vh);
+    color: $body-text-color;
+    height: 100%;
+    width: 100%;
+    background-color: $body-bg-color;
+
+    @include breakpoint-lg {
+        background: $body-bg-color url(/assets/coffee-rings.png) repeat;
+    }
+}
+a {
+    color: $body-link-color;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:visited {
+        color: $body-link-visited-color;
+    }
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    &:hover {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+    +.btn {
+        margin-left: 1rem;
+    }
+    @include breakpoint-sm {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 0.9rem;
+        +.btn {
+            margin-top: 1rem;
+            margin-left: 0;
+        }
+    }
+    @include breakpoint-md {
+        padding: 0.6rem 0.9rem;
+        font-size: 0.9rem;
+    }
+    @include breakpoint-lg {
+        padding: 0.75rem 1rem;
+    }
+}
+.site-header {
+    position: relative;
+
+    @include breakpoint-mobile {
+        @include clearfix;
+
+        padding: 1rem;
+        background-color: $header-bg-color;
+    }
+
+    @include  breakpoint-md {
+        max-width: 1024px;
+        height: 120px;
+        overflow: hidden;
+        margin: 0 auto;
+        background: $header-bg-color url("/assets/vs_code_main.png") no-repeat scroll 130px 0;
+        padding: 0 2rem;
+    }
+}
+.site-home {
+    @include breakpoint-mobile {
+        float: left;
+    }
+
+    @include breakpoint-md {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        .site-logo {
+            width: 80%;
+            height: 80%;
+            margin-top: 10%;
+            margin-left: 5%;
+        }
+    }
+}
+.site-nav {
+    float: right;
+    background-color: $site-nav-bg-color;
+
+    @include breakpoint-md {
+        margin-top: 30px;
+
+        a {
+            color: $site-nav-text-color;
+            background-color: $site-nav-bg-color;
+            display: inline-block;
+            border-radius: 0.3rem;
+            padding: 0.75rem 1rem;
+            transition: all ease-in 0.2s;
+            border: 1px solid rgba(255, 199, 140, 0.7); // (golden brown)
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+                background-color: $colour-golden-brown;
+                color: $site-nav-bg-color !important;
+            }
+
+            &:visited {
+                color: $site-nav-text-color;
+            }
+        }
+    }
+}
+.site-footer {
+    position: relative;
+    color: $colour-light-brown;
+    border-top: 1px solid $colour-golden-brown; 
+
+    @include  breakpoint-mobile {
+        padding: 0 1rem;
+        font-size: 0.9rem;
+    }
+    @include  breakpoint-md {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        font-size: 0.9rem;
+    }
+}
+.main-content {
+    background-color: $main-content-bg-color;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    border-color: rgba(127, 118, 108, 0.2);
+    word-wrap: break-word;
+    :first-child {
+        margin-top: 0;
+    }
+    @include breakpoint-mobile {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    @include  breakpoint-md {
+        padding: 2rem 3rem;
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    @include  breakpoint-lg {
+        max-width: 1024px;
+        padding: 2rem 4rem;
+        margin: 0 auto 2rem;
+        min-height: calc(100vh - 120px - 2rem);
+    }
+}
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font-family;
+    color: $section-headings-color;
+}
+
+h1 {
+    margin: 0 0 1em;
+}
+
+h2 {
+    margin: 2em 0 1em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+code {
+    padding: 2px 4px;
+    font-family: $code-font-family;
+    font-size: 0.9rem;
+    color: $code-text-color;
+    background-color: $code-bg-color;
+    border-radius: 0.3rem;
+}
+pre {
+    padding: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font: 1rem $code-font-family;
+    color: $code-text-color;
+    word-wrap: normal;
+    background-color: $code-bg-color;
+    border: solid 1px $border-color;
+    border-radius: 0.3rem;
+    >code {
+        padding: 0;
+        margin: 0;
+        font-size: 0.9rem;
+        color: $code-text-color;
+        word-break: normal;
+        white-space: pre;
+        background: transparent;
+        border: 0;
+    }
+}
+.highlight {
+    margin-bottom: 1rem;
+    pre {
+        margin-bottom: 0;
+        word-break: normal;
+    }
+}
+.highlight pre, pre {
+    padding: 0.8rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 0.3rem;
+    -webkit-overflow-scrolling: touch;
+}
+pre code, pre tt {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+    &:before, &:after {
+        content: normal;
+    }
+}
+ul, ol {
+    margin-top: 0;
+}
+blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: $blockquote-text-color;
+    border-left: 0.3rem solid $border-color;
+    > :first-child {
+        margin-top: 0;
+    }
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
+    -webkit-overflow-scrolling: touch;
+    th {
+        font-weight: bold;
+    }
+    th, td {
+        padding: 0.5rem 1rem;
+        border: 1px solid $table-border-color;
+    }
+}
+dl {
+    padding: 0;
+    dt {
+        padding: 0;
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    dd {
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: $hr-border-color;
+    border: 0;
+}

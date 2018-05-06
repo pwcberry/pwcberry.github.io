@@ -1,0 +1,30 @@
+@import "./colours";
+
+// Body
+$body-bg-color: lighten($colour-creamy-beige-2, 5%);
+
+// Main Content
+$main-content-bg-color: lighten($colour-creamy-beige-2, 2%);
+$body-text-color: $colour-chocolate;
+$section-headings-color: $body-text-color;
+$body-link-color: $colour-soft-blue;
+$body-link-visited-color: $colour-blue-darker;
+$blockquote-text-color: $colour-greyish-brown;
+
+// Site Nav
+$site-nav-bg-color: $body-bg-color;
+$site-nav-text-color: $colour-brown;
+$site-nav-visited-color: $site-nav-text-color;
+
+// Headers
+$header-heading-color: #fff;
+$header-bg-color: $body-bg-color;
+
+// Code
+$code-bg-color: lighten($colour-soft-blue, 50%);
+$code-text-color: $colour-greyish-brown;
+
+// Borders
+$border-color: #dce6f0;
+$table-border-color: #e9ebec;
+$hr-border-color: #eff0f1;

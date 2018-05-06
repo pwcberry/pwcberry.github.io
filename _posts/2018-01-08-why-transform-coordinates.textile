@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why you need to transform coordinates to perform arithmetic
-categories: algorithms
+category: algorithms
 tags: algorithms coordinates locations
 excerpt: I had to discover a way to calculate the central point for locations and I want to understand why this method is preferred
 ---
