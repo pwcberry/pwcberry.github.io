@@ -23,3 +23,7 @@ Occasionally I will add some demos of my experiments with the latest advances in
 <p>I can be reached by email at <a href="mailto:pete@travelsincode.com">pete@travelsincode.com</a>.</p>
 
 __Note:__ any viewpoints and opinions expressed in the articles on this website are those of Peter Berry and do not, in any way, reflect those of my employer and my colleagues.
+
+## What is the blog colour theme about?
+
+The tints and shades of brown that are present in the appearance of this blog is my tribute to coffee. A wondrous beverage. I probably drink too much of it. I like it black, espresso style. While Melbourne is home to a wide and deep caffeinated culture, I am not a coffee nerd. I like my brew to be rich with berries - and to make my hair stand on end.
