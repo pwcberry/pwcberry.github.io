@@ -10,7 +10,7 @@ My name is Peter Berry and I currrently work at [realestate.com.au](https://www.
 
 Whilst I enjoy producing software on the full stack of the web, I also enjoy writing and thinking about software and computing. I am also interested in user experience, visual design, software architecture, data science, security and networking.
 
-On this website my aim is to share my experiences as I endeavour to craft solutions in code. I hope these observations can be perceived as wisdom. There will be some philosophy here incidentally.
+On this website my aim is to share my experiences as I endeavour to craft solutions in code. I hope these observations can be perceived as wisdom; there will be some philosophy here incidentally.
 
 Occasionally I will add some demos of my experiments with the latest advances in the evolution of web technologies. The intent of these demos is to increase my understanding for how these technologies work and fit together.
 
@@ -26,4 +26,4 @@ __Note:__ any viewpoints and opinions expressed in the articles on this website 
 
 ## What is the blog colour theme about?
 
-The tints and shades of brown that are present in the appearance of this blog is my tribute to coffee. A wondrous beverage. I probably drink too much of it. I like it black, espresso style. While Melbourne is home to a wide and deep caffeinated culture, I am not a coffee nerd. I like my brew to be rich with berries - and to make my hair stand on end.
+The tints and shades of brown that are present in the appearance of this blog is my tribute to coffee. A wondrous beverage. I probably drink too much of it. I like it black, espresso style. While Melbourne is home to a wide and deep caffeinated culture, I am not a coffee nerd. I like my brew to be rich with berries - and to make what remains of my hair stand on end.
