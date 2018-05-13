@@ -5,3 +5,20 @@
 		content: "";
 	}
 }
+
+@mixin section-width-mobile {
+    max-width: 100%;
+    min-width: calc(320px - 2rem);
+}
+
+@mixin section-width-md {
+    width: percentage(10/12);
+    min-width: 520px;
+    max-width: 100%;
+}
+
+@mixin section-width-lg {
+    max-width: 1200px;
+    width: percentage(8/12);
+    min-width: 576px;
+}
