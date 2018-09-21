@@ -3,6 +3,10 @@
 @import "../_sass/main";
 
 .post {
+	&:not(:last-child) {
+		margin-bottom: 3rem;
+	}
+
 	a {
 	    color: $body-link-color;
 	    text-decoration: underline;
