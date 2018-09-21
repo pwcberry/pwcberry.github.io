@@ -26,7 +26,7 @@ Node.js has the built-in module [`zlib`]() for handling the archive. It has the 
 
 Using the library [`csv-streamify`]() I convert the buffers into objects that represent the decompressed CSV rows. The properties of each object correspond to the columns that are defined in the first row of the CSV file.
 
-Once I have the raw data as JavaScript objects, I define a custom class that extends the `Transform` stream class to convert the CSV objects into the data structures I need for my application. I have also defined a custom `Writable` to output the data as JSON. Thus the code that performs the work looks like this:
+Once I have the raw data as JavaScript objects, I define a custom class that extends the `Transform` stream class to convert the CSV objects into the data structures I need for my application. I have also defined a custom `Writable` - `JsonWriter` - to output the data as JSON. Thus the code to perform the work looks like this:
 
 ```javascript
 const fs = require("fs");
@@ -53,7 +53,7 @@ module.exports = () => {
 }
 ```
 
-The code snippet above also shows that I wrap this in a `Promise` to take advantage of the async nature of processing streams.
+The previous code example also shows how I wrapped the components of the stream transformation in a `Promise` to take advantage of the events raised through the `Stream` API. The code that uses the Promise can also handle any errors.
 
 ## Coding a custom `Transform` 
 
@@ -69,20 +69,20 @@ The crucial method to implement for this type of Stream is the `_transform` meth
 
 ```javascript
 class CustomTransformer extends Transform {
-	constructor(options) {
-		super({
+    constructor(options) {
+        super({
             readableObjectMode: true,
             writableObjectMode: true
-		});
+        });
 
-		// Define other properties and rules
-	}
+        // Define other properties and rules
+    }
 
-	_transform(data, encoding, callback) {
-		try {
+    _transform(data, encoding, callback) {
+        try {
             let inputData = null;
 
-        	// Ensure the input data is or becomes a JavaScript object
+            // Ensure the input data is or becomes a JavaScript object
             if (typeof data === "string" || data instanceof Buffer) {
                 inputData = JSON.parse(data.toString());
             } else if ((typeof data === "object") && (data !== null)) {
@@ -98,12 +98,14 @@ class CustomTransformer extends Transform {
         } catch (error) {
             callback(error);
         }
-	}
+    }
 
-	_mapToOutput(input) {
-		// Return new object that has transformed the data of the input.
-		// The data could be different according to rules defined in the constructor
-	}
+    _mapToOutput(input) {
+        // Return new object that has transformed 
+        // the data of the input.
+        // The data could be different according to 
+        // rules defined in the constructor
+    }
 }
 ```
 
@@ -113,9 +115,9 @@ The other method for instantiating a `Transform` is to give the constructor an o
 
 ```javascript
 const transformer = new Transform({
-	transform(data, encoding, callback) {
-		// Do the data conversion
-	}
+    transform(data, encoding, callback) {
+        // Do the data conversion
+    }
 });
 ```
 
@@ -129,7 +131,7 @@ As with a `Transform`, a `Writable` can be defined by extending the base class o
 
 ```javascript
 class JsonWriter extends Writer {
-	constructor(options) {
+    constructor(options) {
         super({objectMode: true});
 
         this._fileStream = fs.createWriteStream(options.filename);
@@ -139,14 +141,14 @@ class JsonWriter extends Writer {
     }
 
     _write(chunk, encoding, callback) {
-    	// Write to underlying stream
-    	callback();
+        // Write to underlying stream
+        callback();
     }
 
     _final(callback) {
-    	// Clean up
-    	this._fileStream.end();
-    	callback();
+        // Clean up
+        this._fileStream.end();
+        callback();
     }
 }
 ```
@@ -157,7 +159,7 @@ The crucial methods here are `_write` and `_final`. These are called internally 
 
 I enjoyed my first attempt at using streams for processing a large dataset. In this application I also added performance markers to see how long it took for Node.js to execute the code to transform the data. I was happy that for 33 MB it was only a matter of seconds!
 
-<h2 id="References">References</h2>
+## References
 
 [Node.js Streams: Everything you need to know](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
 
