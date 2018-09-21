@@ -7,6 +7,10 @@
 		margin-bottom: 3rem;
 	}
 
+	h1 {
+		font-size: 1.125rem;
+	}
+
 	a {
 	    color: $body-link-color;
 	    text-decoration: underline;
@@ -20,4 +24,9 @@
 	        color: $body-link-visited-color;
 	    }
 	}
+}
+
+.post__date {
+	font-size: 0.9rem;
+	color: $colour-light-brown;
 }
