@@ -1,10 +1,11 @@
 @import "./colours";
 
 // Body
-$body-bg-color: lighten($colour-creamy-beige-2, 5%);
+$body-bg-color: lighten($colour-creamy-beige-2, 2%);
 
 // Main Content
-$main-content-bg-color: lighten($colour-creamy-beige-2, 2%);
+$main-content-bg-color: lighten($colour-creamy-beige-2, 4%);
+$main-content-box-shadow-color: rgba(127, 118, 108, 0.1);
 $body-text-color: $colour-chocolate;
 $section-headings-color: $body-text-color;
 $body-link-color: $colour-soft-blue;
@@ -15,6 +16,7 @@ $blockquote-text-color: $colour-greyish-brown;
 $site-nav-bg-color: $body-bg-color;
 $site-nav-text-color: $colour-brown;
 $site-nav-visited-color: $site-nav-text-color;
+$site-nav-border-color: rgba(255, 199, 140, 0.7);
 
 // Headers
 $header-heading-color: #fff;
