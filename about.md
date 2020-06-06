@@ -8,7 +8,7 @@ permalink: /about/
 
 My name is Peter Berry and I currrently work at [realestate.com.au](https://www.realestate.com.au) as a developer.
 
-Whilst I enjoy producing software on the full stack of the web, I also enjoy writing and thinking about software and computing. I am also interested in user experience, visual design, software architecture, data science, security and networking.
+Whilst I enjoy producing software on the full stack of the web, I also enjoy writing and thinking about software and computing. I am also interested in user experience, visual design, software architecture, algorithms, code quality, graphics, security and networks.
 
 On this website my aim is to share my experiences as I endeavour to craft solutions in code. I hope these observations can be perceived as wisdom; there will be some philosophy here incidentally.
 

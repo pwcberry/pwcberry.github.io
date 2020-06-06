@@ -115,7 +115,7 @@ a {
 }
 .site-footer {
     position: relative;
-    color: $colour-light-brown;
+    color: $colour-greyish-brown;
     border-top: 1px solid $colour-golden-brown; 
     font-size: 0.9rem;
 
@@ -131,6 +131,43 @@ a {
     @include breakpoint-lg {
         @include section-width-lg;
     }
+
+    h3 {
+        margin-bottom: 0.33em;
+        color: inherit;
+    }
+}
+
+.site-footer__categories {
+    ul {
+        margin: 0;
+        padding: 0 0.5rem;
+        list-style-type: none;
+    }
+    li {
+        @include  breakpoint-mobile {
+            padding: 0.67em 0;
+        }
+        @include  breakpoint-md {
+            padding: 0.33em 0;
+        }
+        @include breakpoint-lg {
+            padding: 0.33em 0;
+        }
+
+        a {
+            &,
+            &:visited,
+            &:hover {
+                color: inherit;
+            }
+        }
+    }
+}
+
+.site-footer_copyright {
+    margin-top: 1.5em;
+    text-align: right;
 }
 
 .main-content {

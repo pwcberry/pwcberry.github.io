@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Node.js streams
-category: systems
-tags: node.js systems
+category: web
+tags: node.js streams javascript
 excerpt: While working on a side project, I delved into Node.js streams.
 ---
 

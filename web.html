@@ -1,0 +1,19 @@
+---
+title: Web Technologies
+permalink: /web/
+layout: default
+---
+<header class="page-header">
+    <h1>Web Technologies</h1>
+    <p>Below is the list of articles published in this category.</p>
+</header>
+<div class="blog-roll">
+    {% assign category_posts = site.posts | where:"category","web" %}
+    {% for post in category_posts %}
+    <article class="post">
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <p>{{ post.excerpt }}</p>
+        <p class="post__date">{{ post.date | date_to_long_string }}</p>
+    </article>
+    {% endfor %}
+</div>
