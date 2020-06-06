@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Estimating code development from design to production
-category: Practices
-tags: estimation practice software
+category: practices
+tags: estimation practice process
 excerpt:
 ---
 
