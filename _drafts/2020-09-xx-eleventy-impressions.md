@@ -67,7 +67,8 @@ The simplicity of Eleventy is what I like. Gatsby does a lot of the heavy liftin
 
 References:
 
-[Definition for SSG]
-[Eleventy]
-[Gatsby]
-[Source - Toolsday ?]
+- [Definition for SSG]
+- [Eleventy]
+- [Gatsby]
+- [Source - Toolsday ?]
+- [You don't need all that JavaScript](https://www.youtube.com/watch?v=e1L2WgXu2JY)
