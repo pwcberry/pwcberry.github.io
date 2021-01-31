@@ -26,4 +26,4 @@ __Note:__ any viewpoints and opinions expressed in the articles on this website 
 
 ## What is the blog colour theme about?
 
-The tints and shades of brown present in the appearance of this blog is a tribute to coffee. A wondrous beverage. I probably drink too much of it. I like it black, espresso style. While Melbourne is home to a wide and deep caffeinated culture, I am not a coffee nerd. I like my brew to be rich with berries - and to make what remains of my hair stand on end.
+The tints and shades of brown present in the appearance of this blog is a tribute to coffee. A wondrous beverage. I probably drink too much of it. I like it black, espresso style. While Melbourne is home to a wide and deep caffeinated culture, I wouldn't say I'm a coffee nerd. I do like my brew to strong and rich with berries - and to make what remains of my hair stand on end.

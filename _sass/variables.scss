@@ -28,5 +28,5 @@ $code-text-color: $colour-greyish-brown;
 
 // Borders
 $border-color: #dce6f0;
-$table-border-color: #e9ebec;
+$table-border-color: darken($main-content-bg-color, 30%);
 $hr-border-color: #eff0f1;
