@@ -360,7 +360,7 @@ Let's cover the types of developer one finds in teams who produce software.
   <picture>
     <source srcset="/assets/2021-02-22/back-end-developer@2x.png" media="(max-width: 600px)"/>
     <source srcset="/assets/2021-02-22/back-end-developer.png" media="(min-width: 601px)"/>
-    <img src="/assets/2021-02-22/back-end-developer.jpg" alt="Back-end developer figure" width="640" height="360" />
+    <img src="/assets/2021-02-22/back-end-developer.jpg" alt="Back-end developer figure" width="640" />
   </picture>
 </figure>
 
@@ -396,7 +396,7 @@ the paradigms of programming which is out of scope for this document.
   <picture>
     <source srcset="/assets/2021-02-22/front-end-developer@2x.png" media="(max-width: 600px)"/>
     <source srcset="/assets/2021-02-22/front-end-developer.png" media="(min-width: 601px)"/>
-    <img src="/assets/2021-02-22/front-end-developer.jpg" alt="Front-end developer figure" width="640" height="360" />
+    <img src="/assets/2021-02-22/front-end-developer.jpg" alt="Front-end developer figure" width="640" />
   </picture>
 </figure>
 
