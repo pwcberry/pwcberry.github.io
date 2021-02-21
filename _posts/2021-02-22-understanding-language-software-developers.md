@@ -162,9 +162,23 @@ Some developers eschew these extra facilities and will use a simpler text editor
 
 Developers settle on their editor of choice by how well it suits their intellectual muscles.
 
+<figure>
+    <picture srcset="/assets/2021-02-22/webstorm@0.5x.jpg" media="(max-width: 600px)"/>
+    <picture srcset="/assets/2021-02-22/webstorm.jpg" media="(min-width: 601px)"/>
+    <img src="/assets/2021-02-22/webstorm.jpg" alt="Buildkite showing successful and failed builds" width="1280" height="720" />
+    <figcaption>Buildkite showing successful and failed builds</figcaption>
+</figure>
+
 ### Command-line terminal
 
 This is a bare-bones window that incorporates a “shell” through which developers can issue commands directly to the operating system. It is this place where developers will use their software tools to aid in the production of software such as run tests, check code style or save the code changes in their version control system (see below).
+
+<figure>
+    <picture srcset="/assets/2021-02-22/terminal@0.5x.jpg" media="(max-width: 600px)"/>
+    <picture srcset="/assets/2021-02-22/terminal.jpg" media="(min-width: 601px)"/>
+    <img src="/assets/2021-02-22/terminal.jpg" alt="The terminal window showing shell command-line interface" width="640" height="360" />
+    <figcaption>The terminal window showing shell command-line interface</figcaption>
+</figure>
 
 ### Software instruments 
 
@@ -186,6 +200,13 @@ It’s standard practice for developers to keep backups of their code in a place
 The tool used by developers is pretty much the industry standard these days: Git. Git allows developers to work on different versions of a code base, called branches or forks, that do not cause disruption to the code that is working in production. These branches, when stored in Github or Bitbucket, are kept separate to the main or “master” branch (version) of the code that is used in production.
 
 Git also allows developers to fix up their mistakes, track who wrote what line of code, and provide a history of all the changes that have occurred.
+
+<figure>
+    <picture srcset="/assets/2021-02-22/github-enterprise@0.5x.jpg" media="(max-width: 600px)"/>
+    <picture srcset="/assets/2021-02-22/github-enterprise.jpg" media="(min-width: 601px)"/>
+    <img src="/assets/2021-02-22/github-enterprise.jpg" alt="The user profile page on Github for Enterprise" width="640" height="360" />
+    <figcaption>The user profile page on Github for Enterprise</figcaption>
+</figure>
 
 When developers are finished with the work on a feature, and it is ready to be “merged” into the main part of the code, the developers will “create a pull request”. A pull request gives the authors an opportunity to explain why the changes were made. A pull request also gives other developers a chance to review the changes, also known as a “code review”. If the changes pass the review, then the code can be merged into the “master” or “main” branch. If not, then the authors have to address the feedback of the reviewers and when ready, request another review for the open pull request.
 
@@ -216,6 +237,13 @@ These are machines, often working on an in-house server or in the cloud, that op
 It is “continuous” in the sense that any successful change of code will trigger this process and no human intervenes. 
 
 Typical CI environments are Jenkins, Hudson, Buildkite, Bitbucket, TeamCity and Travis CI.
+
+<figure>
+    <picture srcset="/assets/2021-02-22/buildkite@0.5x.jpg" media="(max-width: 600px)"/>
+    <picture srcset="/assets/2021-02-22/buildkite.jpg" media="(min-width: 601px)"/>
+    <img src="/assets/2021-02-22/buildkite.jpg" alt="Webstorm, an integrated developer environment from Jetbrains" width="1280" height="720" />
+    <figcaption>Webstorm, an integrated developer environment from Jetbrains</figcaption>
+</figure>
 
 ### Continuous Deployment
 
