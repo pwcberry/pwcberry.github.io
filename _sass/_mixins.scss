@@ -22,3 +22,27 @@
     width: percentage(8/12);
     min-width: 576px;
 }
+
+@mixin media-xs {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin media-sm {
+  @media screen and (min-width: 601px) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media screen and (min-width: 1025px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}

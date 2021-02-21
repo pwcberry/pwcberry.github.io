@@ -79,7 +79,10 @@ Additionally, programmers may not choose a language based on typical human trait
 * Rumour e.g. “I heard that Company XY used it and they’ve had nothing but trouble since then” 
 * Regret e.g. “I used it once 2 years ago and it burned me. Not going near it again”
 
-**Functional language:** When a programming language is considered “functional” there are strict rules for how code uses and moves data through the software. It is a paradigm that is compared against the more dominant “object-oriented” approach where objects are coded to handle changes to, and movement of, data.
+**Functional language**
+
+When a programming language is considered “functional” there are strict rules for how code uses and moves data through the software. 
+It is a paradigm that is compared against the more dominant “object-oriented” approach where objects are coded to handle changes to, and movement of, data.
 
 ## Software Libraries
 
@@ -93,7 +96,7 @@ Choosing a library is also based on the same factors for choosing a programming 
 
 ### Software frameworks
 
-When a “framework” is talked about, it usually is at the beginning of a project because they can be one of the most significant pieces of a software project.
+When a “framework” is talked about, it is usually at the beginning of a project because they can be one of the most significant pieces of a software project.
 
 There are different scales of frameworks, such as .NET or Angular JS, but for the purposes of this document, you can imagine a framework as a collection of libraries.
 
@@ -107,9 +110,9 @@ A URL (uniform resource location) is made up of important parts to help the iden
 
 <figure>
     <picture>
-        <source src="/assets/url-breakdown.png" media="(max-width: 600px)"/>
-        <source src="/assets/url-breakdown@2x.png" media="(min-width: 601px)" />
-        <img src="/assets/url-breakdown.jpg" alt="URL Breakdown" />
+        <source srcset="/assets/2021-02-22/url-breakdown.png" media="(max-width: 600px)"/>
+        <source srcset="/assets/2021-02-22/url-breakdown@2x.png" media="(min-width: 601px)" />
+        <img src="/assets/2021-02-22/url-breakdown.jpg" alt="URL breakdown, following HTTP: The Definitive Guide" />
     </picture>
     <figcaption>After&nbsp;<em>HTTP: The Definitive Guide</em></figcaption>
 </figure>
@@ -117,6 +120,17 @@ A URL (uniform resource location) is made up of important parts to help the iden
 This data exchange also occurs when a user clicks a link or a button that triggers an HTTP request. Traditionally this means the entire page is updated. However, in modern web application development, this usually results in a partial update to the UI. This type of data exchange relies on JavaScript and a data format known as JSON.
 
 JSON (pronounced as JAY-SON, it means JavaScript Object Notation) is the de-facto format in the software industry because it is text-based, has a simple set of rules, and is human-readable (good for debugging). It is also easy for JavaScript to digest and use in the updates of UIs. 
+
+Example JSON:
+
+```json
+{
+  "title": "Understanding the Language of Software Developers",
+  "category": "philosophy",
+  "tags": ["design", "front-end", "programming"],
+  "year": 2021
+}
+```
 
 The back-end will send JSON to the front-end in the data exchange usually as a method of moving raw data from the database to the front-end. 
 
@@ -173,7 +187,7 @@ The tool used by developers is pretty much the industry standard these days: Git
 
 Git also allows developers to fix up their mistakes, track who wrote what line of code, and provide a history of all the changes that have occurred.
 
-When developers are finished with the work on a feature and it is ready to be “merged” into the main part of the code, the developers will “create a pull request”. A pull request gives the authors an opportunity to explain why the changes were made. A pull request also gives other developers a chance to review the changes, also known as a “code review”. If the changes pass the review, then the code can be merged into the “master” or “main” branch. If not, then the authors have to address the feedback of the reviewers and when ready, request another review for the open pull request.
+When developers are finished with the work on a feature, and it is ready to be “merged” into the main part of the code, the developers will “create a pull request”. A pull request gives the authors an opportunity to explain why the changes were made. A pull request also gives other developers a chance to review the changes, also known as a “code review”. If the changes pass the review, then the code can be merged into the “master” or “main” branch. If not, then the authors have to address the feedback of the reviewers and when ready, request another review for the open pull request.
 
 ## Build Systems 
 
@@ -221,6 +235,12 @@ Let's cover the types of developer one finds in teams who produce software.
 
 ### Back-end developer
 
+<figure>
+    <picture srcset="/assets/2021-02-22/back-end-developer@2x.png" media="(max-width: 600px)"/>
+    <picture srcset="/assets/2021-02-22/back-end-developer.png" media="(min-width: 601px)"/>
+    <img src="/assets/2021-02-22/back-end-developer.jpg" alt="Back-end developer figure" width="640" height="360" />
+</figure>
+
 **What they do:**  
 Writes code for a web server, application server, system infrastructure, cloud infrastructure, or a database.
 
@@ -246,6 +266,12 @@ The following is a list of topics specific to back-end developers:
 Back-end developers may also talk about functional programming - where “monad”, “functor”, “algebraic data type”, “Scala” or “Haskell” may be heard - as their preferred style of writing code. This does lead into the discussion about the paradigms of programming which is out of scope for this document.
 
 ### Front-end developer
+
+<figure>
+    <picture srcset="/assets/2021-02-22/front-end-developer@2x.png" media="(max-width: 600px)"/>
+    <picture srcset="/assets/2021-02-22/front-end-developer.png" media="(min-width: 601px)"/>
+    <img src="/assets/2021-02-22/front-end-developer.jpg" alt="Front-end developer figure" width="640" height="360" />
+</figure>
 
 **What they do:**  
 Writes code to be downloaded by a web browser for display with a user interface.
