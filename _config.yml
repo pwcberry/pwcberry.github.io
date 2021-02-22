@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Travels In code
-email: pete@travelsincode.com
+title: Travels In Code
+email: nerd@travelsincode.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://travelsincode.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: brunsnik
@@ -26,6 +26,12 @@ permalink: /:categories/:title:output_ext
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+# Custom variables
+author: "Peter Berry"
+themeColor: "#FFECD8"
+twitter: "https://twitter.com/brunsnik"
+linked_in: "https://www.linkedin.com/in/peteberry/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

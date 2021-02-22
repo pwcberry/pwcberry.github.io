@@ -2,9 +2,14 @@
 <html lang="en-AU">
 <head>
     <meta charset="utf-8"/>
-    <meta content="width=device-width,initial-scale=1" name="viewport"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta name="theme-color" content="{{ site.themeColor }}">
+    <link rel="canonical" href="https://travelsincode.com{{ page.url }}">
+    <link rel="og:url" href="https://travelsincode.com{{ page.url }}">
     <title>
-        {{ page.title }} | Travels In Code
+        {{ page.title }} | {{ site.title }}
     </title>
     {% include fonts.html %}
     <link href="/assets/main.css" rel="stylesheet" type="text/css"/>
@@ -14,7 +19,7 @@
 <main class="main-content">
     {{content}}
 </main>
-{% include footer.html %}
+{% include footer-no-contact.html %}
 {% include google.html %}
 </body>
 </html>

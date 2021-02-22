@@ -3,7 +3,7 @@ layout: post
 title: Understanding the Language of Software Developers
 category: philosophy
 tags: design front-end programming
-excerpt: Illuminating the vocabulary used by software developers for non-developers.
+excerpt: Illuminating the language used by software developers for non-developers.
 ---
 
 # Understanding the Language of Software Developers

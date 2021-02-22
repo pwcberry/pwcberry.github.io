@@ -1,26 +1,26 @@
 ---
 layout: default
-title: About | travels in code
+title: About Travels In Code
 permalink: /about/
 ---
 
-# About
+# About Travels In Code
 
 My name is Peter Berry and I currrently work at [realestate.com.au](https://www.realestate.com.au) as a developer.
 
 Whilst I enjoy producing software on the full stack of the web, I also enjoy writing and thinking about software and computing. I am also interested in user experience, visual design, software architecture, algorithms, code quality, graphics, security and networks.
 
-On this website my aim is to share my experiences as I endeavour to craft solutions in code. I hope these observations can be perceived as wisdom; there will be some philosophy here incidentally.
+On this website my aim is to share my experiences as I endeavour to craft solutions in code. I hope these observations can be perceived as wisdom; there will be some humour here incidentally.
 
 Occasionally I will add some demos of my experiments with the latest advances in the evolution of web technologies. The intent of these demos is to increase my understanding for how these technologies work and fit together.
 
 ## Where to find me
 
-* [Twitter](https://twitter.com/brunsnik)
-* [Github](https://github.com/pwcberry)
-* [LinkedIn](https://www.linkedin.com/in/peteberry/)
+* [Twitter](https://twitter.com/{{ site.twitter_username }})
+* [Github](https://github.com/{{ site.github_username }})
+* [LinkedIn]({{ site.linked_in }})
 
-<p>I can be reached by email at <a href="mailto:pete@travelsincode.com">pete@travelsincode.com</a>.</p>
+<p>I can be reached by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
 
 __Note:__ any viewpoints and opinions expressed in the articles on this website are those of Peter Berry and do not, in any way, reflect those of my employer and my colleagues.
 
