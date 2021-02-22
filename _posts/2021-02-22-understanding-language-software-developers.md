@@ -9,8 +9,9 @@ excerpt: Illuminating the vocabulary used by software developers for non-develop
 # Understanding the Language of Software Developers
 
 Software developers have their own way for explaining the problems they encounter and the intentions behind their
-solutions. Their arcana is often opaque to their colleagues who don’t write code. In this post, I attempt to illuminate
-for non-developers the vocabulary used by software developers as they go about their day-to-day activities.
+solutions. Their jargon is often opaque to their colleagues who don’t write code. In this post, I attempt to illuminate
+for non-developers the main subject areas that developers discuss in their day-to-day activities without going into too
+much detail about their vocabulary.
 
 ## Introduction
 
@@ -257,8 +258,8 @@ have different instruments but in general they fall into these categories:
 
 ### Mugs
 
-Probably not as important as the preceding four topics but if someone’s favourite mug goes missing from the kitchen,
-they will be upset.
+Probably not as important as the preceding four topics but if my favourite mug goes missing from the kitchen, I will be disappointed,
+and will begin the search for it in case I _did_ misplace it.
 
 ## Version Control Systems
 
@@ -266,10 +267,10 @@ It’s standard practice for developers to keep backups of their code in a place
 Usually the backups are stored on a server somewhere else in the world; that server might be owned by an entity like
 Github or Atlassian’s Bitbucket. This process of protecting source code is called “version control”.
 
-The tool used by developers is pretty much the industry standard these days: Git. Git allows developers to work on
+The version control tool that is pretty much the industry standard these days is called “Git”. Git allows developers to work on
 different versions of a code base, called branches or forks, that do not cause disruption to the code that is working in
-production. These branches, when stored in Github or Bitbucket, are kept separate to the main or “master” branch (
-version) of the code that is used in production.
+production. These branches, when stored in Github or Bitbucket, are kept separate to the main or “master” branch (version) 
+of the code that is used in production.
 
 Git also allows developers to fix up their mistakes, track who wrote what line of code, and provide a history of all the
 changes that have occurred.
@@ -287,7 +288,8 @@ When developers are finished with the work on a feature, and it is ready to be �
 the developers will “create a pull request”. A pull request gives the authors an opportunity to explain why the changes
 were made. A pull request also gives other developers a chance to review the changes, also known as a “code review”. If
 the changes pass the review, then the code can be merged into the “master” or “main” branch. If not, then the authors
-have to address the feedback of the reviewers and when ready, request another review for the open pull request.
+have to address the feedback of the reviewers and when ready, request another review of the code to hopefully bring the 
+pull request closer to merging.
 
 ## Build Systems
 
@@ -316,7 +318,7 @@ converted to JavaScript).
 Continuous Integration (CI) is the process where code is taken from its repository, built, tested, and then packaged for
 deployment.
 
-These are machines, often working on an in-house server or in the cloud, that operate when a pull request has occurred.
+These are machines, often working on an in-house server or in The Cloud, that operate when a pull request has occurred.
 When the pull request is successfully merged, Github or Bitbucket will send the code to these CI machines. If all the
 operations do not experience an error, artefacts are generated that will be deployed into production.
 
@@ -339,17 +341,15 @@ Like CI, but it adds the operation for setting up the production environment and
 into that environment.
 
 The production environment may be hosted Amazon Web Services (AWS); Microsoft Azure; Google Cloud Platform (GCP);
-Heroku; Netlify; or something else that is in “the cloud”.
+Heroku; Netlify; or something else that is in The Cloud.
 
 ### DevOps
 
 This area of software production is the purview of developer operations, referred to as “DevOps”. In the past this was
 the domain of specialist engineers such as the Systems Engineer or Site/Systems Reliability Engineer (SRE). In recent
 times, it has become a responsibility for developers. In fact, in some organizations, it is part of Team Managed
-Infrastructure (TMI).
-
-Developers tend not to use the phrase “DevOps”; they hope the Systems Engineer will deal with it.
-
+Infrastructure (TMI) and system engineers provide assistance when needed.
+ 
 ## Genre of Developer
 
 Let's cover the types of developer one finds in teams who produce software.
@@ -430,12 +430,11 @@ systems that are running in production or running on “staging” (the test env
 This role describes someone who is comfortable writing code for the front-end or the back-end. Someone who can, for
 example, switch between JavaScript, C# and SQL effortlessly.
 
-In this era when companies are looking for ways to reduce costs, they will expect “specialist” developers to take on
-more “generalist” responsibilities.
+When companies are looking for ways to reduce costs, they will expect “specialist” developers to take on more “generalist” responsibilities.
 
 ## Conclusion
 
 For software teams to thrive, communication is a crucial ingredient. People involved in the production of software
-should not feel hindered to explain their thinking, but the presence of arcane language may lead to feelings of
+should not feel hindered to explain their thinking, but the presence of arcane terms may lead to feelings of
 exclusion for others. Thus it is important to understand the problems and intent of team members to allow a 
-high level of cooperation.
+high level of cooperation and confidence.
