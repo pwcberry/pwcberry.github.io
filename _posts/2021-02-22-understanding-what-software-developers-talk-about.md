@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Understanding the Language of Software Developers
+title: Understanding What Software Developers Talk About
 category: philosophy
 tags: design front-end programming
-excerpt: Illuminating the language used by software developers for non-developers.
+excerpt: Illuminating the discussions by software developers for non-developers.
 ---
 
-# Understanding the Language of Software Developers
+# Understanding What Software Developers Talk About
 
 Software developers have their own way for explaining the problems they encounter and the intentions behind their
 solutions. Their jargon is often opaque to their colleagues who don’t write code. In this post, I attempt to illuminate
@@ -170,7 +170,7 @@ Example JSON:
 
 ```json
 {
-  "title": "Understanding the Language of Software Developers",
+  "title": "Understanding What Software Developers Talk About",
   "category": "philosophy",
   "tags": [
     "design",
