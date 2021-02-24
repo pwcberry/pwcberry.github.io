@@ -330,9 +330,9 @@ Typical CI environments are Jenkins, Hudson, Buildkite, Bitbucket, TeamCity and 
   <picture>
     <source srcset="/assets/2021-02-22/buildkite@0.5x.jpg" media="(max-width: 600px)"/>
     <source srcset="/assets/2021-02-22/buildkite.jpg" media="(min-width: 601px)"/>
-    <img src="/assets/2021-02-22/buildkite.jpg" alt="Buildkite, a continuous integration tool" width="1280" />
+    <img src="/assets/2021-02-22/buildkite.jpg" alt="Buildkite, a continuous integration and continuous deployment tool. Here this image shows successful builds" width="1280" />
   </picture>
-  <figcaption>Buildkite, a continuous integration and continuous deployment tool. Here this image shows successful and failed builds</figcaption>
+  <figcaption>Buildkite, a continuous integration and continuous deployment tool. Here this image shows successful builds</figcaption>
 </figure>
 
 ### Continuous Deployment
