@@ -434,7 +434,7 @@ When companies are looking for ways to reduce costs, they will expect “special
 
 ## Conclusion
 
-For software teams to thrive, communication is a crucial ingredient. People involved in the production of software
-should not feel hindered to explain their thinking, but the presence of arcane terms may lead to feelings of
-exclusion for others. Thus it is important to understand the problems and intent of team members to allow a 
-high level of cooperation and confidence.
+While this post doesn't delve deeply into what concerns software developers, I hope I have shone a light for you onto their subjects and
+cleared some of the mystery.
+
+Communication is a crucial ingredient in teams that thrive. Thus it is important to understand the problems and intent of team members to allow a high level of cooperation and confidence.
