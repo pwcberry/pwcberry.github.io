@@ -26,7 +26,7 @@ body {
   background-color: $body-bg-color;
 
   @include breakpoint-lg {
-    background: $body-bg-color url(/assets/coffee-rings.png) repeat;
+    background: $body-bg-color url(/assets/coffee-ring-background.jpg) repeat;
   }
 }
 
