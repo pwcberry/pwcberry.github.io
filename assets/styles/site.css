@@ -1,0 +1,109 @@
+h1 {
+    font-size: calc(1.75rem + 0.5vw);
+    font-family: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 1em;
+    padding: 0;
+}
+
+h2 {
+    font-size: calc(1.33rem + 0.25vw);
+    font-family: Garamond, Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    line-height: 1;
+    margin: 1em 0 0.5em;
+    padding: 0;
+}
+
+p {
+    font-size: calc(1rem + 0.33vw);
+    margin-block: 0.75em;
+}
+
+.site-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.site-footer {
+    text-align: center;
+}
+
+.brunsnik-label {
+    position: absolute;
+    top: 0.9rem;
+    display: inline-block;
+    z-index: 2;
+    font-size: 1rem;
+    font-variant: small-caps;
+    font-family: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1;
+    left: 3.5rem;
+    letter-spacing: 0.05rem;
+    color: var(--color-blue-darker);
+
+    &:first-letter {
+        color: var(--color-blue-darkest);
+        font-weight: 600;
+    }
+}
+
+nav > a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    color: var(--color-nav-text);
+    font-family: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1;
+
+    &:hover {
+        color: var(--color-nav-text);
+        text-decoration: none;
+        background-color: var(--color-nav-hover-bg);
+    }
+
+    &:visited {
+        color: var(--color-nav-text);
+    }
+
+    &:nth-child(n + 1) {
+        margin-left: 1.5rem;
+    }
+}
+
+.small {
+    font-size: 0.8rem;
+}
+
+.back-to-top {
+    margin-top: 2rem;
+}
+
+p.copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+main,
+article,
+.site-footer {
+    a {
+        color: var(--color-link-text);
+        text-underline-offset: 0.25rem;
+
+        &:hover {
+            color: var(--color-link-hover-text);
+            text-decoration: none;
+        }
+
+        &:visited {
+            color: var(--color-link-text);
+            text-decoration-color: var(--color-link-hover-text);
+        }
+    }
+}
