@@ -1,0 +1,914 @@
+[
+  {
+    "name": "Alabama",
+    "abbreviation": "AL",
+    "capital": "Montgomery",
+    "founded": "1819-12-14",
+    "borders": [
+      "Florida",
+      "Georgia",
+      "Mississippi",
+      "Tennessee"
+    ],
+    "center": {
+      "latitude": "32.7396323",
+      "longitude": "-86.8434593"
+    },
+    "population": 5193088,
+    "areaSqKm": 135767
+  },
+  {
+    "name": "Alaska",
+    "abbreviation": "AK",
+    "capital": "Juneau",
+    "founded": "1959-01-03",
+    "borders": [],
+    "center": {
+      "latitude": "63.346191",
+      "longitude": "-152.8370679"
+    },
+    "population": 737270,
+    "areaSqKm": 1723337
+  },
+  {
+    "name": "Arizona",
+    "abbreviation": "AZ",
+    "capital": "Phoenix",
+    "founded": "1912-02-14",
+    "borders": [
+      "California",
+      "Colorado",
+      "Nevada",
+      "New Mexico",
+      "Utah"
+    ],
+    "center": {
+      "latitude": "34.2099643",
+      "longitude": "-111.602401"
+    },
+    "population": 7623818,
+    "areaSqKm": 295234
+  },
+  {
+    "name": "Arkansas",
+    "abbreviation": "AR",
+    "capital": "Little Rock",
+    "founded": "1836-06-15",
+    "borders": [
+      "Louisiana",
+      "Mississippi",
+      "Missouri",
+      "Oklahoma",
+      "Tennessee",
+      "Texas"
+    ],
+    "center": {
+      "latitude": "34.8955256",
+      "longitude": "-92.4446262"
+    },
+    "population": 3114791,
+    "areaSqKm": 137732
+  },
+  {
+    "name": "California",
+    "abbreviation": "CA",
+    "capital": "Sacramento",
+    "founded": "1850-09-09",
+    "borders": [
+      "Arizona",
+      "Nevada",
+      "Oregon"
+    ],
+    "center": {
+      "latitude": "37.148573",
+      "longitude": "-119.5406515"
+    },
+    "population": 39355309,
+    "areaSqKm": 423967
+  },
+  {
+    "name": "Colorado",
+    "abbreviation": "CO",
+    "capital": "Denver",
+    "founded": "1876-08-01",
+    "borders": [
+      "Arizona",
+      "Kansas",
+      "Nebraska",
+      "New Mexico",
+      "Oklahoma",
+      "Utah",
+      "Wyoming"
+    ],
+    "center": {
+      "latitude": "38.9935752",
+      "longitude": "-105.5077737"
+    },
+    "population": 6012561,
+    "areaSqKm": 269601
+  },
+  {
+    "name": "Connecticut",
+    "abbreviation": "CT",
+    "capital": "Hartford",
+    "founded": "1788-01-09",
+    "borders": [
+      "Massachusetts",
+      "New York",
+      "Rhode Island"
+    ],
+    "center": {
+      "latitude": "41.5797842",
+      "longitude": "-72.7466666"
+    },
+    "population": 3688496,
+    "areaSqKm": 14357
+  },
+  {
+    "name": "Delaware",
+    "abbreviation": "DE",
+    "capital": "Dover",
+    "founded": "1787-12-07",
+    "borders": [
+      "Maryland",
+      "New Jersey",
+      "Pennsylvania"
+    ],
+    "center": {
+      "latitude": "38.9935501",
+      "longitude": "-75.4473739"
+    },
+    "population": 1059952,
+    "areaSqKm": 6446
+  },
+  {
+    "name": "Florida",
+    "abbreviation": "FL",
+    "capital": "Tallahassee",
+    "founded": "1845-03-03",
+    "borders": [
+      "Alabama",
+      "Georgia"
+    ],
+    "center": {
+      "latitude": "28.4574302",
+      "longitude": "-82.4091478"
+    },
+    "population": 23462518,
+    "areaSqKm": 170312
+  },
+  {
+    "name": "Georgia",
+    "abbreviation": "GA",
+    "capital": "Atlanta",
+    "founded": "1788-01-02",
+    "borders": [
+      "Alabama",
+      "Florida",
+      "North Carolina",
+      "South Carolina",
+      "Tennessee"
+    ],
+    "center": {
+      "latitude": "32.629384",
+      "longitude": "-83.4232125"
+    },
+    "population": 11302748,
+    "areaSqKm": 153910
+  },
+  {
+    "name": "Hawaii",
+    "abbreviation": "HI",
+    "capital": "Honolulu",
+    "founded": "1959-08-21",
+    "borders": [],
+    "center": {
+      "latitude": "19.809767",
+      "longitude": "-155.5061027"
+    },
+    "population": 1432820,
+    "areaSqKm": 28313
+  },
+  {
+    "name": "Idaho",
+    "abbreviation": "ID",
+    "capital": "Boise",
+    "founded": "1890-07-03",
+    "borders": [
+      "Montana",
+      "Nevada",
+      "Oregon",
+      "Utah",
+      "Washington",
+      "Wyoming"
+    ],
+    "center": {
+      "latitude": "44.3020948",
+      "longitude": "-114.5956254"
+    },
+    "population": 2029733,
+    "areaSqKm": 216443
+  },
+  {
+    "name": "Illinois",
+    "abbreviation": "IL",
+    "capital": "Springfield",
+    "founded": "1818-12-03",
+    "borders": [
+      "Indiana",
+      "Iowa",
+      "Kentucky",
+      "Missouri",
+      "Wisconsin"
+    ],
+    "center": {
+      "latitude": "40.1028754",
+      "longitude": "-89.1526108"
+    },
+    "population": 12719141,
+    "areaSqKm": 149995
+  },
+  {
+    "name": "Indiana",
+    "abbreviation": "IN",
+    "capital": "Indianapolis",
+    "founded": "1816-12-11",
+    "borders": [
+      "Illinois",
+      "Kentucky",
+      "Michigan",
+      "Ohio"
+    ],
+    "center": {
+      "latitude": "39.9030256",
+      "longitude": "-86.2839503"
+    },
+    "population": 6973333,
+    "areaSqKm": 94326
+  },
+  {
+    "name": "Iowa",
+    "abbreviation": "IA",
+    "capital": "Des Moines",
+    "founded": "1846-12-28",
+    "borders": [
+      "Illinois",
+      "Minnesota",
+      "Missouri",
+      "Nebraska",
+      "South Dakota",
+      "Wisconsin"
+    ],
+    "center": {
+      "latitude": "42.0700243",
+      "longitude": "-93.4933473"
+    },
+    "population": 3238387,
+    "areaSqKm": 145746
+  },
+  {
+    "name": "Kansas",
+    "abbreviation": "KS",
+    "capital": "Topeka",
+    "founded": "1861-01-29",
+    "borders": [
+      "Colorado",
+      "Missouri",
+      "Nebraska",
+      "Oklahoma"
+    ],
+    "center": {
+      "latitude": "38.4985464",
+      "longitude": "-98.3834298"
+    },
+    "population": 2977220,
+    "areaSqKm": 213100
+  },
+  {
+    "name": "Kentucky",
+    "abbreviation": "KY",
+    "capital": "Frankfort",
+    "founded": "1792-06-01",
+    "borders": [
+      "Illinois",
+      "Indiana",
+      "Missouri",
+      "Ohio",
+      "Tennessee",
+      "Virginia",
+      "West Virginia"
+    ],
+    "center": {
+      "latitude": "37.5336807",
+      "longitude": "-85.2929841"
+    },
+    "population": 4606864,
+    "areaSqKm": 104656
+  },
+  {
+    "name": "Louisiana",
+    "abbreviation": "LA",
+    "capital": "Baton Rouge",
+    "founded": "1812-04-30",
+    "borders": [
+      "Arkansas",
+      "Mississippi",
+      "Texas"
+    ],
+    "center": {
+      "latitude": "30.8577705",
+      "longitude": "-91.803273"
+    },
+    "population": 4618189,
+    "areaSqKm": 135659
+  },
+  {
+    "name": "Maine",
+    "abbreviation": "ME",
+    "capital": "Augusta",
+    "founded": "1820-03-15",
+    "borders": [
+      "New Hampshire"
+    ],
+    "center": {
+      "latitude": "45.3906022",
+      "longitude": "-68.6574869"
+    },
+    "population": 1414874,
+    "areaSqKm": 91633
+  },
+  {
+    "name": "Maryland",
+    "abbreviation": "MD",
+    "capital": "Annapolis",
+    "founded": "1788-04-28",
+    "borders": [
+      "Delaware",
+      "Pennsylvania",
+      "Virginia",
+      "West Virginia"
+    ],
+    "center": {
+      "latitude": "38.9466584",
+      "longitude": "-76.6744939"
+    },
+    "population": 6265347,
+    "areaSqKm": 32131
+  },
+  {
+    "name": "Massachusetts",
+    "abbreviation": "MA",
+    "capital": "Boston",
+    "founded": "1788-02-06",
+    "borders": [
+      "Connecticut",
+      "New Hampshire",
+      "New York",
+      "Rhode Island",
+      "Vermont"
+    ],
+    "center": {
+      "latitude": "42.1565196",
+      "longitude": "-71.4895915"
+    },
+    "population": 7154084,
+    "areaSqKm": 27336
+  },
+  {
+    "name": "Michigan",
+    "abbreviation": "MI",
+    "capital": "Lansing",
+    "founded": "1837-01-26",
+    "borders": [
+      "Indiana",
+      "Ohio",
+      "Wisconsin"
+    ],
+    "center": {
+      "latitude": "44.8410835",
+      "longitude": "-85.6593197"
+    },
+    "population": 10127884,
+    "areaSqKm": 250487
+  },
+  {
+    "name": "Minnesota",
+    "abbreviation": "MN",
+    "capital": "Saint Paul",
+    "founded": "1858-05-11",
+    "borders": [
+      "Iowa",
+      "North Dakota",
+      "South Dakota",
+      "Wisconsin"
+    ],
+    "center": {
+      "latitude": "46.3161343",
+      "longitude": "-94.1994801"
+    },
+    "population": 5830405,
+    "areaSqKm": 225163
+  },
+  {
+    "name": "Mississippi",
+    "abbreviation": "MS",
+    "capital": "Jackson",
+    "founded": "1817-12-10",
+    "borders": [
+      "Alabama",
+      "Arkansas",
+      "Louisiana",
+      "Tennessee"
+    ],
+    "center": {
+      "latitude": "32.6864655",
+      "longitude": "-89.6561493"
+    },
+    "population": 2954160,
+    "areaSqKm": 125438
+  },
+  {
+    "name": "Missouri",
+    "abbreviation": "MO",
+    "capital": "Jefferson City",
+    "founded": "1821-08-10",
+    "borders": [
+      "Arkansas",
+      "Illinois",
+      "Iowa",
+      "Kansas",
+      "Kentucky",
+      "Nebraska",
+      "Oklahoma",
+      "Tennessee"
+    ],
+    "center": {
+      "latitude": "38.35075",
+      "longitude": "-92.4567826"
+    },
+    "population": 6270541,
+    "areaSqKm": 180540
+  },
+  {
+    "name": "Montana",
+    "abbreviation": "MT",
+    "capital": "Helena",
+    "founded": "1889-11-08",
+    "borders": [
+      "Idaho",
+      "North Dakota",
+      "South Dakota",
+      "Wyoming"
+    ],
+    "center": {
+      "latitude": "47.0511771",
+      "longitude": "-109.6348174"
+    },
+    "population": 1144694,
+    "areaSqKm": 380831
+  },
+  {
+    "name": "Nebraska",
+    "abbreviation": "NE",
+    "capital": "Lincoln",
+    "founded": "1867-03-01",
+    "borders": [
+      "Colorado",
+      "Iowa",
+      "Kansas",
+      "Missouri",
+      "South Dakota",
+      "Wyoming"
+    ],
+    "center": {
+      "latitude": "41.5438105",
+      "longitude": "-99.8123253"
+    },
+    "population": 2018006,
+    "areaSqKm": 200330
+  },
+  {
+    "name": "Nevada",
+    "abbreviation": "NV",
+    "capital": "Carson City",
+    "founded": "1864-10-31",
+    "borders": [
+      "Arizona",
+      "California",
+      "Idaho",
+      "Oregon",
+      "Utah"
+    ],
+    "center": {
+      "latitude": "39.3310928",
+      "longitude": "-116.6151469"
+    },
+    "population": 3282188,
+    "areaSqKm": 286380
+  },
+  {
+    "name": "New Hampshire",
+    "abbreviation": "NH",
+    "capital": "Concord",
+    "founded": "1788-06-21",
+    "borders": [
+      "Maine",
+      "Massachusetts",
+      "Vermont"
+    ],
+    "center": {
+      "latitude": "43.6708595",
+      "longitude": "-71.5811278"
+    },
+    "population": 1415342,
+    "areaSqKm": 24214
+  },
+  {
+    "name": "New Jersey",
+    "abbreviation": "NJ",
+    "capital": "Trenton",
+    "founded": "1787-12-18",
+    "borders": [
+      "Delaware",
+      "New York",
+      "Pennsylvania"
+    ],
+    "center": {
+      "latitude": "40.1072744",
+      "longitude": "-74.6652012"
+    },
+    "population": 9548215,
+    "areaSqKm": 22591
+  },
+  {
+    "name": "New Mexico",
+    "abbreviation": "NM",
+    "capital": "Santa Fe",
+    "founded": "1912-01-06",
+    "borders": [
+      "Arizona",
+      "Colorado",
+      "Oklahoma",
+      "Texas",
+      "Utah"
+    ],
+    "center": {
+      "latitude": "34.4391265",
+      "longitude": "-106.1261511"
+    },
+    "population": 2125498,
+    "areaSqKm": 314917
+  },
+  {
+    "name": "New York",
+    "abbreviation": "NY",
+    "capital": "Albany",
+    "founded": "1788-07-26",
+    "borders": [
+      "Connecticut",
+      "Massachusetts",
+      "New Jersey",
+      "Pennsylvania",
+      "Vermont"
+    ],
+    "center": {
+      "latitude": "42.9133974",
+      "longitude": "-75.5962723"
+    },
+    "population": 20002427,
+    "areaSqKm": 141297
+  },
+  {
+    "name": "North Carolina",
+    "abbreviation": "NC",
+    "capital": "Raleigh",
+    "founded": "1789-11-21",
+    "borders": [
+      "Georgia",
+      "South Carolina",
+      "Tennessee",
+      "Virginia"
+    ],
+    "center": {
+      "latitude": "35.53971",
+      "longitude": "-79.1308636"
+    },
+    "population": 11197968,
+    "areaSqKm": 139391
+  },
+  {
+    "name": "North Dakota",
+    "abbreviation": "ND",
+    "capital": "Bismarck",
+    "founded": "1889-11-02",
+    "borders": [
+      "Minnesota",
+      "Montana",
+      "South Dakota"
+    ],
+    "center": {
+      "latitude": "47.4569538",
+      "longitude": "-100.4619304"
+    },
+    "population": 799358,
+    "areaSqKm": 183108
+  },
+  {
+    "name": "Ohio",
+    "abbreviation": "OH",
+    "capital": "Columbus",
+    "founded": "1803-03-01",
+    "borders": [
+      "Indiana",
+      "Kentucky",
+      "Michigan",
+      "Pennsylvania",
+      "West Virginia"
+    ],
+    "center": {
+      "latitude": "40.4149297",
+      "longitude": "-82.7119975"
+    },
+    "population": 11900510,
+    "areaSqKm": 116098
+  },
+  {
+    "name": "Oklahoma",
+    "abbreviation": "OK",
+    "capital": "Oklahoma City",
+    "founded": "1907-11-16",
+    "borders": [
+      "Arkansas",
+      "Colorado",
+      "Kansas",
+      "Missouri",
+      "New Mexico",
+      "Texas"
+    ],
+    "center": {
+      "latitude": "35.5894185",
+      "longitude": "-97.4868683"
+    },
+    "population": 4123288,
+    "areaSqKm": 181037
+  },
+  {
+    "name": "Oregon",
+    "abbreviation": "OR",
+    "capital": "Salem",
+    "founded": "1859-02-14",
+    "borders": [
+      "California",
+      "Idaho",
+      "Nevada",
+      "Washington"
+    ],
+    "center": {
+      "latitude": "43.9715225",
+      "longitude": "-120.6226269"
+    },
+    "population": 4273586,
+    "areaSqKm": 254799
+  },
+  {
+    "name": "Pennsylvania",
+    "abbreviation": "PA",
+    "capital": "Harrisburg",
+    "founded": "1787-12-12",
+    "borders": [
+      "Delaware",
+      "Maryland",
+      "New Jersey",
+      "New York",
+      "Ohio",
+      "West Virginia"
+    ],
+    "center": {
+      "latitude": "40.9042486",
+      "longitude": "-77.8280624"
+    },
+    "population": 13059432,
+    "areaSqKm": 119280
+  },
+  {
+    "name": "Rhode Island",
+    "abbreviation": "RI",
+    "capital": "Providence",
+    "founded": "1790-05-29",
+    "borders": [
+      "Connecticut",
+      "Massachusetts"
+    ],
+    "center": {
+      "latitude": "41.5978358",
+      "longitude": "-71.5252895"
+    },
+    "population": 1114521,
+    "areaSqKm": 4001
+  },
+  {
+    "name": "South Carolina",
+    "abbreviation": "SC",
+    "capital": "Columbia",
+    "founded": "1788-05-23",
+    "borders": [
+      "Georgia",
+      "North Carolina"
+    ],
+    "center": {
+      "latitude": "33.8741769",
+      "longitude": "-80.8542699"
+    },
+    "population": 5570274,
+    "areaSqKm": 82933
+  },
+  {
+    "name": "South Dakota",
+    "abbreviation": "SD",
+    "capital": "Pierre",
+    "founded": "1889-11-02",
+    "borders": [
+      "Iowa",
+      "Minnesota",
+      "Montana",
+      "Nebraska",
+      "North Dakota",
+      "Wyoming"
+    ],
+    "center": {
+      "latitude": "44.4467957",
+      "longitude": "-100.2381762"
+    },
+    "population": 935094,
+    "areaSqKm": 199729
+  },
+  {
+    "name": "Tennessee",
+    "abbreviation": "TN",
+    "capital": "Nashville",
+    "founded": "1796-06-01",
+    "borders": [
+      "Alabama",
+      "Arkansas",
+      "Georgia",
+      "Kentucky",
+      "Mississippi",
+      "Missouri",
+      "North Carolina",
+      "Virginia"
+    ],
+    "center": {
+      "latitude": "35.8585639",
+      "longitude": "-86.3493573"
+    },
+    "population": 7315076,
+    "areaSqKm": 109153
+  },
+  {
+    "name": "Texas",
+    "abbreviation": "TX",
+    "capital": "Austin",
+    "founded": "1845-12-29",
+    "borders": [
+      "Arkansas",
+      "Louisiana",
+      "New Mexico",
+      "Oklahoma"
+    ],
+    "center": {
+      "latitude": "31.4347032",
+      "longitude": "-99.2818238"
+    },
+    "population": 31709821,
+    "areaSqKm": 695662
+  },
+  {
+    "name": "Utah",
+    "abbreviation": "UT",
+    "capital": "Salt Lake City",
+    "founded": "1896-01-04",
+    "borders": [
+      "Arizona",
+      "Colorado",
+      "Idaho",
+      "Nevada",
+      "New Mexico",
+      "Wyoming"
+    ],
+    "center": {
+      "latitude": "39.3349735",
+      "longitude": "-111.6563633"
+    },
+    "population": 3538904,
+    "areaSqKm": 219882
+  },
+  {
+    "name": "Vermont",
+    "abbreviation": "VT",
+    "capital": "Montpelier",
+    "founded": "1791-03-04",
+    "borders": [
+      "Massachusetts",
+      "New Hampshire",
+      "New York"
+    ],
+    "center": {
+      "latitude": "44.0605475",
+      "longitude": "-72.673354"
+    },
+    "population": 644663,
+    "areaSqKm": 24906
+  },
+  {
+    "name": "Virginia",
+    "abbreviation": "VA",
+    "capital": "Richmond",
+    "founded": "1788-06-25",
+    "borders": [
+      "Kentucky",
+      "Maryland",
+      "North Carolina",
+      "Tennessee",
+      "West Virginia"
+    ],
+    "center": {
+      "latitude": "37.5222512",
+      "longitude": "-78.6681938"
+    },
+    "population": 8880107,
+    "areaSqKm": 110787
+  },
+  {
+    "name": "Washington",
+    "abbreviation": "WA",
+    "capital": "Olympia",
+    "founded": "1889-11-11",
+    "borders": [
+      "Idaho",
+      "Oregon"
+    ],
+    "center": {
+      "latitude": "47.4162296",
+      "longitude": "-120.5996231"
+    },
+    "population": 8001020,
+    "areaSqKm": 184661
+  },
+  {
+    "name": "West Virginia",
+    "abbreviation": "WV",
+    "capital": "Charleston",
+    "founded": "1863-06-20",
+    "borders": [
+      "Kentucky",
+      "Maryland",
+      "Ohio",
+      "Pennsylvania",
+      "Virginia"
+    ],
+    "center": {
+      "latitude": "38.6472854",
+      "longitude": "-80.6183274"
+    },
+    "population": 1766147,
+    "areaSqKm": 62756
+  },
+  {
+    "name": "Wisconsin",
+    "abbreviation": "WI",
+    "capital": "Madison",
+    "founded": "1848-05-29",
+    "borders": [
+      "Illinois",
+      "Iowa",
+      "Michigan",
+      "Minnesota"
+    ],
+    "center": {
+      "latitude": "44.628484",
+      "longitude": "-89.7119299"
+    },
+    "population": 5972787,
+    "areaSqKm": 169635
+  },
+  {
+    "name": "Wyoming",
+    "abbreviation": "WY",
+    "capital": "Cheyenne",
+    "founded": "1890-07-10",
+    "borders": [
+      "Colorado",
+      "Idaho",
+      "Montana",
+      "Nebraska",
+      "South Dakota",
+      "Utah"
+    ],
+    "center": {
+      "latitude": "42.9918024",
+      "longitude": "-107.5419255"
+    },
+    "population": 588753,
+    "areaSqKm": 253335
+  }
+]
