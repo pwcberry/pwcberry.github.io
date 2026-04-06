@@ -21,57 +21,40 @@ p {
     margin-block: 0.75em;
 }
 
-.site-header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: flex-end;
-}
-
 .site-footer {
-    text-align: center;
-}
+    display: grid;
+    background-color: var(--color-main-bg);
+    border-top: 1px solid var(--color-beige);
+    width: 100%;
+    max-width: var(--max-content-width);
+    padding: 2rem 1rem;
+    margin-block: 0;
+    margin-inline: auto;
+    grid-gap: 1.5rem;
 
-.brunsnik-label {
-    position: absolute;
-    top: 0.9rem;
-    display: inline-block;
-    z-index: 2;
-    font-size: 1rem;
-    font-variant: small-caps;
-    font-family: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
-    line-height: 1;
-    left: 3.5rem;
-    letter-spacing: 0.05rem;
-    color: var(--color-blue-darker);
-
-    &:first-letter {
-        color: var(--color-blue-darkest);
-        font-weight: 600;
+    a {
+        display: inline-block;
+        text-align: center;
     }
 }
 
-nav > a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 0.5rem 0.75rem;
-    color: var(--color-nav-text);
-    font-family: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400;
-    line-height: 1;
-
-    &:hover {
-        color: var(--color-nav-text);
-        text-decoration: none;
-        background-color: var(--color-nav-hover-bg);
+@media screen and (min-width: 1281px) {
+    .site-footer {
+        grid-template-columns: 1fr 1fr 1fr;
     }
+}
 
-    &:visited {
-        color: var(--color-nav-text);
+@media screen and (max-width: 1280px) {
+    .site-footer {
+        grid-template-columns: 1fr 1fr 1fr;
+        --max-content-width: calc(100vw - 4rem);
     }
+}
 
-    &:nth-child(n + 1) {
-        margin-left: 1.5rem;
+@media screen and (max-width: 768px) {
+    .site-footer {
+        grid-template-columns: 1fr 1fr;
+        --max-content-width: calc(100vw - 1rem);
     }
 }
 
@@ -81,6 +64,15 @@ nav > a {
 
 .back-to-top {
     margin-top: 2rem;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        display: inline-block;
+        background-color: var(--color-white-smoke);
+        padding: 0.25rem 0.5rem;
+        color: var(--color-steel);
+    }
 }
 
 p.copyright {
@@ -90,7 +82,6 @@ p.copyright {
 }
 
 main,
-article,
 .site-footer {
     a {
         color: var(--color-link-text);

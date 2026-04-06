@@ -181,7 +181,7 @@
     <link rel="stylesheet" href="/assets/styles/site.css" type="text/css">
 </head>
 <body>
-<main>
+<main id="top">
     <h1>The United States of America</h1>
     <p><label for="sort_property">Sort by:</label>
         <select id="sort_property">
@@ -208,7 +208,14 @@
 
         </tbody>
     </table>
+    <div class="back-to-top">
+        <a href="#top">Back to top</a>
+    </div>
 </main>
+<footer class="site-footer">
+    <a href="pointless-guest-hosts.html">Pointless Guest Hosts</a>
+    <a href="united-states.html">United States</a>
+</footer>
 </body>
 <script type="module">
     import STATES from "./assets/data/us-states.json" with { type: "json" };
