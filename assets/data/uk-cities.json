@@ -1,0 +1,326 @@
+[
+  {
+    "city": "Bath",
+    "territory": "England"
+  },
+  {
+    "city": "Birmingham*",
+    "territory": "England"
+  },
+  {
+    "city": "Bradford*",
+    "territory": "England"
+  },
+  {
+    "city": "Brighton & Hove",
+    "territory": "England"
+  },
+  {
+    "city": "Bristol*",
+    "territory": "England"
+  },
+  {
+    "city": "Cambridge",
+    "territory": "England"
+  },
+  {
+    "city": "Canterbury*",
+    "territory": "England"
+  },
+  {
+    "city": "Carlisle",
+    "territory": "England"
+  },
+  {
+    "city": "Chelmsford",
+    "territory": "England"
+  },
+  {
+    "city": "Chester*",
+    "territory": "England"
+  },
+  {
+    "city": "Chichester",
+    "territory": "England"
+  },
+  {
+    "city": "Colchester",
+    "territory": "England"
+  },
+  {
+    "city": "Coventry*",
+    "territory": "England"
+  },
+  {
+    "city": "Derby",
+    "territory": "England"
+  },
+  {
+    "city": "Doncaster",
+    "territory": "England"
+  },
+  {
+    "city": "Durham",
+    "territory": "England"
+  },
+  {
+    "city": "Ely",
+    "territory": "England"
+  },
+  {
+    "city": "Exeter*",
+    "territory": "England"
+  },
+  {
+    "city": "Gloucester",
+    "territory": "England"
+  },
+  {
+    "city": "Hereford",
+    "territory": "England"
+  },
+  {
+    "city": "Kingston-upon-Hull*",
+    "territory": "England"
+  },
+  {
+    "city": "Lancaster",
+    "territory": "England"
+  },
+  {
+    "city": "Leeds*",
+    "territory": "England"
+  },
+  {
+    "city": "Leicester*",
+    "territory": "England"
+  },
+  {
+    "city": "Lichfield",
+    "territory": "England"
+  },
+  {
+    "city": "Lincoln",
+    "territory": "England"
+  },
+  {
+    "city": "Liverpool*",
+    "territory": "England"
+  },
+  {
+    "city": "London*",
+    "territory": "England"
+  },
+  {
+    "city": "Manchester*",
+    "territory": "England"
+  },
+  {
+    "city": "Milton Keynes",
+    "territory": "England"
+  },
+  {
+    "city": "Newcastle-upon-Tyne*",
+    "territory": "England"
+  },
+  {
+    "city": "Norwich*",
+    "territory": "England"
+  },
+  {
+    "city": "Nottingham*",
+    "territory": "England"
+  },
+  {
+    "city": "Oxford*",
+    "territory": "England"
+  },
+  {
+    "city": "Peterborough",
+    "territory": "England"
+  },
+  {
+    "city": "Plymouth*",
+    "territory": "England"
+  },
+  {
+    "city": "Portsmouth*",
+    "territory": "England"
+  },
+  {
+    "city": "Preston",
+    "territory": "England"
+  },
+  {
+    "city": "Ripon",
+    "territory": "England"
+  },
+  {
+    "city": "Salford",
+    "territory": "England"
+  },
+  {
+    "city": "Salisbury",
+    "territory": "England"
+  },
+  {
+    "city": "Sheffield*",
+    "territory": "England"
+  },
+  {
+    "city": "Southampton*",
+    "territory": "England"
+  },
+  {
+    "city": "Southend-on-Sea",
+    "territory": "England"
+  },
+  {
+    "city": "St Albans",
+    "territory": "England"
+  },
+  {
+    "city": "Stoke on Trent*",
+    "territory": "England"
+  },
+  {
+    "city": "Sunderland",
+    "territory": "England"
+  },
+  {
+    "city": "Truro",
+    "territory": "England"
+  },
+  {
+    "city": "Wakefield",
+    "territory": "England"
+  },
+  {
+    "city": "Wells",
+    "territory": "England"
+  },
+  {
+    "city": "Westminster*",
+    "territory": "England"
+  },
+  {
+    "city": "Winchester",
+    "territory": "England"
+  },
+  {
+    "city": "Wolverhampton",
+    "territory": "England"
+  },
+  {
+    "city": "Worcester",
+    "territory": "England"
+  },
+  {
+    "city": "York*",
+    "territory": "England"
+  },
+  {
+    "city": "Armagh*",
+    "territory": "Northern Ireland"
+  },
+  {
+    "city": "Bangor",
+    "territory": "Northern Ireland"
+  },
+  {
+    "city": "Belfast*",
+    "territory": "Northern Ireland"
+  },
+  {
+    "city": "Lisburn",
+    "territory": "Northern Ireland"
+  },
+  {
+    "city": "Londonderry",
+    "territory": "Northern Ireland"
+  },
+  {
+    "city": "Newry",
+    "territory": "Northern Ireland"
+  },
+  {
+    "city": "Aberdeen*",
+    "territory": "Scotland"
+  },
+  {
+    "city": "Dundee*",
+    "territory": "Scotland"
+  },
+  {
+    "city": "Dunfermline",
+    "territory": "Scotland"
+  },
+  {
+    "city": "Edinburgh*",
+    "territory": "Scotland"
+  },
+  {
+    "city": "Glasgow*",
+    "territory": "Scotland"
+  },
+  {
+    "city": "Inverness",
+    "territory": "Scotland"
+  },
+  {
+    "city": "Perth",
+    "territory": "Scotland"
+  },
+  {
+    "city": "Stirling",
+    "territory": "Scotland"
+  },
+  {
+    "city": "Bangor",
+    "territory": "Wales"
+  },
+  {
+    "city": "Cardiff*",
+    "territory": "Wales"
+  },
+  {
+    "city": "Newport",
+    "territory": "Wales"
+  },
+  {
+    "city": "St Asaph",
+    "territory": "Wales"
+  },
+  {
+    "city": "St Davids",
+    "territory": "Wales"
+  },
+  {
+    "city": "Swansea*",
+    "territory": "Wales"
+  },
+  {
+    "city": "Wrexham",
+    "territory": "Wales"
+  },
+  {
+    "city": "Douglas",
+    "territory": "Isle of Man"
+  },
+  {
+    "city": "Hamilton",
+    "territory": "Bermuda"
+  },
+  {
+    "city": "City of Gibraltar",
+    "territory": "Gibraltar"
+  },
+  {
+    "city": "Stanley",
+    "territory": "Falkland Islands"
+  },
+  {
+    "city": "Jamestown",
+    "territory": "Saint Helena"
+  }
+]
